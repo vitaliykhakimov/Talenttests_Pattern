@@ -5,197 +5,107 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
+import web.elements.ApplicationPreviewElements;
+import web.page.ApplicationsPage;
+import web.page.appcreate.CreateApplicationPage;
+import web.page.LoginPage;
+import web.page.MenuUsage;
+import web.page.appcreate.PositionInfo;
+import web.page.appcreate.RequirmentsToCandidate;
+import web.page.appcreate.VacancyInfo;
 
 import java.util.List;
 
 public class ApplicationTests {
 
     private WebDriver driver = WebDriverSingleton.getInstance();
-
+    private LoginPage lp = new LoginPage();
+    private MenuUsage mu = new MenuUsage();
+    private ApplicationsPage ap = new ApplicationsPage();
+    private CreateApplicationPage cap = new CreateApplicationPage();
+    private VacancyInfo vi = new VacancyInfo();
+    private PositionInfo pi = new PositionInfo();
+    private RequirmentsToCandidate rtc = new RequirmentsToCandidate();
+    private ApplicationPreviewElements ape = new ApplicationPreviewElements();
     //login
     private void login(){
-        driver.get("http://testing.cld.iba.by");
-        WebElement nameElement = driver.findElement(By.id("_58_login"));
-        nameElement.sendKeys("kabanov@tc.by");
-        WebElement passElement = driver.findElement(By.id("_58_password"));
-        passElement.sendKeys("welcome");
-        WebElement loginBtn = driver.findElement(By.xpath("//button"));
-        loginBtn.click();
-    }
-
-    //отправление на главную страницу подбора
-    private void goToMainRecruitmentPage() throws InterruptedException {
-        Thread.sleep(3000);
-        WebElement recruitmentPage = driver.findElement(By.xpath("//a[@href='http://testing.cld.iba.by/web/guest/recruiting']"));
-        recruitmentPage.click();
-    }
-
-    //отправление на главную страницу заявок
-    private void goToMainApplicationPage() throws InterruptedException{
-        login();
-        goToMainRecruitmentPage();
-        WebElement applicationPage = driver.findElement(By.xpath("//a[@href = 'http://testing.cld.iba.by/web/guest/recruiting/applications']"));
-        applicationPage.click();
-    }
-
-    //отправление на страницу создания заявки
-    private void goToCreatingApplicationPage() throws InterruptedException{
-        goToMainApplicationPage();
-        Thread.sleep(2000);
-        WebElement createAppBtn = driver.findElement(By.xpath("//a[@id = 'createButton']"));
-        createAppBtn.click();
-    }
-
-    //заполнение блока "Информация о вакансии"
-    private void informationAboutVacancy(String date, int i, String count, String reason){
-        WebElement planningDateField = driver.findElement(By.xpath("//input[@id = 'plannedClosingDate']"));
-        planningDateField.sendKeys(date);
-
-        List<WebElement> priorityBtns = driver.findElements(By.xpath("//div[@class = 'control-group row-fluid col-xs-12 col-md-8 col-lg-8']" +
-                "//div[@class = 'controls radio-controls col-xs-12 col-md-8 col-lg-8']" +
-                "//input"));
-        priorityBtns.get(i).click();
-
-        WebElement countOfWorkers = driver.findElement(By.xpath("//input[@id = 'quantity']"));
-        countOfWorkers.sendKeys(count);
-
-        WebElement creationReason = driver.findElement(By.xpath("//textarea[@id = 'creationReason']"));
-        creationReason.sendKeys(reason);
-    }
-
-    //Заполнение блока "Информация о позиции"
-    private void informationAboutPosition(int i, String slry, int curr, int jobT, String sub,
-                                          String businessT, String timeT, String probPeriod, String resp){
-        List<WebElement> contractTypes = driver.findElements(By.xpath("//div[@class = 'control-group contractType row-fluid col-xs-12 col-md-8 col-lg-8 my-success']"+
-                "//div[@class = 'controls radio-controls col-xs-12 col-md-8 col-lg-8']"+
-                "//input"));
-        contractTypes.get(i).click();
-
-        WebElement salary = driver.findElement(By.xpath("//input[@id = 'salary']"));
-        salary.sendKeys(slry);
-
-        Select currency = new Select(driver.findElement(By.xpath("//select[@id = 'currency']")));
-        currency.selectByIndex(curr);
-
-        List<WebElement> jobTypes = driver.findElements(By.xpath("//select[@id = 'jobType']//option"));
-        jobTypes.get(jobT).click();
-
-        WebElement subordinates = driver.findElement(By.xpath("//input[@id = 'employees']"));
-        subordinates.sendKeys(sub);
-
-        WebElement businessTrips = driver.findElement(By.xpath("//input[@id = 'businessTrip']"));
-        businessTrips.sendKeys(businessT);
-
-        WebElement timetable = driver.findElement(By.xpath("//input[@id = 'timetable']"));
-        timetable.sendKeys(timeT);
-
-        WebElement probationPeriod = driver.findElement(By.xpath("//input[@id = 'probationPeriod']"));
-        probationPeriod.sendKeys(probPeriod);
-
-        WebElement responsibilities = driver.findElement(By.xpath("//textarea[@id = 'responsibilities']"));
-        responsibilities.sendKeys(resp);
-    }
-
-    private void requirementsToCandidate() throws InterruptedException {
-        List<WebElement> candidateTypes = driver.findElements(By.xpath("//div[@class = 'controls col-xs-12 col-md-8 col-lg-8']" +
-                "//div[@class = 'checkbox checkbox-recruiting checkbox-inline col-lg-4 col-md-4 col-sm-4 col-xs-4 text-lowercase']" +
-                "//input"));
-        candidateTypes.get(0).click();
-        candidateTypes.get(1).click();
-
-        List<WebElement> education = driver.findElements(By.xpath("//select[@id = 'education']//option"));
-        education.get(4).click();
-
-        WebElement educationSpecialization = driver.findElement(By.xpath("//textarea[@id = 'educationSpecialization']"));
-        educationSpecialization.sendKeys("Инженер-программист");
-
-        List<WebElement> experience = driver.findElements(By.xpath("//select[@id = 'experience']//option"));
-        experience.get(1).click();
-
-        WebElement priorityWorkingExperience = driver.findElement(By.xpath("//textarea[@id = 'priority.working.experience']"));
-        priorityWorkingExperience.sendKeys("Apple, Google");
-
-        WebElement undesirableWorkingExperience = driver.findElement(By.xpath("//textarea[@id = 'undesirableWorkingExperience']"));
-        undesirableWorkingExperience.sendKeys("Интеграл");
-
-        List<WebElement> addCompetenciesBtn = driver.findElements(By.xpath("//a[@class = 'editable-mode view-actions edit-mode add-competence']"));
-        addCompetenciesBtn.get(0).click();
-
-        Actions action = new Actions(driver);
-        WebElement searchingCompetence = driver.findElement(By.id("searchCompetenceWord"));
-        searchingCompetence.sendKeys("Обучаемость");
-        Thread.sleep(2000);
-        WebElement competencies = driver.findElement(By.id("competence_1103"));
-        action.doubleClick(competencies).build().perform();
-
-        searchingCompetence.clear();
-        searchingCompetence.sendKeys("MySQL");
-        Thread.sleep(2000);
-        competencies = driver.findElement(By.id("competence_196"));
-        action.doubleClick(competencies).build().perform();
-
-        WebElement okBtn = driver.findElement(By.cssSelector("div.toolbar-content button:nth-child(2)"));
-        Thread.sleep(2000);
-        okBtn.click();
-
-        addCompetenciesBtn.get(1).click();
-        searchingCompetence.sendKeys("Английский язык");
-        Thread.sleep(2000);
-        competencies = driver.findElement(By.id("competence_222"));
-        action.doubleClick(competencies).build().perform();
-        Thread.sleep(2000);
-        okBtn.click();
+        lp.enterLoginPage();
+        lp.typeUsername("kabanov@tc.by");
+        lp.typePassword("welcome");
+        lp.clickLoginButton();
     }
 
     //Тест переход на страницу заявок
     @Test
-    public void applicationTest() throws InterruptedException {
+    public void goToApplicationsPageTest() throws InterruptedException {
         login();
-        goToMainRecruitmentPage();
-        WebElement applicationPage = driver.findElement(By.xpath("//a[@href = 'http://testing.cld.iba.by/web/guest/recruiting/applications']"));
-        applicationPage.click();
+        mu.goToApplicationsPage();
         Assert.assertTrue(driver.getTitle().equals("Заявки - Конструктор Талантов"));
     }
 
     //Тест перехода на страницу создания заявки
     @Test
-    public void applicationCreateButtonTest() throws InterruptedException {
-        goToMainApplicationPage();
+    public void clickCreateApplicationButton() throws InterruptedException {
+        login();
         Thread.sleep(2000);
-        WebElement createAppBtn = driver.findElement(By.xpath("//a[@id = 'createButton']"));
-        createAppBtn.click();
+        mu.goToApplicationsPage();
+        ap.clickCreateApplicationButton();
+        Thread.sleep(3000);
         Assert.assertTrue(driver.getTitle().equals("Создание заявки на подбор персонала - Конструктор Талантов"));
     }
 
     //Тест создания новой заявки
     @Test
-    public void creatingAppTest1() throws InterruptedException {
-        goToCreatingApplicationPage();
+    public void creatingApplication() throws InterruptedException {
+        login();
+        Thread.sleep(2000);
+        cap.goToCreateApplicationPage();
+        vi.typeInformationAboutVacancyFull();
+        pi.typeInformationAboutPositionFull();
+        rtc.typeRequirmentsToCandidateFull();
+        cap.clickSaveButton();
+        Thread.sleep(5000);
+        Assert.assertTrue(driver.getTitle().equals("QA engineer - Конструктор Талантов"));
 
-        WebElement positionField = driver.findElement(By.xpath("//input[@id = 'name']"));
-        positionField.sendKeys("QA engineer 1");
+        WebElement app_name = driver.findElement(ApplicationPreviewElements.APPLICATION_NAME);
+        Assert.assertTrue(app_name.getText().equals("QA engineer"));
 
-        informationAboutVacancy("12.04.2018", 2, "3", "Резкая потребность.");
-        informationAboutPosition(1, "3000", 2, 2, "В наличии 3 подчиненных.",
-                "Возможны.", "5 дней в неделю, 8 часов в день.", "1 месяц.",
-                "Составление тест-кейсов.\nНаписание собственных тестов.");
-        requirementsToCandidate();
-        WebElement comments = driver.findElement(By.xpath("//textarea[@id = 'comment']"));
-        comments.sendKeys("Тут должны быть комментарии");
-        WebElement saveBtn = driver.findElement(By.xpath("//button[@id = 'save']"));
-        saveBtn.click();
+        WebElement cand_count = driver.findElement(ApplicationPreviewElements.CANDIDATES_COUNT);
+        Assert.assertTrue(cand_count.getText().equals("3"));
 
-        Assert.assertTrue(driver.getTitle().equals(positionField.getText()+" - Конструктор Талантов"));
+
+        List<WebElement> comments = driver.findElements(ApplicationPreviewElements.COMMENTS_REASON_SPEC);
+        Assert.assertTrue(comments.get(0).getText().equals("Тут комментарии."));
+        Assert.assertTrue(comments.get(1).getText().equals("Резкая необходимость."));
+        Assert.assertTrue(comments.get(2).getText().equals("Инженер-программист"));
+
+        List<WebElement> elements = driver.findElements(ApplicationPreviewElements.ELEMENTS_WITH_OWN_PATH);
+        Assert.assertTrue(elements.get(0).getText().equals("договор подряда"));
+        Assert.assertTrue(elements.get(1).getText().equals("3000 EUR"));
+        Assert.assertTrue(elements.get(2).getText().equals("В наличии 3 подчиненных."));
+        Assert.assertTrue(elements.get(3).getText().equals("При необходимости."));
+        Assert.assertTrue(elements.get(4).getText().equals("5 дней в неделю, 8 часов в день. Сверхурочные работы - при необходимости"));
+        Assert.assertTrue(elements.get(5).getText().equals("1 месяц"));
+        Assert.assertTrue(elements.get(6).getText().equals("Высшее"));
+        Assert.assertTrue(elements.get(7).getText().equals("От 1 года"));
+        Assert.assertTrue(elements.get(8).getText().equals("EPAM"));
+        Assert.assertTrue(elements.get(9).getText().equals("Интеграл"));
+
+        List<WebElement> typesWorkCandidate = driver.findElements(ApplicationPreviewElements.TYPE_WORK_AND_TYPE_CANDIDATE);
+        Assert.assertTrue(typesWorkCandidate.get(0).getText().equals("проектная работа"));
+        Assert.assertTrue(typesWorkCandidate.get(1).getText().equals("внешний"));
+
+        WebElement resp = driver.findElement(ApplicationPreviewElements.RESPONSIBILITIES);
+        Assert.assertTrue(resp.getText().equals("Составление тест-кейсов.\n" +
+                "Написание собственных тестов."));
     }
 
-    @After
+    //@After
     public void shutDown() {
         driver.close();
+        WebDriverSingleton.destroyInstance();
     }
 
 }
