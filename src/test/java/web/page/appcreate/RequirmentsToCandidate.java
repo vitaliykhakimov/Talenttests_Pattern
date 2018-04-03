@@ -2,94 +2,73 @@ package web.page.appcreate;
 
 import driver.WebDriverSingleton;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import web.elements.appcreate.CreateApplicationElements;
 import web.elements.appcreate.RequirmentsToCandidateElements;
 
-import java.util.List;
 
 public class RequirmentsToCandidate {
 
     WebDriver driver = WebDriverSingleton.getInstance();
 
     public void selectCandidatesType(int type) {
-        List<WebElement> candidateTypes = driver.findElements(RequirmentsToCandidateElements.CANDIDATE_TYPE);
-        candidateTypes.get(type).click();
+        RequirmentsToCandidateElements.CANDIDATE_TYPE.selectAndClickCheckBox(type);
     }
 
     public void selectEducationLvl(int lvl) {
-        Select educationSelect = new Select(driver.findElement(RequirmentsToCandidateElements.EDUCATION));
+        Select educationSelect = new Select(RequirmentsToCandidateElements.EDUCATION.getWebElement());
         educationSelect.selectByIndex(lvl);
     }
 
     public void typeEducationSpec(String spec) {
-        WebElement element = driver.findElement(RequirmentsToCandidateElements.EDUCATION_SPECIALIZATION);
-        element.sendKeys(spec);
+        RequirmentsToCandidateElements.EDUCATION_SPECIALIZATION.sendKeys(spec);
     }
 
     public void selectExpirience(int exp) {
-        Select expirienceSelect = new Select(driver.findElement(RequirmentsToCandidateElements.EXPIRIENCE));
+        Select expirienceSelect = new Select(RequirmentsToCandidateElements.EXPIRIENCE.getWebElement());
         expirienceSelect.selectByIndex(exp);
     }
 
     public void typePriorityWorkExpirience(String pwe) {
-        WebElement element = driver.findElement(RequirmentsToCandidateElements.PRIORITY_WORK_EXPIRIENCE);
-        element.sendKeys(pwe);
+        RequirmentsToCandidateElements.PRIORITY_WORK_EXPIRIENCE.sendKeys(pwe);
     }
 
     public void typeUnwantedWorkExpirience(String uwe) {
-        WebElement element = driver.findElement(RequirmentsToCandidateElements.UNWANTED_WORK_EXPIRIENCE);
-        element.sendKeys(uwe);
+        RequirmentsToCandidateElements.UNWANTED_WORK_EXPIRIENCE.sendKeys(uwe);
     }
 
     public void typeComments(String comm) {
-        WebElement element = driver.findElement(RequirmentsToCandidateElements.COMMENTS);
-        element.sendKeys(comm);
+        RequirmentsToCandidateElements.COMMENTS.sendKeys(comm);
     }
 
-    public void clickAddRequireCompetenceButton() {
-        List<WebElement> elements = driver.findElements(RequirmentsToCandidateElements.ADD_COMPETENCE_BUTTON);
-        elements.get(0).click();
+    public void clickAddRequireCompetence() {
+        RequirmentsToCandidateElements.ADD_COMPETENCE_BUTTON.clickAddRequireCompetenceButton();
     }
 
     public void selectRequireCompetencies() throws InterruptedException {
         Actions action = new Actions(driver);
-        WebElement searchingCompetence = driver.findElement(RequirmentsToCandidateElements.SEARCHING_COMPETENCE);
-        searchingCompetence.sendKeys("Обучаемость");
+        RequirmentsToCandidateElements.SEARCHING_COMPETENCE.sendKeys("Обучаемость");
         Thread.sleep(1500);
-        WebElement competence = driver.findElement(RequirmentsToCandidateElements.COMPETENCE1);
-        action.doubleClick(competence).build().perform();
-
-        searchingCompetence.clear();
-        searchingCompetence.sendKeys("MySQL");
+        action.doubleClick(RequirmentsToCandidateElements.COMPETENCE1.getWebElement()).build().perform();
+        RequirmentsToCandidateElements.SEARCHING_COMPETENCE.getWebElement().clear();
+        RequirmentsToCandidateElements.SEARCHING_COMPETENCE.sendKeys("MySQL");
         Thread.sleep(1500);
-        competence = driver.findElement(RequirmentsToCandidateElements.COMPETENCE2);
-        action.doubleClick(competence).build().perform();
-
-        WebElement okBtn = driver.findElement(RequirmentsToCandidateElements.OK_BUTTON);
+        action.doubleClick(RequirmentsToCandidateElements.COMPETENCE2.getWebElement()).build().perform();
         Thread.sleep(1500);
-        okBtn.click();
+        RequirmentsToCandidateElements.OK_BUTTON.click();
     }
 
-    public void clickAddWantedCompetenceButton() {
-        List<WebElement> elements = driver.findElements(RequirmentsToCandidateElements.ADD_COMPETENCE_BUTTON);
-        elements.get(1).click();
+    public void clickAddWantedCompetence() {
+        RequirmentsToCandidateElements.ADD_COMPETENCE_BUTTON.clickAddWantedCompetenceButton();
     }
 
     public void selectWantedCompetencies() throws InterruptedException {
         Actions action = new Actions(driver);
-        WebElement searchingCompetence = driver.findElement(RequirmentsToCandidateElements.SEARCHING_COMPETENCE);
-        searchingCompetence.sendKeys("Английский язык");
-
+        RequirmentsToCandidateElements.SEARCHING_COMPETENCE.sendKeys("Английский язык");
         Thread.sleep(1500);
-        WebElement competence = driver.findElement(RequirmentsToCandidateElements.COMPETENCE3);
-        action.doubleClick(competence).build().perform();
-
-        WebElement okBtn = driver.findElement(RequirmentsToCandidateElements.OK_BUTTON);
+        action.doubleClick(RequirmentsToCandidateElements.COMPETENCE3.getWebElement()).build().perform();
         Thread.sleep(1500);
-        okBtn.click();
+        RequirmentsToCandidateElements.OK_BUTTON.click();
     }
 
     public void typeRequirmentsToCandidateFull() throws InterruptedException {
@@ -99,9 +78,9 @@ public class RequirmentsToCandidate {
         selectExpirience(1);
         typePriorityWorkExpirience("EPAM");
         typeUnwantedWorkExpirience("Интеграл");
-        clickAddRequireCompetenceButton();
+        clickAddRequireCompetence();
         selectRequireCompetencies();
-        clickAddWantedCompetenceButton();
+        clickAddWantedCompetence();
         selectWantedCompetencies();
         typeComments("Тут комментарии.");
     }

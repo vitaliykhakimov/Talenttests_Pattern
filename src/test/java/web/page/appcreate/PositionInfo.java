@@ -11,48 +11,41 @@ public class PositionInfo {
     WebDriver driver = WebDriverSingleton.getInstance();
 
     public void selectContractType(int type) {
-        List<WebElement> contractTypes = driver.findElements(PositionInfoElements.CONTRACT_TYPES);
-        contractTypes.get(type).click();
+        PositionInfoElements.CONTRACT_TYPES.selectAndClickRadioButton(type);
     }
 
     public void typeSalary(String salary) {
-        WebElement element = driver.findElement(PositionInfoElements.SALARY);
-        element.sendKeys(salary);
+        PositionInfoElements.SALARY.sendKeys(salary);
     }
 
-    public void selectCurrency(int type) {
-        Select currenciesSelect = new Select(driver.findElement(PositionInfoElements.CURRENCY));
-        currenciesSelect.selectByIndex(type);
+    public void selectCurrency(int index) {
+        Select currenciesSelect = new Select(PositionInfoElements.CURRENCY.getWebElement());
+        currenciesSelect.selectByIndex(index);
     }
 
-    public void selectJobType(int type) {
-        Select jobTypesSelect = new Select(driver.findElement(PositionInfoElements.JOB_TYPE));
-        jobTypesSelect.selectByIndex(type);
+    public void selectJobType(int index) {
+        Select jobTypesSelect = new Select(PositionInfoElements.JOB_TYPE.getWebElement());
+        jobTypesSelect.selectByIndex(index);
     }
 
     public void typeEmployees(String employees) {
-        WebElement element = driver.findElement(PositionInfoElements.EMPLOYEES);
-        element.sendKeys(employees);
+        PositionInfoElements.EMPLOYEES.sendKeys(employees);
     }
 
     public void typeBusinessTrips(String trips) {
-        WebElement element = driver.findElement(PositionInfoElements.BUSINESS_TRIPS);
-        element.sendKeys(trips);
+        PositionInfoElements.BUSINESS_TRIPS.sendKeys(trips);
     }
 
     public void typeTimetable(String tt) {
-        WebElement element = driver.findElement(PositionInfoElements.TIMETABLE);
-        element.sendKeys(tt);
+        PositionInfoElements.TIMETABLE.sendKeys(tt);
     }
 
     public void typeProbationPeriod(String pp) {
-        WebElement element = driver.findElement(PositionInfoElements.PROBATION_PERIOD);
-        element.sendKeys(pp);
+        PositionInfoElements.PROBATION_PERIOD.sendKeys(pp);
     }
 
     public void typeResponsibilities(String resp) {
-        WebElement element = driver.findElement(PositionInfoElements.RESPONSIBILITIES);
-        element.sendKeys(resp);
+        PositionInfoElements.RESPONSIBILITIES.sendKeys(resp);
     }
 
     public void typeInformationAboutPositionFull() {

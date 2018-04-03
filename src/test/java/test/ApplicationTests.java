@@ -37,7 +37,6 @@ public class ApplicationTests {
         lp.clickLoginButton();
     }
 
-    //Тест переход на страницу заявок
     @Test
     public void goToApplicationsPageTest() throws InterruptedException {
         login();
@@ -45,7 +44,6 @@ public class ApplicationTests {
         Assert.assertTrue(driver.getTitle().equals("Заявки - Конструктор Талантов"));
     }
 
-    //Тест перехода на страницу создания заявки
     @Test
     public void clickCreateApplicationButton() throws InterruptedException {
         login();
@@ -56,7 +54,6 @@ public class ApplicationTests {
         Assert.assertTrue(driver.getTitle().equals("Создание заявки на подбор персонала - Конструктор Талантов"));
     }
 
-    //Тест создания новой заявки
     @Test
     public void creatingApplication() throws InterruptedException {
         login();
@@ -102,7 +99,7 @@ public class ApplicationTests {
                 "Написание собственных тестов."));
     }
 
-    //@After
+    @After
     public void shutDown() {
         driver.close();
         WebDriverSingleton.destroyInstance();

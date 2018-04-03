@@ -13,9 +13,9 @@ public class WebDriverSingleton {
         if (webDriver == null) {
             System.setProperty("webdriver.chrome.driver", "lib/drivers/chromedriver.exe");
             webDriver = new ChromeDriver();
-            webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            webDriver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
             webDriver.manage().window().maximize();
-            webDriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+            webDriver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
         }
         return webDriver;
     }

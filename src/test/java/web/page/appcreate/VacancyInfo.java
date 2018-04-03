@@ -16,29 +16,33 @@ public class VacancyInfo {
     }
 
     public void typePosition(String position) {
-        WebElement element = driver.findElement(VacancyInfoElements.POSITION);
-        element.sendKeys(position);
+        //WebElement element = driver.findElement(VacancyInfoElements.POSITION.getWebElement());
+        //element.sendKeys(position);
+        VacancyInfoElements.POSITION.sendKeys(position);
     }
 
     public void typePlanningDate(String date) {
-        WebElement element = driver.findElement(VacancyInfoElements.PLANNING_DATE_FIELD);
-        element.sendKeys(date);
+        //WebElement element = driver.findElement(VacancyInfoElements.PLANNING_DATE_FIELD);
+        //element.sendKeys(date);
+        VacancyInfoElements.PLANNING_DATE_FIELD.sendKeys(date);
     }
 
     public void selectPriority(int priority) {
-        List<WebElement> priorities = driver.findElements(VacancyInfoElements.PRIORITY_BUTTON);
-        priorities.get(priority).click();
-
+        //List<WebElement> priorities = driver.findElements(VacancyInfoElements.PRIORITY_BUTTON.getBy());
+        //priorities.get(priority).click();
+        VacancyInfoElements.PRIORITY_BUTTON.selectAndClickRadioButton(priority);
     }
 
     public void typeCountOfCandidates(String count) {
-        WebElement element = driver.findElement(VacancyInfoElements.COUNT_OF_CANDIDATES);
-        element.sendKeys(count);
+        //WebElement element = driver.findElement(VacancyInfoElements.COUNT_OF_CANDIDATES);
+        //element.sendKeys(count);
+        VacancyInfoElements.COUNT_OF_CANDIDATES.sendKeys(count);
     }
 
     public void typeCreationReason(String reason) {
-        WebElement element = driver.findElement(VacancyInfoElements.CREATION_REASON);
-        element.sendKeys(reason);
+        //WebElement element = driver.findElement(VacancyInfoElements.CREATION_REASON);
+        //element.sendKeys(reason);
+        VacancyInfoElements.CREATION_REASON.sendKeys(reason);
     }
 
     public void typeInformationAboutVacancyFull() {
