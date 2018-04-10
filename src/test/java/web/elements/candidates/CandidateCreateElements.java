@@ -114,4 +114,19 @@ public class CandidateCreateElements {
             By.xpath("//div[@class = 'validateTelephone']"));
     public static final GenericElement WRONG_EMAIL = new GenericElement("Неверный формат",
             By.xpath("//div[@class = 'email']"));
+
+    public static final GenericElement UPLOAD_IMAGE = new GenericElement("Изображение профиля",
+            By.xpath("//input[@id = 'profileImage']"));
+    public static final GenericElement UPLOAD_IMAGE_BUTTON = new GenericElement("Изображение профиля",
+            By.xpath("//span[@id = 'changeImgLink']"));
+    public static final GenericElement WRONG_IMAGE_FORMAT = new GenericElement("Неверный формат",
+            By.xpath("//div[@class = 'message']//span[@id = 'errorMessage']"));
+    public static final GenericElement CURRENT_IMAGE = new GenericElement("Текущее изображения профиля",
+            By.id("currentImage"));
+    public static final GenericElement UPLOAD_CV = new GenericElement("Загрузить резюме",
+            By.xpath("//input[@id = 'profileCVInput']"));
+    public static final GenericElement ADD_ATTACHMENT = new GenericElement("Прикрепить файл",
+            By.xpath("//label[@id = 'add-attachment']//i[@class =  'fa fa-plus add-attachment']"));
+    public static final GenericElement ADDED_ATTACHMENT = new GenericElement("Прикрепленный файл",
+            By.xpath("//div[@class = 'control-group']//span[@class = 'link']"));
 }

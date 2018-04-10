@@ -4,8 +4,17 @@ import driver.WebDriverSingleton;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
 import web.elements.candidates.CandidateCreateElements;
 import org.openqa.selenium.support.ui.Select;
+
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class CandidateCreatePage {
     WebDriver driver = WebDriverSingleton.getInstance();
@@ -190,6 +199,54 @@ public class CandidateCreatePage {
         CandidateCreateElements.REMOVE_BUTTON2.click();
     }
 
+    public String getAbsolutePath(String file) {
+        Path path = Paths.get(file);
+        return path.toAbsolutePath().toString();
+    }
+
+    public void uploadFileWithSelenium(String fName) {
+        CandidateCreateElements.UPLOAD_CV.sendKeys(getAbsolutePath("resources/" + fName + ""));
+    }
+
+    public void uploadFileWithSikuli(String imgName) throws InterruptedException, FindFailed {
+        Pattern filePath = new Pattern("resources/sikuli/FilePath.JPG");
+        Pattern openButton = new Pattern("resources/sikuli/OpenButton.JPG");
+        CandidateCreateElements.UPLOAD_IMAGE_BUTTON.click();
+
+        Screen screen = new Screen();
+        screen.wait(filePath, 20);
+        screen.type(filePath, getAbsolutePath("resources/" + imgName + ""));
+        screen.click(openButton);
+    }
+
+    public void uploadFileWithRobot(String fName) {
+        CandidateCreateElements.ADD_ATTACHMENT.click();
+        sendFile(getAbsolutePath("resources/" + fName + ""));
+    }
+
+    private void sendFile(String path) {
+        try{
+            setClipboardData(path);
+            Robot robot = new Robot();
+            robot.delay(1000);
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+            robot.delay(1000);
+            robot.keyPress(KeyEvent.VK_ENTER);
+            robot.keyRelease(KeyEvent.VK_ENTER);
+            robot.delay(1000);
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void setClipboardData(String str) {
+        StringSelection strSelection = new StringSelection(str);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(strSelection, null);
+    }
+
     public void clickEditButton() {
         CandidateCreateElements.EDIT_BUTTON.click();
     }
@@ -219,11 +276,4 @@ public class CandidateCreatePage {
         typeRecInformation("Сидоров Максим Иванович", "Team lead", "EPAM", "222-32-32");
     }
 
-    public void typeOnlyRequiredFields(String name, String surname, String secondName, String phone, String email) {
-        typeSurname(name);
-        typeName(surname);
-        typeSecondname(secondName);
-        typeTelephone(phone);
-        typeEmail(email);
-    }
 }

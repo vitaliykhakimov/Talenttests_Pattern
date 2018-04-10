@@ -2,19 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c01b3b-b4e8-4727-a9df-1f583a39b70e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/candidates/CandidatesTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/candidates/FiltersTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/candidates/SearchTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidatesElements.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidatesPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vidstige_jadb__v1_0_g94ebf38_23.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_tools_dx_1_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_melloware_jintellitype_1_3_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nativelibs4java_bridj_0_7_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sikulix_sikulix1tigervnc_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sikulix_sikulixapi_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sikulix_sikulixlibswin_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java" afterPath="$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/element/GenericElement.java" afterPath="$PROJECT_DIR$/src/test/java/element/GenericElement.java" />
+      <change beforePath="$PROJECT_DIR$/Talenttests.iml" afterPath="$PROJECT_DIR$/Talenttests.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java" afterPath="$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java" afterPath="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java" afterPath="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/driver/WebDriverSingleton.class" afterPath="$PROJECT_DIR$/target/test-classes/driver/WebDriverSingleton.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/element/GenericElement.class" afterPath="$PROJECT_DIR$/target/test-classes/element/GenericElement.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/ApplicationTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/ApplicationTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/candidates/CandidatesTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/candidates/CandidatesTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/candidates/CreateCandidateTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/candidates/CreateCandidateTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/candidates/FiltersTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/candidates/FiltersTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/candidates/SearchTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/candidates/SearchTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/login/LoginTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/login/LoginTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/ApplicationPreviewElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/ApplicationPreviewElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/ApplicationsElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/ApplicationsElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/LoginElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/LoginElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/MenuElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/MenuElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/CreateApplicationElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/CreateApplicationElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/PositionInfoElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/PositionInfoElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/RequirmentsToCandidateElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/RequirmentsToCandidateElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/VacancyInfoElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/appcreate/VacancyInfoElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/candidates/CandidateCreateElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/candidates/CandidateCreateElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/candidates/CandidatesElements.class" afterPath="$PROJECT_DIR$/target/test-classes/web/elements/candidates/CandidatesElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/ApplicationsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/ApplicationsPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/LoginPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/MenuUsage.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/MenuUsage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/CreateApplicationPage.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/CreateApplicationPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/PositionInfo.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/PositionInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/RequirmentsToCandidate.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/RequirmentsToCandidate.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/VacancyInfo.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/appcreate/VacancyInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/candidates/CandidateCreatePage.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/candidates/CandidateCreatePage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/candidates/CandidatesPage.class" afterPath="$PROJECT_DIR$/target/test-classes/web/page/candidates/CandidatesPage.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +64,7 @@
       <file leaf-file-name="GenericElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/element/GenericElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1107">
+            <state relative-caret-position="399">
               <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,21 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandidatesTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/CandidatesTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateCandidateTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateCandidateTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="110" column="5" lean-forward="false" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+            <state relative-caret-position="93">
+              <caret line="192" column="44" lean-forward="false" selection-start-line="192" selection-start-column="44" selection-end-line="192" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,22 +97,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FiltersTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/FiltersTests.java">
+      <file leaf-file-name="CandidateCreateElements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="492">
+              <caret line="130" column="80" lean-forward="false" selection-start-line="130" selection-start-column="80" selection-end-line="130" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/SearchTests.java">
+      <file leaf-file-name="CandidateCreatePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="-36">
+              <caret line="223" column="61" lean-forward="false" selection-start-line="223" selection-start-column="61" selection-end-line="223" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#10621#10622#0" expanded="true" />
+                <element signature="e#10680#10681#0" expanded="true" />
+                <element signature="e#10719#10720#0" expanded="true" />
+                <element signature="e#10780#10781#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/web/page/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/elements/LoginElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/page/MenuUsage.java" />
@@ -156,13 +182,14 @@
         <option value="$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java" />
         <option value="$PROJECT_DIR$/src/test/java/element/GenericElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidatesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidatesElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/candidates/CandidatesTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/candidates/FiltersTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/candidates/SearchTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java" />
       </list>
     </option>
   </component>
@@ -179,7 +206,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -203,10 +230,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +272,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Talenttests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Talenttests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,11 +336,16 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="candidates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Talenttests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,7 +353,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SeleniumExample-master" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24816176" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -328,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CandidatesTests.paginationPresence">
+  <component name="RunManager" selected="JUnit.CreateCandidateTests.uploadFileUsingRobot">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -350,7 +392,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CandidatesTests.paginationPresence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCandidateTests.uploadCVUsingSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.candidates.*" />
@@ -361,8 +403,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.candidates" />
-      <option name="MAIN_CLASS_NAME" value="test.candidates.CandidatesTests" />
-      <option name="METHOD_NAME" value="paginationPresence" />
+      <option name="MAIN_CLASS_NAME" value="test.candidates.CreateCandidateTests" />
+      <option name="METHOD_NAME" value="uploadCVUsingSelenium" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -375,7 +417,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CreateCandidateTests.cancelCreatingCandidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCandidateTests.uploadCVusingSeleniumIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.candidates.*" />
@@ -387,7 +429,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.candidates" />
       <option name="MAIN_CLASS_NAME" value="test.candidates.CreateCandidateTests" />
-      <option name="METHOD_NAME" value="cancelCreatingCandidate" />
+      <option name="METHOD_NAME" value="uploadCVusingSeleniumIncorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -400,7 +442,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CreateCandidateTests.createCandidateWithWrongPhoneAndEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCandidateTests.uploadFileUsingRobot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.candidates.*" />
@@ -412,7 +454,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.candidates" />
       <option name="MAIN_CLASS_NAME" value="test.candidates.CreateCandidateTests" />
-      <option name="METHOD_NAME" value="createCandidateWithWrongPhoneAndEmail" />
+      <option name="METHOD_NAME" value="uploadFileUsingRobot" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -425,7 +467,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CreateCandidateTests.deleteCandidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCandidateTests.uploadImageUsingSikuli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.candidates.*" />
@@ -437,7 +479,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.candidates" />
       <option name="MAIN_CLASS_NAME" value="test.candidates.CreateCandidateTests" />
-      <option name="METHOD_NAME" value="deleteCandidate" />
+      <option name="METHOD_NAME" value="uploadImageUsingSikuli" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -450,7 +492,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CreateCandidateTests.editCandidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCandidateTests.uploadImageUsingSikuliIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.candidates.*" />
@@ -462,7 +504,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.candidates" />
       <option name="MAIN_CLASS_NAME" value="test.candidates.CreateCandidateTests" />
-      <option name="METHOD_NAME" value="editCandidate" />
+      <option name="METHOD_NAME" value="uploadImageUsingSikuliIncorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -536,19 +578,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.createCandidateWithWrongPhoneAndEmail" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.deleteCandidate" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.editCandidate" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.cancelCreatingCandidate" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CandidatesTests.paginationPresence" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadCVUsingSelenium" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadCVusingSeleniumIncorrect" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadImageUsingSikuli" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadImageUsingSikuliIncorrect" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadFileUsingRobot" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CandidatesTests.paginationPresence" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.cancelCreatingCandidate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.editCandidate" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.deleteCandidate" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.createCandidateWithWrongPhoneAndEmail" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadFileUsingRobot" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadImageUsingSikuliIncorrect" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadImageUsingSikuli" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadCVusingSeleniumIncorrect" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateCandidateTests.uploadCVUsingSelenium" />
       </list>
     </recent_temporary>
   </component>
@@ -569,7 +611,11 @@
       <workItem from="1522573372387" duration="57360000" />
       <workItem from="1522685051575" duration="2492000" />
       <workItem from="1522736828766" duration="25816000" />
-      <workItem from="1522877641707" duration="29100000" />
+      <workItem from="1522877641707" duration="32067000" />
+      <workItem from="1523257393315" duration="6515000" />
+      <workItem from="1523301193256" duration="70000" />
+      <workItem from="1523301275726" duration="2054000" />
+      <workItem from="1523303872410" duration="9278000" />
     </task>
     <task id="LOCAL-00001" summary="Использовал Page Object Pattern. Проверка на потерю данных реализована плохо.">
       <created>1522685908686</created>
@@ -589,46 +635,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CandidatesTests_paginationPresence - 2018.04.08 at 00h 30m 25s.xml">
-      <configuration name="CandidatesTests.paginationPresence" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadFileUsingRobot - 2018.04.10 at 11h 06m 17s.xml">
+      <configuration name="CreateCandidateTests.uploadFileUsingRobot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_cancelCreatingCandidate - 2018.04.08 at 00h 26m 21s.xml">
-      <configuration name="CreateCandidateTests.cancelCreatingCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadFileUsingRobot - 2018.04.10 at 11h 20m 12s.xml">
+      <configuration name="CreateCandidateTests.uploadFileUsingRobot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_createCandidateWithWrongPhoneAndEmail - 2018.04.07 at 12h 34m 25s.xml">
-      <configuration name="CreateCandidateTests.createCandidateWithWrongPhoneAndEmail" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadFileUsingRobot - 2018.04.10 at 11h 24m 14s.xml">
+      <configuration name="CreateCandidateTests.uploadFileUsingRobot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_createCandidateWithWrongPhoneAndEmail - 2018.04.07 at 12h 38m 19s.xml">
-      <configuration name="CreateCandidateTests.createCandidateWithWrongPhoneAndEmail" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuli - 2018.04.10 at 00h 48m 14s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuli" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_createCandidateWithWrongPhoneAndEmail - 2018.04.08 at 00h 13m 09s.xml">
-      <configuration name="CreateCandidateTests.createCandidateWithWrongPhoneAndEmail" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuli - 2018.04.10 at 00h 50m 28s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuli" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_deleteCandidate - 2018.04.08 at 00h 09m 06s.xml">
-      <configuration name="CreateCandidateTests.deleteCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuli - 2018.04.10 at 00h 51m 04s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuli" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_deleteCandidate - 2018.04.08 at 00h 10m 09s.xml">
-      <configuration name="CreateCandidateTests.deleteCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuli - 2018.04.10 at 00h 54m 36s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuli" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_deleteCandidate - 2018.04.08 at 00h 12m 32s.xml">
-      <configuration name="CreateCandidateTests.deleteCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuli - 2018.04.10 at 00h 56m 31s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuli" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_deleteCandidate - 2018.04.08 at 00h 13m 59s.xml">
-      <configuration name="CreateCandidateTests.deleteCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuli - 2018.04.10 at 10h 53m 47s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuli" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTests_editCandidate - 2018.04.08 at 00h 22m 52s.xml">
-      <configuration name="CreateCandidateTests.editCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTests_uploadImageUsingSikuliIncorrect - 2018.04.10 at 10h 56m 55s.xml">
+      <configuration name="CreateCandidateTests.uploadImageUsingSikuliIncorrect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119458000" />
+    <option name="totallyTimeSpent" value="140342000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13137034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272933" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -640,7 +695,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30577576" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18421052" sideWeight="0.85597384" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.85597384" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -678,12 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="53" column="80" lean-forward="false" selection-start-line="53" selection-start-column="80" selection-end-line="53" selection-end-column="80" />
-          <folding>
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-            <element signature="e#491#492#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,30 +742,10 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2874#2875#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
-            <element signature="e#2997#2998#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
+            <element signature="e#10621#10622#0" expanded="true" />
+            <element signature="e#10680#10681#0" expanded="true" />
+            <element signature="e#10719#10720#0" expanded="true" />
+            <element signature="e#10780#10781#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,11 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">
           <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,9 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,11 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">
           <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,23 +889,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/web/page/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#290#291#0" expanded="false" />
-            <element signature="e#335#336#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,9 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="143" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,11 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#402#403#0" expanded="false" />
-            <element signature="e#459#460#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,9 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="26" column="142" lean-forward="false" selection-start-line="26" selection-start-column="142" selection-end-line="26" selection-end-column="142" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,22 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#393#394#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-            <element signature="e#1009#1010#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-            <element signature="e#1126#1127#0" expanded="false" />
-            <element signature="e#1193#1194#0" expanded="false" />
-            <element signature="e#1237#1238#0" expanded="false" />
-            <element signature="e#1296#1297#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1533#1534#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
           <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,11 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-630">
           <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,83 +1025,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/element/GenericElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1107">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="197" column="45" lean-forward="false" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2874#2875#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
-            <element signature="e#2997#2998#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
-            <element signature="e#8307#8308#0" expanded="true" />
-            <element signature="e#8366#8367#0" expanded="true" />
-            <element signature="e#8588#8589#0" expanded="true" />
-            <element signature="e#8647#8648#0" expanded="true" />
-            <element signature="e#8686#8687#0" expanded="true" />
-            <element signature="e#8747#8748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/web/page/candidates/CandidatesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-771">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="60" column="127" lean-forward="false" selection-start-line="60" selection-start-column="127" selection-end-line="60" selection-end-column="127" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,23 +1055,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/CandidatesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/element/GenericElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/page/candidates/CandidateCreatePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="223" column="61" lean-forward="false" selection-start-line="223" selection-start-column="61" selection-end-line="223" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10621#10622#0" expanded="true" />
+            <element signature="e#10680#10681#0" expanded="true" />
+            <element signature="e#10719#10720#0" expanded="true" />
+            <element signature="e#10780#10781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/candidates/CandidateCreateElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="130" column="80" lean-forward="false" selection-start-line="130" selection-start-column="80" selection-end-line="130" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/CreateCandidateTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="110" column="5" lean-forward="false" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+        <state relative-caret-position="93">
+          <caret line="192" column="44" lean-forward="false" selection-start-line="192" selection-start-column="44" selection-end-line="192" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/candidates/CandidatesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Talenttests</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24816176" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24816176" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
