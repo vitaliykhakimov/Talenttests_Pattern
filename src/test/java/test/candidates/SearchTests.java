@@ -1,6 +1,8 @@
 package test.candidates;
 
 import driver.WebDriverSingleton;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,6 +16,7 @@ public class SearchTests {
     private LoginPage lp = new LoginPage();
     private CandidatesPage cp = new CandidatesPage();
 
+    @Step("Логинимся в систему")
     private void login(){
         lp.enterLoginPage();
         lp.typeUsername("kabanov@tc.by");
@@ -21,27 +24,40 @@ public class SearchTests {
         lp.clickLoginButton();
     }
 
-    //Поиск существующего кандидата
     @Test
+    @DisplayName("Поиск существующего кандидата")
+    @Description("Производим поиск существующего кандидата")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Поиск выполнен")
+    @Severity(SeverityLevel.NORMAL)
     public void searchingPresentCandidate() {
         login();
         cp.goToCandidatesPage();
-        cp.searchCandidate("Рогова Светлана Михайловна");
-        Assert.assertTrue(CandidatesElements.FOUNDED_CANDIDATE.getWebElement().getText().equals("Рогова Светлана Михайловна"));
+        cp.searchCandidate("Морозова Екатерина Алексеевна");
+        Assert.assertTrue(CandidatesElements.FOUNDED_CANDIDATE.getWebElement().getText().equals("Морозова Екатерина Алексеевна"));
     }
 
-    //Переход на страницу найденного кандидата
     @Test
+    @DisplayName("Переход на страницу кандидата")
+    @Description("Производим переход на страницу найденного кандидата")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Переход на страницу найденного кандидата выполнен")
+    @Severity(SeverityLevel.NORMAL)
     public void goToPresentCandidatePage() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
-        cp.searchCandidate("Рогова Светлана Михайловна");
+        cp.searchCandidate("Морозова Екатерина Алексеевна");
         cp.clickOnFoundedCandidate();
-        Assert.assertTrue(driver.getTitle().equals("Рогова Светлана Михайловна - Конструктор Талантов"));
+        Assert.assertTrue(driver.getTitle().equals("Морозова Екатерина Алексеевна" +
+                " - Конструктор Талантов"));
     }
 
-    //поиск отсутствующего кандидата
     @Test
+    @DisplayName("Поиск несуществующего кандидата")
+    @Description("Производим поиск несуществующего кандидата")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Поиск выполнен")
+    @Severity(SeverityLevel.NORMAL)
     public void searchingMissingCandidate() {
         login();
         cp.goToCandidatesPage();

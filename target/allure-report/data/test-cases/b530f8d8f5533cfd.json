@@ -1,0 +1,491 @@
+{
+  "uid" : "b530f8d8f5533cfd",
+  "name" : "Создание кандидата (все поля заполнены)",
+  "fullName" : "test.candidates.CreateCandidateTests.createCandidate",
+  "historyId" : "6c6a7fc286faefee0d47826f8fc2aab3",
+  "time" : {
+    "start" : 1523538245407,
+    "stop" : 1523538295895,
+    "duration" : 50488
+  },
+  "status" : "passed",
+  "description" : "Создание с заполнением всех полей",
+  "descriptionHtml" : "<p>Создание с заполнением всех полей</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523538245408,
+        "stop" : 1523538258562,
+        "duration" : 13154
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523538245408,
+          "stop" : 1523538249711,
+          "duration" : 4303
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523538249712,
+          "stop" : 1523538250459,
+          "duration" : 747
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523538250459,
+          "stop" : 1523538251059,
+          "duration" : 600
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523538251059,
+          "stop" : 1523538258562,
+          "duration" : 7503
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу создания кандидата",
+      "time" : {
+        "start" : 1523538258563,
+        "stop" : 1523538267315,
+        "duration" : 8752
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Ввод всей инфорации о кандидатах",
+      "time" : {
+        "start" : 1523538267316,
+        "stop" : 1523538286439,
+        "duration" : 19123
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 16,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Ввод фамилии",
+        "time" : {
+          "start" : 1523538267317,
+          "stop" : 1523538267846,
+          "duration" : 529
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "surname",
+          "value" : "Иванов"
+        } ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523538267847,
+          "stop" : 1523538268237,
+          "duration" : 390
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "Иван"
+        } ]
+      }, {
+        "name" : "Ввод отчества",
+        "time" : {
+          "start" : 1523538268237,
+          "stop" : 1523538268768,
+          "duration" : 531
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "secondname",
+          "value" : "Иванович"
+        } ]
+      }, {
+        "name" : "Ввод телефона",
+        "time" : {
+          "start" : 1523538268768,
+          "stop" : 1523538269344,
+          "duration" : 576
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "phone",
+          "value" : "80291234567"
+        } ]
+      }, {
+        "name" : "Ввод email",
+        "time" : {
+          "start" : 1523538269344,
+          "stop" : 1523538269978,
+          "duration" : 634
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "vanya@mail.ru"
+        } ]
+      }, {
+        "name" : "Ввод skype",
+        "time" : {
+          "start" : 1523538269979,
+          "stop" : 1523538270618,
+          "duration" : 639
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "skype",
+          "value" : "ivanov_ivan"
+        } ]
+      }, {
+        "name" : "Ввод страны",
+        "time" : {
+          "start" : 1523538270619,
+          "stop" : 1523538271114,
+          "duration" : 495
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "country",
+          "value" : "Беларусь"
+        } ]
+      }, {
+        "name" : "Ввод города",
+        "time" : {
+          "start" : 1523538271115,
+          "stop" : 1523538271554,
+          "duration" : 439
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "city",
+          "value" : "Минск"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку возможности переезда",
+        "time" : {
+          "start" : 1523538271555,
+          "stop" : 1523538271882,
+          "duration" : 327
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод даты рождения",
+        "time" : {
+          "start" : 1523538271883,
+          "stop" : 1523538272974,
+          "duration" : 1091
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "day",
+          "value" : "18"
+        }, {
+          "name" : "month",
+          "value" : "01"
+        }, {
+          "name" : "year",
+          "value" : "1996"
+        } ]
+      }, {
+        "name" : "Выбор образования",
+        "time" : {
+          "start" : 1523538272975,
+          "stop" : 1523538273466,
+          "duration" : 491
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "index",
+          "value" : "4"
+        } ]
+      }, {
+        "name" : "Ввод желаемой должности",
+        "time" : {
+          "start" : 1523538273467,
+          "stop" : 1523538274120,
+          "duration" : 653
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "position",
+          "value" : "QA engineer"
+        } ]
+      }, {
+        "name" : "Ввод дополнительной информации",
+        "time" : {
+          "start" : 1523538274121,
+          "stop" : 1523538274651,
+          "duration" : 530
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "add",
+          "value" : "Очень ответственный"
+        } ]
+      }, {
+        "name" : "Ввод информации об образовании",
+        "time" : {
+          "start" : 1523538274652,
+          "stop" : 1523538278096,
+          "duration" : 3444
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "univer",
+          "value" : "БГУИР"
+        }, {
+          "name" : "faculty",
+          "value" : "КСИС"
+        }, {
+          "name" : "spec",
+          "value" : "Инженер-программист"
+        }, {
+          "name" : "startyear",
+          "value" : "2015"
+        }, {
+          "name" : "endyear",
+          "value" : "2019"
+        } ]
+      }, {
+        "name" : "Ввод информации об опыте работы",
+        "time" : {
+          "start" : 1523538278097,
+          "stop" : 1523538282588,
+          "duration" : 4491
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pos",
+          "value" : "Программист Java"
+        }, {
+          "name" : "comp",
+          "value" : "EPAM"
+        }, {
+          "name" : "monthStart",
+          "value" : "2"
+        }, {
+          "name" : "yearStart",
+          "value" : "2013"
+        }, {
+          "name" : "monthEnd",
+          "value" : "2"
+        }, {
+          "name" : "yearEnd",
+          "value" : "2018"
+        }, {
+          "name" : "descr",
+          "value" : "Писал Java код"
+        } ]
+      }, {
+        "name" : "Ввод рекомендаций",
+        "time" : {
+          "start" : 1523538282589,
+          "stop" : 1523538286439,
+          "duration" : 3850
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "Сидоров Максим Иванович"
+        }, {
+          "name" : "position",
+          "value" : "Team lead"
+        }, {
+          "name" : "company",
+          "value" : "EPAM"
+        }, {
+          "name" : "phone",
+          "value" : "222-32-32"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Кликаем кнопку Сохранить",
+      "time" : {
+        "start" : 1523538286439,
+        "stop" : 1523538289273,
+        "duration" : 2834
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 24,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createCandidate"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "15572@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Кандидат успешно создался"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

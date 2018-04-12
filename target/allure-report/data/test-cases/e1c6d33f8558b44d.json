@@ -1,0 +1,177 @@
+{
+  "uid" : "e1c6d33f8558b44d",
+  "name" : "Кнопка создания заявки",
+  "fullName" : "test.ApplicationTests.clickCreateApplicationButton",
+  "historyId" : "69c53470416bcc4254f1f0e9fa7268bf",
+  "time" : {
+    "start" : 1523537880814,
+    "stop" : 1523537951965,
+    "duration" : 71151
+  },
+  "status" : "passed",
+  "description" : "Нажимаем на кнопку создания заявки",
+  "descriptionHtml" : "<p>Нажимаем на кнопку создания заявки</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523537880815,
+        "stop" : 1523537912187,
+        "duration" : 31372
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523537880816,
+          "stop" : 1523537888781,
+          "duration" : 7965
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523537888781,
+          "stop" : 1523537889560,
+          "duration" : 779
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523537889561,
+          "stop" : 1523537890259,
+          "duration" : 698
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523537890260,
+          "stop" : 1523537912187,
+          "duration" : 21927
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу заявок",
+      "time" : {
+        "start" : 1523537914188,
+        "stop" : 1523537928903,
+        "duration" : 14715
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу подбора и адаптации",
+        "time" : {
+          "start" : 1523537914188,
+          "stop" : 1523537922808,
+          "duration" : 8620
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Кликаем кнопку создания заявки",
+      "time" : {
+        "start" : 1523537930906,
+        "stop" : 1523537946801,
+        "duration" : 15895
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.ApplicationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickCreateApplicationButton"
+  }, {
+    "name" : "suite",
+    "value" : "test.ApplicationTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "15572@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Заявки"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Кнопка создания заявки нажимается"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

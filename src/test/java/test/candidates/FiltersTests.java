@@ -1,6 +1,8 @@
 package test.candidates;
 
 import driver.WebDriverSingleton;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -22,6 +24,7 @@ public class FiltersTests {
     private LoginPage lp = new LoginPage();
     private CandidatesPage cp = new CandidatesPage();
 
+    @Step("Логинимся в систему")
     private void login(){
         lp.enterLoginPage();
         lp.typeUsername("kabanov@tc.by");
@@ -29,7 +32,12 @@ public class FiltersTests {
         lp.clickLoginButton();
     }
 
-    @Test//Тест на отображение тега фильтра по опыту работы
+    @Test
+    @DisplayName("Фильтр по опыту работы")
+    @Description("Производим фильтрацию по опыту работы")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByExperienceTag() {
         login();
         cp.goToCandidatesPage();
@@ -43,7 +51,12 @@ public class FiltersTests {
         //но из-за отсутствия доступа к БД это не предоставляется возможным
     }
 
-    @Test//Тест на отображение тегов фильтра по статусу "Новый"
+    @Test
+    @DisplayName("Фильтр по статусу Новый")
+    @Description("Производим фильтрацию по статусу - Новый")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByStatusTagNew() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -51,7 +64,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.STATUS_NEW_TAG.getWebElement().getText().equals("Новый"));
     }
 
-    @Test//Тест на отображение тегов фильтра по статусу "Рассматривается на вакансию"
+    @Test
+    @DisplayName("Фильтр по статусу - Рассматривается на вакансию")
+    @Description("Производим фильтрацию по статусу - Рассматривается на вакансию")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByStatusTagApproval() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -59,7 +77,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.STATUS_APPROVAL_TAG.getWebElement().getText().equals("Рассматривается на вакансию"));
     }
 
-    @Test//Тест на отображение тегов фильтра по статусу "Доступен для рассмотрения"
+    @Test
+    @DisplayName("Фильтр по статусу - Доступен для рассмотрения")
+    @Description("Производим фильтрацию по статусу - Доступен для рассмотрения")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByStatusTagAvailable() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -67,7 +90,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.STATUS_AVAILABLE_TAG.getWebElement().getText().equals("Доступен для рассмотрения"));
     }
 
-    @Test//Тест на отображение тегов фильтра по статусу "Принят на работу"
+    @Test
+    @DisplayName("Фильтр по статусу - Принят на работу")
+    @Description("Производим фильтрацию по статусу - Принят на работу")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByStatusTagHired() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -95,8 +123,12 @@ public class FiltersTests {
         //не предоставляется возможным протестировать правильное отображение данных по данному фильтру из-за отсутствия доступа к бд
     }
 
-    //проверка отображения тега "вакансии"
     @Test
+    @DisplayName("Фильтр по вакансии")
+    @Description("Производим фильтрацию по вакансии")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByVacancyTag() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -104,8 +136,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.VACANCY_FILTER_TAG.getWebElement().getText().equals("Дизайнер"));
     }
 
-    //проверка отображения тега "образование"
     @Test
+    @DisplayName("Фильтр по образованию")
+    @Description("Производим фильтрацию по образованию")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByEducationTag() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -113,8 +149,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.EDUCATION_FILTER_TAG.getWebElement().getText().equals("Не указано"));
     }
 
-    //проверка отображения тега "университет"
     @Test
+    @DisplayName("Фильтр по университету")
+    @Description("Производим фильтрацию по университету")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByUniversityTag() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -122,8 +162,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.UNIVERSITY_FILTER_TAG.getWebElement().getText().equals("БГУ"));
     }
 
-    //проверка отображения тега "компетенции"
     @Test
+    @DisplayName("Фильтр по компетенциям")
+    @Description("Производим фильтрацию по компетенциям")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByCompetenceTag() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -151,8 +195,12 @@ public class FiltersTests {
         //не предоставляется возможным протестировать правильное отображение данных по данному фильтру из-за отсутствия доступа к бд
     }
 
-    //Тест проверяет тег фильтра по возможности переезда "возможен переезд"
     @Test
+    @DisplayName("Фильтр по возможности переезда")
+    @Description("Производим фильтрацию по возможности переезда")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByRelocationAvailableTag() throws InterruptedException {
         login();
         cp.goToCandidatesPage();
@@ -160,8 +208,12 @@ public class FiltersTests {
         Assert.assertTrue(CandidatesElements.RELOCATION_AVAILABLE_FILTER_TAG.getWebElement().getText().equals("возможен переезд"));
     }
 
-    //Тест проверяет тег фильтра по возможности переезда "переезд невозможен"
     @Test
+    @DisplayName("Фильтр по невозможности переезда")
+    @Description("Производим фильтрацию по невозможности переезда")
+    @Feature("Кандидаты")
+    @Story("Сценарий -  Теги фильтров отображаются")
+    @Severity(SeverityLevel.MINOR)
     public void filterByRelocationUnavailableTag() throws InterruptedException {
         login();
         cp.goToCandidatesPage();

@@ -1,0 +1,163 @@
+{
+  "uid" : "85bfb7dab404a0f7",
+  "name" : "Фильтр по вакансии",
+  "fullName" : "test.candidates.FiltersTests.filterByVacancyTag",
+  "historyId" : "e81b2ede4ef45ef2ea51fed1474a29b6",
+  "time" : {
+    "start" : 1523538798283,
+    "stop" : 1523538828439,
+    "duration" : 30156
+  },
+  "status" : "passed",
+  "description" : "Производим фильтрацию по вакансии",
+  "descriptionHtml" : "<p>Производим фильтрацию по вакансии</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523538798284,
+        "stop" : 1523538816790,
+        "duration" : 18506
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523538798284,
+          "stop" : 1523538804260,
+          "duration" : 5976
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523538804261,
+          "stop" : 1523538804975,
+          "duration" : 714
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523538804975,
+          "stop" : 1523538805573,
+          "duration" : 598
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523538805573,
+          "stop" : 1523538816790,
+          "duration" : 11217
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу кандидатов",
+      "time" : {
+        "start" : 1523538816790,
+        "stop" : 1523538820234,
+        "duration" : 3444
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Выбираем вакансиб",
+      "time" : {
+        "start" : 1523538820235,
+        "stop" : 1523538826181,
+        "duration" : 5946
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByVacancyTag"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "15572@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий -  Теги фильтров отображаются"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "minor",
+    "categories" : [ ]
+  }
+}

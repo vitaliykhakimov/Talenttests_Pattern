@@ -48,7 +48,7 @@ public class CandidatesElements {
     public static final GenericElement UNIVERSITY_FILTER_TAG = new GenericElement("Тег", By.xpath("//div[@id = 'universities_filter-tag']//span"));
 
     public static final GenericElement SELECT_COMPETENCE_CHECKBOX = new GenericElement("Английский язык",
-            By.xpath("//div[@class = 'checkbox checkbox-primary  ']//input[@id= 'competencies_filtermultiselect-2']"));
+            By.xpath("//div[@class = 'checkbox checkbox-primary  ']//input[@id= 'competencies_filtermultiselect-1']"));
     public static final GenericElement COMPETENCE_FILTER_TAG = new GenericElement("Тег", By.xpath("//div[@id = 'competencies_filter-tag']//span"));
 
     public static final GenericElement RELOCATION_SELECT = new GenericElement("Переезд", By.xpath("//div[@id = 'relocation_filter']//input"));

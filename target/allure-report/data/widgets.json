@@ -1,0 +1,70 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 46,
+      "unknown" : 0,
+      "total" : 48
+    },
+    "time" : {
+      "minDuration" : 290,
+      "maxDuration" : 102536,
+      "sumDuration" : 1084392,
+      "start" : 1523537840642,
+      "stop" : 1523539111210,
+      "duration" : 1270568
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 1,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 46,
+    "unknown" : 0,
+    "total" : 48
+  } ],
+  "behaviors" : {
+    "total" : 3,
+    "items" : [ {
+      "name" : "Кандидаты",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 15
+      }
+    }, {
+      "name" : "Заявки",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "name" : "Авторизация",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "Talent-tests"
+  } ],
+  "launches" : [ ]
+}

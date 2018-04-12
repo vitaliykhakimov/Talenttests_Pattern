@@ -1,0 +1,262 @@
+{
+  "uid" : "fac5e5a7a4755cda",
+  "name" : "Редактирование кандидата",
+  "fullName" : "test.candidates.CreateCandidateTests.editCandidate",
+  "historyId" : "f9da7bb3058a26eb9b68f85fe31fddc0",
+  "time" : {
+    "start" : 1523538539283,
+    "stop" : 1523538573451,
+    "duration" : 34168
+  },
+  "status" : "passed",
+  "description" : "Создаем кандидата, после чего нажимаем кнопку Редактировать и возвращаемся на страницу создания",
+  "descriptionHtml" : "<p>Создаем кандидата, после чего нажимаем кнопку Редактировать и возвращаемся на страницу создания</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523538539283,
+        "stop" : 1523538551849,
+        "duration" : 12566
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523538539283,
+          "stop" : 1523538543401,
+          "duration" : 4118
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523538543402,
+          "stop" : 1523538544183,
+          "duration" : 781
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523538544183,
+          "stop" : 1523538544810,
+          "duration" : 627
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523538544811,
+          "stop" : 1523538551848,
+          "duration" : 7037
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу создания кандидата",
+      "time" : {
+        "start" : 1523538551849,
+        "stop" : 1523538559811,
+        "duration" : 7962
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Ввод фамилии",
+      "time" : {
+        "start" : 1523538559812,
+        "stop" : 1523538560343,
+        "duration" : 531
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Иванов"
+      } ]
+    }, {
+      "name" : "Ввод имени",
+      "time" : {
+        "start" : 1523538560344,
+        "stop" : 1523538560719,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Иван"
+      } ]
+    }, {
+      "name" : "Ввод отчества",
+      "time" : {
+        "start" : 1523538560719,
+        "stop" : 1523538561213,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "secondname",
+        "value" : "Иванович"
+      } ]
+    }, {
+      "name" : "Ввод телефона",
+      "time" : {
+        "start" : 1523538561213,
+        "stop" : 1523538561778,
+        "duration" : 565
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "80334442235"
+      } ]
+    }, {
+      "name" : "Ввод email",
+      "time" : {
+        "start" : 1523538561779,
+        "stop" : 1523538562595,
+        "duration" : 816
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "vanya888@mail.ru"
+      } ]
+    }, {
+      "name" : "Кликаем кнопку Сохранить",
+      "time" : {
+        "start" : 1523538562595,
+        "stop" : 1523538565254,
+        "duration" : 2659
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Кликаем кнопку Редактировать",
+      "time" : {
+        "start" : 1523538566256,
+        "stop" : 1523538569297,
+        "duration" : 3041
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "editCandidate"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "15572@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Удаление и редактирование кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "categories" : [ ]
+  }
+}

@@ -58,7 +58,7 @@ public class GenericElement {
 
     public Boolean isElementsPresent() {
         try{
-            getWebElement();
+            getWebElements();
             return true;
         } catch (NoSuchElementException e){
             return false;

@@ -1,6 +1,8 @@
 package test.candidates;
 
 import driver.WebDriverSingleton;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,6 +23,7 @@ public class CreateCandidateTests {
     private CandidateCreatePage ccp = new CandidateCreatePage();
     private final String NO_AVATAR = "http://testing.cld.iba.by/TC-RecruitingAndOnboarding-portlet/common/css/images/no-avatar.jpg";
 
+    @Step("Логинимся в систему")
     private void login(){
         lp.enterLoginPage();
         lp.typeUsername("kabanov@tc.by");
@@ -28,8 +31,12 @@ public class CreateCandidateTests {
         lp.clickLoginButton();
     }
 
-    //Тест заполнения всех полей
     @Test
+    @DisplayName("Создание кандидата (все поля заполнены)")
+    @Description("Создание с заполнением всех полей")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Кандидат успешно создался")
+    @Severity(SeverityLevel.BLOCKER)
     public void createCandidate() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
@@ -39,31 +46,39 @@ public class CreateCandidateTests {
         Assert.assertTrue(driver.getTitle().equals("Иванов Иван Иванович - Конструктор Талантов"));
     }
 
-    //Тест заполнения только обязательных полей
     @Test
+    @DisplayName("Создание кандидата (только обязательные поля)")
+    @Description("Создание с заполнением только обязательных полей")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Кандидат успешно создался")
+    @Severity(SeverityLevel.BLOCKER)
     public void createCandidateOnlyRequiredFields() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
         ccp.typeSurname("Иванов");
         ccp.typeName("Иван");
         ccp.typeSecondname("Иванович");
-        ccp.typeTelephone("80334442233");
-        ccp.typeEmail("vanya@mail.ru");
+        ccp.typeTelephone("80334442231");
+        ccp.typeEmail("vanka@mail.ru");
         ccp.clickSaveButton();
         Thread.sleep(3000);
         Assert.assertTrue(driver.getTitle().equals("Иванов Иван Иванович - Конструктор Талантов"));
     }
 
-    //тест на создание кандидата с существующим телефоном и электронной почтой
     @Test
+    @DisplayName("Создание существующего кандидата")
+    @Description("Создаем кандидата, после чего создаем такого же")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Создание кандидата не удалось")
+    @Severity(SeverityLevel.CRITICAL)
     public void createPresentCandidate() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
         ccp.typeSurname("Иванов");
         ccp.typeName("Иван");
         ccp.typeSecondname("Иванович");
-        ccp.typeTelephone("80334442233");
-        ccp.typeEmail("vanya@mail.ru");
+        ccp.typeTelephone("80334442232");
+        ccp.typeEmail("vanyaa@mail.ru");
         ccp.clickSaveButton();
         Thread.sleep(3000);
 
@@ -71,14 +86,18 @@ public class CreateCandidateTests {
         ccp.typeSurname("Иванов");
         ccp.typeName("Иван");
         ccp.typeSecondname("Иванович");
-        ccp.typeTelephone("80334442233");
-        ccp.typeEmail("vanya@mail.ru");
+        ccp.typeTelephone("80334442232");
+        ccp.typeEmail("vanyaa@mail.ru");
         ccp.clickSaveButton();
         Assert.assertTrue(CandidateCreateElements.ERROR_MESSAGE.isElementPresent());
     }
 
-    //тест на ввод некорректных данных в поле Email и телефон
     @Test
+    @DisplayName("Создание кандидата с неверным телефоном и email")
+    @Description("Создаем кандидата, вводим некорректный телефон и email")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Создание кандидата не удалось")
+    @Severity(SeverityLevel.CRITICAL)
     public void createCandidateWithWrongPhoneAndEmail() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
@@ -92,16 +111,20 @@ public class CreateCandidateTests {
         Assert.assertTrue(CandidateCreateElements.WRONG_EMAIL.isElementPresent());
     }
 
-    //Тест на удаление только что созданного кандидата
     @Test
+    @DisplayName("Удаление кандидата")
+    @Description("Создаем кандидата, после чего удаляем его")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Удаление и редактирование кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void deleteCandidate() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
         ccp.typeSurname("Иванов");
         ccp.typeName("Иван");
         ccp.typeSecondname("Иванович");
-        ccp.typeTelephone("80334442233");
-        ccp.typeEmail("vanya@mail.ru");
+        ccp.typeTelephone("80334442234");
+        ccp.typeEmail("vanya777@mail.ru");
         ccp.clickSaveButton();
         Thread.sleep(1000);
         ccp.clickRemoveButtons();
@@ -109,16 +132,20 @@ public class CreateCandidateTests {
         Assert.assertTrue(CandidateCreateElements.REMOVE_MESSAGE.isElementPresent());
     }
 
-    //Тест на редактирование только что созданного кандидата
     @Test
+    @DisplayName("Редактирование кандидата")
+    @Description("Создаем кандидата, после чего нажимаем кнопку Редактировать и возвращаемся на страницу создания")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Удаление и редактирование кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void editCandidate() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
         ccp.typeSurname("Иванов");
         ccp.typeName("Иван");
         ccp.typeSecondname("Иванович");
-        ccp.typeTelephone("80334442233");
-        ccp.typeEmail("vanya@mail.ru");
+        ccp.typeTelephone("80334442235");
+        ccp.typeEmail("vanya888@mail.ru");
         ccp.clickSaveButton();
         Thread.sleep(1000);
         ccp.clickEditButton();
@@ -126,8 +153,12 @@ public class CreateCandidateTests {
         Assert.assertTrue(driver.getTitle().equals("Иванов Иван Иванович - Конструктор Талантов"));
     }
 
-    //Тест на отмену создания кандидата
     @Test
+    @DisplayName("Отмена создания кандидата")
+    @Description("Заходим на страницу создания кандидата, жмём кнопку Отмена")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Отмена создания кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void cancelCreatingCandidate() {
         login();
         ccp.goToCandidateCreatePage();
@@ -135,8 +166,12 @@ public class CreateCandidateTests {
         Assert.assertTrue(driver.getTitle().equals("Кандидаты - Конструктор Талантов"));
     }
 
-    //Тест на загрузку резюме профиля с tut.by, где ФИО загружается из файла
     @Test
+    @DisplayName("Загрузка резюме кандидата")
+    @Description("При созданиии кандидата загружаем резюме из файла")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Загрузка резюме прошла успешно")
+    @Severity(SeverityLevel.CRITICAL)
     public void uploadCVusingSeleniumCorrect() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
@@ -152,8 +187,12 @@ public class CreateCandidateTests {
         Assert.assertEquals( "1996", CandidateCreateElements.YEAR_OF_BIRTHADAY.getWebElement().getAttribute("value"));
     }
 
-    //Тест на загрузку резюме профиля с tut.by, где ФИО НЕ ЗАГРУЖАЕТСЯ из файла, думаю это связано с тем, что ФИО сместилось из-за фотографии
     @Test
+    @DisplayName("Загрузка резюме кандидата")
+    @Description("При созданиии кандидата загружаем резюме из файла")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Загрузка резюме провалилась")
+    @Severity(SeverityLevel.CRITICAL)
     public void uploadCVusingSeleniumIncorrect() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
@@ -169,8 +208,12 @@ public class CreateCandidateTests {
         Assert.assertEquals( "1996", CandidateCreateElements.YEAR_OF_BIRTHADAY.getWebElement().getAttribute("value"));
     }
 
-    //Тест на загрузку изображения с корректным форматом
     @Test
+    @DisplayName("Загрузка фотографии кандидата")
+    @Description("При созданиии кандидата загружаем фото")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Загрузка фото прошла успешно")
+    @Severity(SeverityLevel.CRITICAL)
     public void uploadImageUsingSikuliCorrect() throws FindFailed, InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
@@ -179,8 +222,12 @@ public class CreateCandidateTests {
         Assert.assertNotEquals(CandidateCreateElements.CURRENT_IMAGE.getWebElement().getAttribute("src"), NO_AVATAR);
     }
 
-    //Тест на загрузку изображения с некорректным форматом
     @Test
+    @DisplayName("Загрузка фотографии кандидата")
+    @Description("При созданиии кандидата загружаем файл с неверным форматом")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Загрузка фото провалилась")
+    @Severity(SeverityLevel.CRITICAL)
     public void uploadImageUsingSikuliIncorrect() throws FindFailed, InterruptedException {
         login();
         ccp.goToCandidateCreatePage();
@@ -190,8 +237,12 @@ public class CreateCandidateTests {
                 .equals("Выберите изображение (jpeg, jpg, png, gif, bmp)"));
     }
 
-    //Тест на загрузку файла с помощью Robot
     @Test
+    @DisplayName("Прикрепление документа")
+    @Description("При созданиии кандидата прикрепляем документ")
+    @Feature("Кандидаты")
+    @Story("Сценарий - Документ прикреплен")
+    @Severity(SeverityLevel.CRITICAL)
     public void uploadFileUsingRobot() throws InterruptedException {
         login();
         ccp.goToCandidateCreatePage();

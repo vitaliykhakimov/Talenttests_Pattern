@@ -100,7 +100,7 @@ public class CandidateCreateElements {
     public static final GenericElement REMOVE_BUTTON = new GenericElement("Удалить",
             By.xpath("//a[@id = 'removeButton']"));
     public static final GenericElement REMOVE_BUTTON2 = new GenericElement("Удалить",
-            By.xpath("//button[@class = 'btn btn-danger btn-danger-content yui3-widget btn-content btn-focused']"));
+            By.xpath("//div[@class = 'yui3-widget-ft modal-footer']//*[contains(text(), 'Удалить')]"));
     public static final GenericElement EDIT_BUTTON = new GenericElement("Редактировать",
             By.xpath("//a[@id = 'editButton']"));
     public static final GenericElement ERROR_MESSAGE = new GenericElement("Ошибка",

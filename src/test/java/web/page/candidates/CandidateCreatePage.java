@@ -1,6 +1,7 @@
 package web.page.candidates;
 
 import driver.WebDriverSingleton;
+import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -46,65 +47,80 @@ public class CandidateCreatePage {
     private final int FOUR = 4;
     private final int FIVE = 5;
 
+    @Step("Переход на страницу создания кандидата")
     public void goToCandidateCreatePage() {
         driver.get(CandidateCreateElements.URL);
     }
 
+    @Step("Ввод фамилии")
     public void typeSurname(String surname) {
         CandidateCreateElements.SURNAME.sendKeys(surname);
     }
 
+    @Step("Ввод имени")
     public void typeName(String name) {
         CandidateCreateElements.NAME.sendKeys(name);
     }
 
+    @Step("Ввод отчества")
     public void typeSecondname(String secondname) {
         CandidateCreateElements.SECONDNAME.sendKeys(secondname);
     }
 
+    @Step("Ввод телефона")
     public void typeTelephone(String phone) {
         CandidateCreateElements.TELEPHONE.sendKeys(phone);
     }
 
+    @Step("Ввод email")
     public void typeEmail(String email) {
         CandidateCreateElements.EMAIL.sendKeys(email);
     }
 
+    @Step("Ввод skype")
     public void typeSkype(String skype) {
         CandidateCreateElements.SKYPE.sendKeys(skype);
     }
 
+    @Step("Ввод страны")
     public void typeCountry(String country) {
         CandidateCreateElements.COUNTRY.sendKeys(country);
     }
 
+    @Step("Ввод города")
     public void typeCity(String city) {
         CandidateCreateElements.CITY.sendKeys(city);
     }
 
+    @Step("Кликаем кнопку возможности переезда")
     public void clickRelocationButton() {
         CandidateCreateElements.RELOCATION.click();
     }
 
+    @Step("Ввод даты рождения")
     public void typeBirthdayDate(String day, String month, String year) {
         CandidateCreateElements.DAY_OF_BIRTHADAY.sendKeys(day);
         CandidateCreateElements.MONTH_OF_BIRTHADAY.sendKeys(month);
         CandidateCreateElements.YEAR_OF_BIRTHADAY.sendKeys(year);
     }
 
+    @Step("Выбор образования")
     public void selectEducation(int index) {
         Select select = new Select(CandidateCreateElements.TYPE_EDUCATION_SELECT.getWebElement());
         select.selectByIndex(index);
     }
 
+    @Step("Ввод желаемой должности")
     public void typeDesiredPosition(String position) {
         CandidateCreateElements.DESIRED_POSITION.sendKeys(position);
     }
 
+    @Step("Ввод дополнительной информации")
     public void typeAdditionally(String add) {
         CandidateCreateElements.ADDITIONALLY.sendKeys(add);
     }
 
+    @Step("Ввод информации об образовании")
     public void typeInfoAboatEducation(String univer, String faculty, String spec, String startyear, String endyear) {
         CandidateCreateElements.EDUCATION_TAB.click();
         CandidateCreateElements.ADD_INFO_EDUCATION.click();
@@ -118,6 +134,7 @@ public class CandidateCreatePage {
         endYearSelect.selectByValue(endyear);
     }
 
+    @Step("Ввод информации об опыте работы")
     public void typeInfoAboutExperience(String pos, String comp, int monthStart, String yearStart, int monthEnd, String yearEnd, String descr) {
         CandidateCreateElements.EXPERIENCE_TAB.click();
         CandidateCreateElements.ADD_INFO_EXPERIENCE.click();
@@ -134,8 +151,9 @@ public class CandidateCreatePage {
         CandidateCreateElements.DESCRIPTION.sendKeys(descr);
     }
 
+    @Step("Выбор мотивационных факторов")
     public void selectMotivationFactors(int index_0, int index_1, int index_2, int index_3, int index_4, int index_5, int index_6, int index_7,
-                                        int index_8, int index_9, int index_10, int index_11) {
+                                        int index_8, int index_9, int index_10, int index_11) throws InterruptedException {
         CandidateCreateElements.MOTIVATION_TAB.click();
         Select selectFactor0 = new Select(CandidateCreateElements.MOTIVATION_FACTOR_0.getWebElement());
         selectFactor0.selectByIndex(index_0);
@@ -162,9 +180,10 @@ public class CandidateCreatePage {
         Select selectFactor11 = new Select(CandidateCreateElements.MOTIVATION_FACTOR_11.getWebElement());
         selectFactor11.selectByIndex(index_11);
         Actions actions = new Actions(driver);
-        actions.keyDown(Keys.CONTROL).sendKeys(Keys.UP).perform();
+        actions.keyDown(Keys.CONTROL).sendKeys(Keys.PAGE_UP).perform();
     }
 
+    @Step("Ввод рекомендаций")
     public void typeRecInformation(String name, String position, String company, String phone) {
         CandidateCreateElements.RECOMENRATION_TAB.click();
         CandidateCreateElements.ADD_RECOMENDATION.click();
@@ -178,6 +197,7 @@ public class CandidateCreatePage {
         actions.keyDown(Keys.CONTROL).sendKeys(Keys.PAGE_UP).perform();
     }
 
+    @Step("Ввод компетенций")
     public void typeCompetence() throws InterruptedException {
         CandidateCreateElements.EDIT_COMPETENCE_BUTTON.click();
         Thread.sleep(2000);
@@ -190,24 +210,31 @@ public class CandidateCreatePage {
         CandidateCreateElements.OK_BUTTON.click();
     }
 
-    public void clickSaveButton() {
+    @Step("Кликаем кнопку Сохранить")
+    public void clickSaveButton() throws InterruptedException {
+        Thread.sleep(2000);
         CandidateCreateElements.SAVE_BUTTON.click();
     }
 
+    @Step("Кликаем кнопку удалить")
     public void clickRemoveButtons() throws InterruptedException {
         CandidateCreateElements.REMOVE_BUTTON.click();
+        Thread.sleep(2000);
         CandidateCreateElements.REMOVE_BUTTON2.click();
     }
 
+    @Step("Получение пути к файлу")
     public String getAbsolutePath(String file) {
         Path path = Paths.get(file);
         return path.toAbsolutePath().toString();
     }
 
+    @Step("Загружаем файл с помощью Selenium")
     public void uploadFileWithSelenium(String fName) {
         CandidateCreateElements.UPLOAD_CV.sendKeys(getAbsolutePath("resources/" + fName + ""));
     }
 
+    @Step("Загружаем файл с помощью Sikuli")
     public void uploadFileWithSikuli(String imgName) throws InterruptedException, FindFailed {
         Pattern filePath = new Pattern("resources/sikuli/FilePath.JPG");
         Pattern openButton = new Pattern("resources/sikuli/OpenButton.JPG");
@@ -219,11 +246,13 @@ public class CandidateCreatePage {
         screen.click(openButton);
     }
 
+    @Step("Загружаем файл с помощью Robot")
     public void uploadFileWithRobot(String fName) {
         CandidateCreateElements.ADD_ATTACHMENT.click();
         sendFile(getAbsolutePath("resources/" + fName + ""));
     }
 
+    @Step("Копируем путь к файлу и вставляем в поле путь к файлу")
     private void sendFile(String path) {
         try{
             setClipboardData(path);
@@ -242,20 +271,24 @@ public class CandidateCreatePage {
         }
     }
 
+    @Step("Выбираем строку для копирования")
     private void setClipboardData(String str) {
         StringSelection strSelection = new StringSelection(str);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(strSelection, null);
     }
 
+    @Step("Кликаем кнопку Редактировать")
     public void clickEditButton() {
         CandidateCreateElements.EDIT_BUTTON.click();
     }
 
+    @Step("Кликаем кнопку отмены")
     public void clickCancelButton() {
         CandidateCreateElements.CANCEL_BUTTON.click();
     }
 
-    public void typeInformationFull() {
+    @Step("Ввод всей инфорации о кандидатах")
+    public void typeInformationFull() throws InterruptedException {
         typeSurname("Иванов");
         typeName("Иван");
         typeSecondname("Иванович");
@@ -272,7 +305,7 @@ public class CandidateCreatePage {
         //typeCompetence(); Не стал добавлять компетенции, так как драйвер не может нажать кнопку ОК, не смог решить эту проблему
         typeInfoAboatEducation("БГУИР", "КСИС", "Инженер-программист", "2015", "2019");
         typeInfoAboutExperience("Программист Java", "EPAM", MARCH, "2013", MARCH, "2018", "Писал Java код");
-        selectMotivationFactors(TWO, THREE, FIVE, FOUR, NOT_SELECTED, THREE, ONE, ONE, TWO, THREE, FIVE, NOT_SELECTED);
+        //selectMotivationFactors(TWO, THREE, FIVE, FOUR, NOT_SELECTED, THREE, ONE, ONE, TWO, THREE, FIVE, NOT_SELECTED);
         typeRecInformation("Сидоров Максим Иванович", "Team lead", "EPAM", "222-32-32");
     }
 

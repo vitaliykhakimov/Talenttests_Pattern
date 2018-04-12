@@ -1,0 +1,673 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 46,
+    "unknown" : 0,
+    "total" : 48
+  },
+  "time" : {
+    "minDuration" : 290,
+    "maxDuration" : 102536,
+    "sumDuration" : 1084392,
+    "start" : 1523537840642,
+    "stop" : 1523539111210,
+    "duration" : 1270568
+  },
+  "children" : [ {
+    "uid" : "5d60f6c17b683ab8",
+    "name" : "test.candidates.FiltersTests",
+    "time" : {
+      "minDuration" : 290,
+      "maxDuration" : 30156,
+      "sumDuration" : 271812,
+      "start" : 1523538577532,
+      "stop" : 1523538931883,
+      "duration" : 354351
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "9d9a6512696fd3c0",
+      "name" : "Фильтр по возможности переезда",
+      "time" : {
+        "start" : 1523538758916,
+        "stop" : 1523538781401,
+        "duration" : 22485
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "66a558234ab7f331",
+      "name" : "Фильтр по невозможности переезда",
+      "time" : {
+        "start" : 1523538612077,
+        "stop" : 1523538633306,
+        "duration" : 21229
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6a65992b4706416d",
+      "name" : "Фильтр по университету",
+      "time" : {
+        "start" : 1523538900859,
+        "stop" : 1523538927617,
+        "duration" : 26758
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "7088d4e9d446f5f",
+      "name" : "filterByEducation",
+      "time" : {
+        "start" : 1523538665346,
+        "stop" : 1523538665636,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d9898c61ca1f18ca",
+      "name" : "filterByVacancy",
+      "time" : {
+        "start" : 1523538697300,
+        "stop" : 1523538697648,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "474450fc92af013a",
+      "name" : "filterByRelocationUnavailable",
+      "time" : {
+        "start" : 1523538693020,
+        "stop" : 1523538693324,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "85bfb7dab404a0f7",
+      "name" : "Фильтр по вакансии",
+      "time" : {
+        "start" : 1523538798283,
+        "stop" : 1523538828439,
+        "duration" : 30156
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "11caaaf48ad3efe0",
+      "name" : "filterByCandidateWithCurrentExperience",
+      "time" : {
+        "start" : 1523538870407,
+        "stop" : 1523538870830,
+        "duration" : 423
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "63cb6acd6ae9b08a",
+      "name" : "Фильтр по статусу - Доступен для рассмотрения",
+      "time" : {
+        "start" : 1523538701626,
+        "stop" : 1523538727452,
+        "duration" : 25826
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6e84e67422550864",
+      "name" : "Фильтр по опыту работы",
+      "time" : {
+        "start" : 1523538669741,
+        "stop" : 1523538689136,
+        "duration" : 19395
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f00585f72af34950",
+      "name" : "Фильтр по статусу Новый",
+      "time" : {
+        "start" : 1523538637211,
+        "stop" : 1523538661441,
+        "duration" : 24230
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "faede070d5f8d4bc",
+      "name" : "Фильтр по статусу - Принят на работу",
+      "time" : {
+        "start" : 1523538581942,
+        "stop" : 1523538608197,
+        "duration" : 26255
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "141c3ba8d033b3f6",
+      "name" : "filterByStatusAvailable",
+      "time" : {
+        "start" : 1523538577532,
+        "stop" : 1523538577975,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "a21ef66027d3cdaa",
+      "name" : "filterByStatusApproval",
+      "time" : {
+        "start" : 1523538785259,
+        "stop" : 1523538785697,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6d97733c1bcb9726",
+      "name" : "filterByCompetence",
+      "time" : {
+        "start" : 1523538832332,
+        "stop" : 1523538832655,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "57b503b94ef4ab8f",
+      "name" : "filterByRelocationAvailable",
+      "time" : {
+        "start" : 1523538789586,
+        "stop" : 1523538790081,
+        "duration" : 495
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "aef8972ddb2936c5",
+      "name" : "Фильтр по компетенциям",
+      "time" : {
+        "start" : 1523538840967,
+        "stop" : 1523538866514,
+        "duration" : 25547
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "2472d47169c35501",
+      "name" : "filterByStatusHired",
+      "time" : {
+        "start" : 1523538793958,
+        "stop" : 1523538794259,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f6f01f69f0d70b62",
+      "name" : "filterByStatusNew",
+      "time" : {
+        "start" : 1523538836670,
+        "stop" : 1523538837034,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ce4947117bbdc1b7",
+      "name" : "Фильтр по статусу - Рассматривается на вакансию",
+      "time" : {
+        "start" : 1523538731487,
+        "stop" : 1523538755091,
+        "duration" : 23604
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "25139f4f9a27274d",
+      "name" : "Фильтр по образованию",
+      "time" : {
+        "start" : 1523538874718,
+        "stop" : 1523538896961,
+        "duration" : 22243
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e82b13c3e4ae01f0",
+      "name" : "filterByUniversity",
+      "time" : {
+        "start" : 1523538931528,
+        "stop" : 1523538931883,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "57b2e18bf0a47fb5",
+    "name" : "test.candidates.CreateCandidateTests",
+    "time" : {
+      "minDuration" : 21029,
+      "maxDuration" : 50488,
+      "sumDuration" : 376898,
+      "start" : 1523538153246,
+      "stop" : 1523538573451,
+      "duration" : 420205
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 12
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "fac5e5a7a4755cda",
+      "name" : "Редактирование кандидата",
+      "time" : {
+        "start" : 1523538539283,
+        "stop" : 1523538573451,
+        "duration" : 34168
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "856991904a73f02c",
+      "name" : "Создание существующего кандидата",
+      "time" : {
+        "start" : 1523538341745,
+        "stop" : 1523538379616,
+        "duration" : 37871
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "c363ef5ac23787f5",
+      "name" : "Создание кандидата (только обязательные поля)",
+      "time" : {
+        "start" : 1523538153246,
+        "stop" : 1523538183635,
+        "duration" : 30389
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "c50361fd4daa43ac",
+      "name" : "Отмена создания кандидата",
+      "time" : {
+        "start" : 1523538514326,
+        "stop" : 1523538535355,
+        "duration" : 21029
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "3d95ed7b8989178d",
+      "name" : "Загрузка резюме кандидата",
+      "time" : {
+        "start" : 1523538219098,
+        "stop" : 1523538241507,
+        "duration" : 22409
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6a1cf1b3116d4215",
+      "name" : "Прикрепление документа",
+      "time" : {
+        "start" : 1523538187824,
+        "stop" : 1523538215248,
+        "duration" : 27424
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "b530f8d8f5533cfd",
+      "name" : "Создание кандидата (все поля заполнены)",
+      "time" : {
+        "start" : 1523538245407,
+        "stop" : 1523538295895,
+        "duration" : 50488
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "bda7d0632cdf4f63",
+      "name" : "Загрузка резюме кандидата",
+      "time" : {
+        "start" : 1523538448344,
+        "stop" : 1523538471201,
+        "duration" : 22857
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "aeb6217eaaa686b2",
+      "name" : "Создание кандидата с неверным телефоном и email",
+      "time" : {
+        "start" : 1523538418128,
+        "stop" : 1523538444358,
+        "duration" : 26230
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6f68af97307d25d5",
+      "name" : "Загрузка фотографии кандидата",
+      "time" : {
+        "start" : 1523538383530,
+        "stop" : 1523538414224,
+        "duration" : 30694
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "de870eb043850299",
+      "name" : "Удаление кандидата",
+      "time" : {
+        "start" : 1523538475044,
+        "stop" : 1523538510338,
+        "duration" : 35294
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d4b9f4bc98f8db3b",
+      "name" : "Загрузка фотографии кандидата",
+      "time" : {
+        "start" : 1523538299774,
+        "stop" : 1523538337819,
+        "duration" : 38045
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "88d6c0283cbf748f",
+    "name" : "test.candidates.SearchTests",
+    "time" : {
+      "minDuration" : 23209,
+      "maxDuration" : 32592,
+      "sumDuration" : 79801,
+      "start" : 1523538935836,
+      "stop" : 1523539023459,
+      "duration" : 87623
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "f9f6c0df828bf9fe",
+      "name" : "Поиск несуществующего кандидата",
+      "time" : {
+        "start" : 1523538999459,
+        "stop" : 1523539023459,
+        "duration" : 24000
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e344a306399423a1",
+      "name" : "Поиск существующего кандидата",
+      "time" : {
+        "start" : 1523538972393,
+        "stop" : 1523538995602,
+        "duration" : 23209
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "b9f3ab3676555069",
+      "name" : "Переход на страницу кандидата",
+      "time" : {
+        "start" : 1523538935836,
+        "stop" : 1523538968428,
+        "duration" : 32592
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "4c0f0db753ac67d4",
+    "name" : "test.candidates.CandidatesTests",
+    "time" : {
+      "minDuration" : 24402,
+      "maxDuration" : 29580,
+      "sumDuration" : 78542,
+      "start" : 1523538062960,
+      "stop" : 1523538149324,
+      "duration" : 86364
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "39899be7ba8cde41",
+      "name" : "Навигационное меню",
+      "time" : {
+        "start" : 1523538062960,
+        "stop" : 1523538087520,
+        "duration" : 24560
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "79fcc39190027a93",
+      "name" : "Кнопка создания кандидата",
+      "time" : {
+        "start" : 1523538124922,
+        "stop" : 1523538149324,
+        "duration" : 24402
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "27fd277c59bed181",
+      "name" : "Переход на страницу кандидатов",
+      "time" : {
+        "start" : 1523538091455,
+        "stop" : 1523538121035,
+        "duration" : 29580
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "1236abf6b433801d",
+    "name" : "test.ApplicationTests",
+    "time" : {
+      "minDuration" : 35384,
+      "maxDuration" : 102536,
+      "sumDuration" : 209071,
+      "start" : 1523537840642,
+      "stop" : 1523538058593,
+      "duration" : 217951
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "e1c6d33f8558b44d",
+      "name" : "Кнопка создания заявки",
+      "time" : {
+        "start" : 1523537880814,
+        "stop" : 1523537951965,
+        "duration" : 71151
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f66e4e6f3d84a808",
+      "name" : "Создание заявки",
+      "time" : {
+        "start" : 1523537956057,
+        "stop" : 1523538058593,
+        "duration" : 102536
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d9a1609e3d46bdc7",
+      "name" : "Переход на страницу заявок",
+      "time" : {
+        "start" : 1523537840642,
+        "stop" : 1523537876026,
+        "duration" : 35384
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "f6d04bc7219f5cb3",
+    "name" : "test.login.LoginTests",
+    "time" : {
+      "minDuration" : 8486,
+      "maxDuration" : 28766,
+      "sumDuration" : 68268,
+      "start" : 1523539027432,
+      "stop" : 1523539111210,
+      "duration" : 83778
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "772bb1156c9959ff",
+      "name" : "Логин с пустым паролем и именем",
+      "time" : {
+        "start" : 1523539055951,
+        "stop" : 1523539066227,
+        "duration" : 10276
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "acd207beac395115",
+      "name" : "Логин с пустым именем",
+      "time" : {
+        "start" : 1523539027432,
+        "stop" : 1523539039583,
+        "duration" : 12151
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4751e72da253e419",
+      "name" : "Логин с пустым паролем",
+      "time" : {
+        "start" : 1523539070088,
+        "stop" : 1523539078574,
+        "duration" : 8486
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "7e0619a26622e0f3",
+      "name" : "Логин с неверными именем и паролем",
+      "time" : {
+        "start" : 1523539043450,
+        "stop" : 1523539052039,
+        "duration" : 8589
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "a645236ce99da39a",
+      "name" : "Логин",
+      "time" : {
+        "start" : 1523539082444,
+        "stop" : 1523539111210,
+        "duration" : 28766
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

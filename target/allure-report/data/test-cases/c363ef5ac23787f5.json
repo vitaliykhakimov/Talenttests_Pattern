@@ -1,0 +1,248 @@
+{
+  "uid" : "c363ef5ac23787f5",
+  "name" : "Создание кандидата (только обязательные поля)",
+  "fullName" : "test.candidates.CreateCandidateTests.createCandidateOnlyRequiredFields",
+  "historyId" : "1017e9c80c99c74a903bca75fa601c94",
+  "time" : {
+    "start" : 1523538153246,
+    "stop" : 1523538183635,
+    "duration" : 30389
+  },
+  "status" : "passed",
+  "description" : "Создание с заполнением только обязательных полей",
+  "descriptionHtml" : "<p>Создание с заполнением только обязательных полей</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523538153247,
+        "stop" : 1523538166945,
+        "duration" : 13698
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523538153247,
+          "stop" : 1523538158290,
+          "duration" : 5043
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523538158291,
+          "stop" : 1523538159019,
+          "duration" : 728
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523538159020,
+          "stop" : 1523538159644,
+          "duration" : 624
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523538159644,
+          "stop" : 1523538166945,
+          "duration" : 7301
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу создания кандидата",
+      "time" : {
+        "start" : 1523538166947,
+        "stop" : 1523538171960,
+        "duration" : 5013
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Ввод фамилии",
+      "time" : {
+        "start" : 1523538171961,
+        "stop" : 1523538172476,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Иванов"
+      } ]
+    }, {
+      "name" : "Ввод имени",
+      "time" : {
+        "start" : 1523538172477,
+        "stop" : 1523538172875,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Иван"
+      } ]
+    }, {
+      "name" : "Ввод отчества",
+      "time" : {
+        "start" : 1523538172876,
+        "stop" : 1523538173369,
+        "duration" : 493
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "secondname",
+        "value" : "Иванович"
+      } ]
+    }, {
+      "name" : "Ввод телефона",
+      "time" : {
+        "start" : 1523538173370,
+        "stop" : 1523538173941,
+        "duration" : 571
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "80334442231"
+      } ]
+    }, {
+      "name" : "Ввод email",
+      "time" : {
+        "start" : 1523538173942,
+        "stop" : 1523538174638,
+        "duration" : 696
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "vanka@mail.ru"
+      } ]
+    }, {
+      "name" : "Кликаем кнопку Сохранить",
+      "time" : {
+        "start" : 1523538174639,
+        "stop" : 1523538177390,
+        "duration" : 2751
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createCandidateOnlyRequiredFields"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "15572@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Кандидат успешно создался"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

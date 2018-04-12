@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: test.candidates.FiltersTests
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 358.328 s <<< FAILURE! - in test.candidates.FiltersTests
+filterByUniversityTag(test.candidates.FiltersTests)  Time elapsed: 26.763 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element <button type="button" class="multiselect dropdown-toggle btn btn-default" data-toggle="dropdown" style="border-radius: 4px; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis;" title="БГУ" id="yui_patched_v3_11_0_3_1523538913979_806" aria-expanded="true">...</button> is not clickable at point (434, 646). Other element would receive the click: <div id="tableLoading_TCCandidates_WAR_TCRecruitingAndOnboardingportlet_" class="loading-animation overlay" style="z-index: 5; position: absolute;"></div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 97762957f0c8b475fe6983fda595510f
+	at test.candidates.FiltersTests.filterByUniversityTag(FiltersTests.java:161)
+

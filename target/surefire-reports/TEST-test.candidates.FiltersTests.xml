@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.candidates.FiltersTests" time="358.328" tests="22" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2017.3.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\IdeaProjects\TalentTestsPattern\Talenttests"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\IdeaProjects\TalentTestsPattern\Talenttests"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vital\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Users\vital\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_161\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\vital"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vital"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.4 clean test allure:report"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="filterByStatusAvailable" classname="test.candidates.FiltersTests" time="0.449"/>
+  <testcase name="filterByStatusTagHired" classname="test.candidates.FiltersTests" time="26.257"/>
+  <testcase name="filterByRelocationUnavailableTag" classname="test.candidates.FiltersTests" time="21.235"/>
+  <testcase name="filterByStatusTagNew" classname="test.candidates.FiltersTests" time="24.235"/>
+  <testcase name="filterByEducation" classname="test.candidates.FiltersTests" time="0.293"/>
+  <testcase name="filterByExperienceTag" classname="test.candidates.FiltersTests" time="19.398"/>
+  <testcase name="filterByRelocationUnavailable" classname="test.candidates.FiltersTests" time="0.31"/>
+  <testcase name="filterByVacancy" classname="test.candidates.FiltersTests" time="0.351"/>
+  <testcase name="filterByStatusTagAvailable" classname="test.candidates.FiltersTests" time="25.831"/>
+  <testcase name="filterByStatusTagApproval" classname="test.candidates.FiltersTests" time="23.608"/>
+  <testcase name="filterByRelocationAvailableTag" classname="test.candidates.FiltersTests" time="22.489"/>
+  <testcase name="filterByStatusApproval" classname="test.candidates.FiltersTests" time="0.442"/>
+  <testcase name="filterByRelocationAvailable" classname="test.candidates.FiltersTests" time="0.498"/>
+  <testcase name="filterByStatusHired" classname="test.candidates.FiltersTests" time="0.305"/>
+  <testcase name="filterByVacancyTag" classname="test.candidates.FiltersTests" time="30.159"/>
+  <testcase name="filterByCompetence" classname="test.candidates.FiltersTests" time="0.326"/>
+  <testcase name="filterByStatusNew" classname="test.candidates.FiltersTests" time="0.366"/>
+  <testcase name="filterByCompetenceTag" classname="test.candidates.FiltersTests" time="25.551"/>
+  <testcase name="filterByCandidateWithCurrentExperience" classname="test.candidates.FiltersTests" time="0.429"/>
+  <testcase name="filterByEducationTag" classname="test.candidates.FiltersTests" time="22.246"/>
+  <testcase name="filterByUniversityTag" classname="test.candidates.FiltersTests" time="26.763">
+    <error message="unknown error: Element &lt;button type=&quot;button&quot; class=&quot;multiselect dropdown-toggle btn btn-default&quot; data-toggle=&quot;dropdown&quot; style=&quot;border-radius: 4px; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis;&quot; title=&quot;БГУ&quot; id=&quot;yui_patched_v3_11_0_3_1523538913979_806&quot; aria-expanded=&quot;true&quot;&gt;...&lt;/button&gt; is not clickable at point (434, 646). Other element would receive the click: &lt;div id=&quot;tableLoading_TCCandidates_WAR_TCRecruitingAndOnboardingportlet_&quot; class=&quot;loading-animation overlay&quot; style=&quot;z-index: 5; position: absolute;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-DD3A5QC&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 97762957f0c8b475fe6983fda595510f" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <button type="button" class="multiselect dropdown-toggle btn btn-default" data-toggle="dropdown" style="border-radius: 4px; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis;" title="БГУ" id="yui_patched_v3_11_0_3_1523538913979_806" aria-expanded="true">...</button> is not clickable at point (434, 646). Other element would receive the click: <div id="tableLoading_TCCandidates_WAR_TCRecruitingAndOnboardingportlet_" class="loading-animation overlay" style="z-index: 5; position: absolute;"></div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 97762957f0c8b475fe6983fda595510f
+	at test.candidates.FiltersTests.filterByUniversityTag(FiltersTests.java:161)
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 48486
+Only local connections are allowed.
+Apr 12, 2018 4:14:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="filterByUniversity" classname="test.candidates.FiltersTests" time="0.361"/>
+</testsuite>

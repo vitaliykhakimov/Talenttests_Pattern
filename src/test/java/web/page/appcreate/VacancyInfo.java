@@ -1,6 +1,7 @@
 package web.page.appcreate;
 
 import driver.WebDriverSingleton;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import web.elements.appcreate.CreateApplicationElements;
@@ -11,40 +12,37 @@ import java.util.List;
 public class VacancyInfo {
     WebDriver driver = WebDriverSingleton.getInstance();
 
+    @Step("Переходим на страницу создания заявки")
     public void goToCreateApplicationPage() {
         driver.get(CreateApplicationElements.URL);
     }
 
+    @Step("Ввод должности")
     public void typePosition(String position) {
-        //WebElement element = driver.findElement(VacancyInfoElements.POSITION.getWebElement());
-        //element.sendKeys(position);
         VacancyInfoElements.POSITION.sendKeys(position);
     }
 
+    @Step("Ввод даты окончания набора")
     public void typePlanningDate(String date) {
-        //WebElement element = driver.findElement(VacancyInfoElements.PLANNING_DATE_FIELD);
-        //element.sendKeys(date);
         VacancyInfoElements.PLANNING_DATE_FIELD.sendKeys(date);
     }
 
+    @Step("Выбираем приоритет")
     public void selectPriority(int priority) {
-        //List<WebElement> priorities = driver.findElements(VacancyInfoElements.PRIORITY_BUTTON.getBy());
-        //priorities.get(priority).click();
         VacancyInfoElements.PRIORITY_BUTTON.selectAndClickRadioButton(priority);
     }
 
+    @Step("Вводим количество кандидатов")
     public void typeCountOfCandidates(String count) {
-        //WebElement element = driver.findElement(VacancyInfoElements.COUNT_OF_CANDIDATES);
-        //element.sendKeys(count);
         VacancyInfoElements.COUNT_OF_CANDIDATES.sendKeys(count);
     }
 
+    @Step("Вводим причину создания")
     public void typeCreationReason(String reason) {
-        //WebElement element = driver.findElement(VacancyInfoElements.CREATION_REASON);
-        //element.sendKeys(reason);
         VacancyInfoElements.CREATION_REASON.sendKeys(reason);
     }
 
+    @Step("Вводим всю информацию о вакансии")
     public void typeInformationAboutVacancyFull() {
         typePosition("QA engineer");
         typePlanningDate("12.04.2018");

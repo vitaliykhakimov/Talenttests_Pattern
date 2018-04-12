@@ -1,0 +1,217 @@
+{
+  "uid" : "6a1cf1b3116d4215",
+  "name" : "Прикрепление документа",
+  "fullName" : "test.candidates.CreateCandidateTests.uploadFileUsingRobot",
+  "historyId" : "4fda9dc0affc058fc1656512c64056e2",
+  "time" : {
+    "start" : 1523538187824,
+    "stop" : 1523538215248,
+    "duration" : 27424
+  },
+  "status" : "passed",
+  "description" : "При созданиии кандидата прикрепляем документ",
+  "descriptionHtml" : "<p>При созданиии кандидата прикрепляем документ</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523538187825,
+        "stop" : 1523538201581,
+        "duration" : 13756
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523538187825,
+          "stop" : 1523538193093,
+          "duration" : 5268
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523538193094,
+          "stop" : 1523538193795,
+          "duration" : 701
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523538193795,
+          "stop" : 1523538194368,
+          "duration" : 573
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523538194369,
+          "stop" : 1523538201581,
+          "duration" : 7212
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу создания кандидата",
+      "time" : {
+        "start" : 1523538201582,
+        "stop" : 1523538206185,
+        "duration" : 4603
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Загружаем файл с помощью Robot",
+      "time" : {
+        "start" : 1523538206186,
+        "stop" : 1523538210985,
+        "duration" : 4799
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Получение пути к файлу",
+        "time" : {
+          "start" : 1523538206550,
+          "stop" : 1523538206550,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "file",
+          "value" : "resources/resume2.doc"
+        } ]
+      }, {
+        "name" : "Копируем путь к файлу и вставляем в поле путь к файлу",
+        "time" : {
+          "start" : 1523538206551,
+          "stop" : 1523538210985,
+          "duration" : 4434
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Выбираем строку для копирования",
+          "time" : {
+            "start" : 1523538206551,
+            "stop" : 1523538207653,
+            "duration" : 1102
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "str",
+            "value" : "E:\\IdeaProjects\\TalentTestsPattern\\Talenttests\\resources\\resume2.doc"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "E:\\IdeaProjects\\TalentTestsPattern\\Talenttests\\resources\\resume2.doc"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fName",
+        "value" : "resume2.doc"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadFileUsingRobot"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.CreateCandidateTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "15572@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Документ прикреплен"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "categories" : [ ]
+  }
+}

@@ -1,6 +1,8 @@
 package test;
 
 import driver.WebDriverSingleton;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -29,7 +31,8 @@ public class ApplicationTests {
     private PositionInfo pi = new PositionInfo();
     private RequirmentsToCandidate rtc = new RequirmentsToCandidate();
     private ApplicationPreviewElements ape = new ApplicationPreviewElements();
-    //login
+
+    @Step("Логинимся в систему")
     private void login(){
         lp.enterLoginPage();
         lp.typeUsername("kabanov@tc.by");
@@ -38,23 +41,39 @@ public class ApplicationTests {
     }
 
     @Test
-    public void goToApplicationsPageTest() throws InterruptedException {
+    @DisplayName("Переход на страницу заявок")
+    @Description("Переходим на страницу отображения заявок")
+    @Feature("Заявки")
+    @Story("Сценарий - Переход на страницу заявок выполнен")
+    @Severity(SeverityLevel.BLOCKER)
+    public void goToApplicationsPage() {
         login();
         mu.goToApplicationsPage();
         Assert.assertTrue(driver.getTitle().equals("Заявки - Конструктор Талантов"));
     }
 
     @Test
+    @DisplayName("Кнопка создания заявки")
+    @Description("Нажимаем на кнопку создания заявки")
+    @Feature("Заявки")
+    @Story("Сценарий - Кнопка создания заявки нажимается")
+    @Severity(SeverityLevel.BLOCKER)
     public void clickCreateApplicationButton() throws InterruptedException {
         login();
         Thread.sleep(2000);
         mu.goToApplicationsPage();
+        Thread.sleep(2000);
         ap.clickCreateApplicationButton();
         Thread.sleep(3000);
         Assert.assertTrue(driver.getTitle().equals("Создание заявки на подбор персонала - Конструктор Талантов"));
     }
 
     @Test
+    @DisplayName("Создание заявки")
+    @Description("Создаем заявку, заполняем все поля и проверям данные")
+    @Feature("Заявки")
+    @Story("Сценарий - Заявка успешно создана")
+    @Severity(SeverityLevel.BLOCKER)
     public void creatingApplication() throws InterruptedException {
         login();
         Thread.sleep(2000);
