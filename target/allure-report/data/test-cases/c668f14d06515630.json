@@ -1,0 +1,121 @@
+{
+  "uid" : "c668f14d06515630",
+  "name" : "Логин с неверными именем и паролем",
+  "fullName" : "test.login.LoginTests.wrongUsernameLogin",
+  "historyId" : "659b2dc958ee423a18a2e68785041ff9",
+  "time" : {
+    "start" : 1523953277846,
+    "stop" : 1523953285472,
+    "duration" : 7626
+  },
+  "status" : "passed",
+  "description" : "Производим логин с неверными данными",
+  "descriptionHtml" : "<p>Производим логин с неверными данными</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу логина",
+      "time" : {
+        "start" : 1523953277847,
+        "stop" : 1523953280998,
+        "duration" : 3151
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Ввод имени",
+      "time" : {
+        "start" : 1523953280998,
+        "stop" : 1523953281322,
+        "duration" : 324
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "kaban@tc.by"
+      } ]
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1523953281322,
+        "stop" : 1523953281575,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "we"
+      } ]
+    }, {
+      "name" : "Кликаем кнопку логина",
+      "time" : {
+        "start" : 1523953281575,
+        "stop" : 1523953283198,
+        "duration" : 1623
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.login"
+  }, {
+    "name" : "testClass",
+    "value" : "test.login.LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "wrongUsernameLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test.login.LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Авторизация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Логин не выполнен"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "uid" : "458dcc90f1bd9b15",
+  "name" : "filterByEducation",
+  "fullName" : "test.candidates.FiltersTests.filterByEducation",
+  "historyId" : "98d86230c2bba45f746e0f5624587267",
+  "time" : {
+    "start" : 1523952794133,
+    "stop" : 1523952794350,
+    "duration" : 217
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByEducation"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

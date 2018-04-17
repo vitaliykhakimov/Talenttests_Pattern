@@ -1,0 +1,166 @@
+{
+  "uid" : "888c80eaed4510f1",
+  "name" : "Переход на страницу кандидатов",
+  "fullName" : "test.candidates.CandidatesTests.goToCantidatesMainPage",
+  "historyId" : "4cd094984922a63cac9303abab3f0384",
+  "time" : {
+    "start" : 1523952183625,
+    "stop" : 1523952203410,
+    "duration" : 19785
+  },
+  "status" : "passed",
+  "description" : "Переходим на страницу кандидатов с помощью кнопок меню",
+  "descriptionHtml" : "<p>Переходим на страницу кандидатов с помощью кнопок меню</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523952183625,
+        "stop" : 1523952197172,
+        "duration" : 13547
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523952183625,
+          "stop" : 1523952192110,
+          "duration" : 8485
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523952192111,
+          "stop" : 1523952192458,
+          "duration" : 347
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523952192458,
+          "stop" : 1523952192749,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523952192749,
+          "stop" : 1523952197172,
+          "duration" : 4423
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "kabanov@tc.by"
+      } ]
+    }, {
+      "name" : "Переход на страницу кандидатов",
+      "time" : {
+        "start" : 1523952197173,
+        "stop" : 1523952201081,
+        "duration" : 3908
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "steps" : [ {
+        "name" : "Переход на страницу подбора и адаптации",
+        "time" : {
+          "start" : 1523952197173,
+          "stop" : 1523952199203,
+          "duration" : 2030
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.CandidatesTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToCantidatesMainPage"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.CandidatesTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Переход на страницу кандидатов совершён"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

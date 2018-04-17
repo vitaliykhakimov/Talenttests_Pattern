@@ -1,0 +1,621 @@
+{
+  "uid" : "4d01fd3052413a95",
+  "name" : "Создание заявки",
+  "fullName" : "test.applications.ApplicationTests.creatingApplication",
+  "historyId" : "4b206ab4c1f99d3f75fb2b0cba1a9d4d",
+  "time" : {
+    "start" : 1523952116194,
+    "stop" : 1523952163615,
+    "duration" : 47421
+  },
+  "status" : "passed",
+  "description" : "Создаем заявку, заполняем все поля и проверям данные",
+  "descriptionHtml" : "<p>Создаем заявку, заполняем все поля и проверям данные</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523952116194,
+        "stop" : 1523952124699,
+        "duration" : 8505
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523952116194,
+          "stop" : 1523952119342,
+          "duration" : 3148
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523952119343,
+          "stop" : 1523952119703,
+          "duration" : 360
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523952119703,
+          "stop" : 1523952119980,
+          "duration" : 277
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523952119980,
+          "stop" : 1523952124699,
+          "duration" : 4719
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "kabanov@tc.by"
+      } ]
+    }, {
+      "name" : "Переход на страницу создания заявки",
+      "time" : {
+        "start" : 1523952126699,
+        "stop" : 1523952130614,
+        "duration" : 3915
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим всю информацию о вакансии",
+      "time" : {
+        "start" : 1523952130615,
+        "stop" : 1523952132441,
+        "duration" : 1826
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 5,
+      "steps" : [ {
+        "name" : "Ввод должности",
+        "time" : {
+          "start" : 1523952130615,
+          "stop" : 1523952131211,
+          "duration" : 596
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "position",
+          "value" : "Junior iOS developer"
+        } ]
+      }, {
+        "name" : "Ввод даты окончания набора",
+        "time" : {
+          "start" : 1523952131212,
+          "stop" : 1523952131615,
+          "duration" : 403
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "date",
+          "value" : "25.04.2018"
+        } ]
+      }, {
+        "name" : "Выбираем приоритет",
+        "time" : {
+          "start" : 1523952131617,
+          "stop" : 1523952131902,
+          "duration" : 285
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "priority",
+          "value" : "2"
+        } ]
+      }, {
+        "name" : "Вводим количество кандидатов",
+        "time" : {
+          "start" : 1523952131903,
+          "stop" : 1523952132108,
+          "duration" : 205
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "count",
+          "value" : "3"
+        } ]
+      }, {
+        "name" : "Вводим причину создания",
+        "time" : {
+          "start" : 1523952132108,
+          "stop" : 1523952132441,
+          "duration" : 333
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "reason",
+          "value" : "Резкая необходимость."
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Заполнение всех полей о позиции",
+      "time" : {
+        "start" : 1523952132441,
+        "stop" : 1523952136405,
+        "duration" : 3964
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 9,
+      "steps" : [ {
+        "name" : "Выбор типа договора",
+        "time" : {
+          "start" : 1523952132442,
+          "stop" : 1523952132661,
+          "duration" : 219
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "type",
+          "value" : "1"
+        } ]
+      }, {
+        "name" : "Ввод зарплаты",
+        "time" : {
+          "start" : 1523952132662,
+          "stop" : 1523952132927,
+          "duration" : 265
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "salary",
+          "value" : "3000"
+        } ]
+      }, {
+        "name" : "Выбор валюты",
+        "time" : {
+          "start" : 1523952132928,
+          "stop" : 1523952133222,
+          "duration" : 294
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "index",
+          "value" : "2"
+        } ]
+      }, {
+        "name" : "Выбор занятости",
+        "time" : {
+          "start" : 1523952133223,
+          "stop" : 1523952133532,
+          "duration" : 309
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "index",
+          "value" : "2"
+        } ]
+      }, {
+        "name" : "Ввод подчиненных",
+        "time" : {
+          "start" : 1523952133533,
+          "stop" : 1523952134067,
+          "duration" : 534
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "employees",
+          "value" : "В наличии 3 подчиненных."
+        } ]
+      }, {
+        "name" : "Ввод командировок",
+        "time" : {
+          "start" : 1523952134067,
+          "stop" : 1523952134507,
+          "duration" : 440
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "trips",
+          "value" : "При необходимости."
+        } ]
+      }, {
+        "name" : "Ввод графика",
+        "time" : {
+          "start" : 1523952134508,
+          "stop" : 1523952135604,
+          "duration" : 1096
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "tt",
+          "value" : "5 дней в неделю, 8 часов в день. Сверхурочные работы - при необходимости"
+        } ]
+      }, {
+        "name" : "Ввод испытательного срока",
+        "time" : {
+          "start" : 1523952135604,
+          "stop" : 1523952135867,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pp",
+          "value" : "1 месяц"
+        } ]
+      }, {
+        "name" : "Ввод обязанностей",
+        "time" : {
+          "start" : 1523952135867,
+          "stop" : 1523952136405,
+          "duration" : 538
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "resp",
+          "value" : "Составление тест-кейсов.\nНаписание собственных тестов."
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Заполняем все поля требований к кандидату",
+      "time" : {
+        "start" : 1523952136405,
+        "stop" : 1523952155154,
+        "duration" : 18749
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 11,
+      "steps" : [ {
+        "name" : "Выбор типа кандидата",
+        "time" : {
+          "start" : 1523952136406,
+          "stop" : 1523952136620,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "type",
+          "value" : "0"
+        } ]
+      }, {
+        "name" : "Выбор уровня образования",
+        "time" : {
+          "start" : 1523952136621,
+          "stop" : 1523952136952,
+          "duration" : 331
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "lvl",
+          "value" : "4"
+        } ]
+      }, {
+        "name" : "Ввод специальности",
+        "time" : {
+          "start" : 1523952136952,
+          "stop" : 1523952137304,
+          "duration" : 352
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "spec",
+          "value" : "Инженер-программист"
+        } ]
+      }, {
+        "name" : "Выбор опыта",
+        "time" : {
+          "start" : 1523952137305,
+          "stop" : 1523952137551,
+          "duration" : 246
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "exp",
+          "value" : "1"
+        } ]
+      }, {
+        "name" : "Ввод компаний, опыт в которых в приоритете",
+        "time" : {
+          "start" : 1523952137552,
+          "stop" : 1523952137791,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pwe",
+          "value" : "EPAM"
+        } ]
+      }, {
+        "name" : "Ввод компаний, опыт в которых нежелателен",
+        "time" : {
+          "start" : 1523952137791,
+          "stop" : 1523952138023,
+          "duration" : 232
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "uwe",
+          "value" : "Интеграл"
+        } ]
+      }, {
+        "name" : "Нажимаем на кнопку добавления обязательных компетенций",
+        "time" : {
+          "start" : 1523952138024,
+          "stop" : 1523952138324,
+          "duration" : 300
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Выбираем обязательные компетенции",
+        "time" : {
+          "start" : 1523952138324,
+          "stop" : 1523952148169,
+          "duration" : 9845
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Нажимаем кнопку добавления желательных компетенций",
+        "time" : {
+          "start" : 1523952148169,
+          "stop" : 1523952148527,
+          "duration" : 358
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Выбираем желательные компетенции",
+        "time" : {
+          "start" : 1523952148527,
+          "stop" : 1523952154815,
+          "duration" : 6288
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод комментариев",
+        "time" : {
+          "start" : 1523952154816,
+          "stop" : 1523952155154,
+          "duration" : 338
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "comm",
+          "value" : "Тут комментарии."
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Кликаем кнопку Сохранить",
+      "time" : {
+        "start" : 1523952155154,
+        "stop" : 1523952155431,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 35
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.applications"
+  }, {
+    "name" : "testClass",
+    "value" : "test.applications.ApplicationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "creatingApplication"
+  }, {
+    "name" : "suite",
+    "value" : "test.applications.ApplicationTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Заявки"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Заявка успешно создана"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

@@ -59,4 +59,25 @@ public class CandidatesElements {
 
     public static final GenericElement CREATE_CANDIDATE_BUTTON = new GenericElement("Создать кандидата", By.xpath("//a[@id = 'createProfileButton']"));
     public static final GenericElement PAGINATION = new GenericElement("Нумерация страниц", By.xpath("//div[@id = 'pagination']"));
+
+    public static final GenericElement INVITE_FOR_INTERVIEW_BTN = new GenericElement("Пригласить на интервью",
+            By.xpath("//a[@id = 'inviteForTheInterview']"));
+    public static final GenericElement CREATE_INTERVIEW_DATE = new GenericElement("Создать",
+            By.xpath("//button[@id = 'createBtn']"));
+    public static final GenericElement INTERVIEWER = new GenericElement("Интервьюер",
+            By.xpath("//div[@class = 'controls form-gorup']//input[@id = 'searchInput']"));
+    public static final GenericElement DATE = new GenericElement("Дата",
+            By.xpath("//div[@class = 'controls form-gorup']//input[@id = 'dateInput']"));
+    public static final GenericElement TIMEPICKER_START = new GenericElement("Время начала",
+            By.xpath("//div[@class = 'controls form-gorup']//input[@id = 'timepicker-start']"));
+    public static final GenericElement TIMEPICKER_END = new GenericElement("Время окончания",
+            By.xpath("//div[@class = 'controls form-gorup']//input[@id = 'timepicker-end']"));
+    public static final GenericElement SAVE_BUTTON = new GenericElement("Сохранить",
+            By.xpath("//button[contains(text(), 'Сохранить')]"));
+    public static final GenericElement PASSED_INTERVIEW_BUTTON = new GenericElement("Прошел интервью",
+            By.xpath("//a[@id = 'changeStatus_PassedTheInterview']"));
+    public static final GenericElement OFFERED_A_JOB_BUTTON = new GenericElement("Пригласить на работу",
+            By.xpath("//a[@id = 'changeStatus_OfferedAJob']"));
+    public static final GenericElement OFFERED_JOB_STATUS = new GenericElement("Приглашен на работу",
+            By.xpath("//span[@id = 'statusForVacancyLabel']"));
 }

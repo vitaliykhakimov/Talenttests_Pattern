@@ -1,0 +1,163 @@
+{
+  "uid" : "c7b7a5c01813eef7",
+  "name" : "Фильтр по статусу - Доступен для рассмотрения",
+  "fullName" : "test.candidates.FiltersTests.filterByStatusTagAvailable",
+  "historyId" : "b069d74b0d66db3044d6a489a98e9902",
+  "time" : {
+    "start" : 1523952821544,
+    "stop" : 1523952842736,
+    "duration" : 21192
+  },
+  "status" : "passed",
+  "description" : "Производим фильтрацию по статусу - Доступен для рассмотрения",
+  "descriptionHtml" : "<p>Производим фильтрацию по статусу - Доступен для рассмотрения</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523952821545,
+        "stop" : 1523952832949,
+        "duration" : 11404
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523952821545,
+          "stop" : 1523952827784,
+          "duration" : 6239
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523952827784,
+          "stop" : 1523952828136,
+          "duration" : 352
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523952828136,
+          "stop" : 1523952828404,
+          "duration" : 268
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523952828404,
+          "stop" : 1523952832949,
+          "duration" : 4545
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу кандидатов",
+      "time" : {
+        "start" : 1523952832949,
+        "stop" : 1523952835255,
+        "duration" : 2306
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Выбираем статус Доступен",
+      "time" : {
+        "start" : 1523952835256,
+        "stop" : 1523952840455,
+        "duration" : 5199
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByStatusTagAvailable"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий -  Теги фильтров отображаются"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "minor",
+    "categories" : [ ]
+  }
+}

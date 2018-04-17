@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.candidates.FiltersTests" time="358.328" tests="22" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.candidates.FiltersTests" time="284.182" tests="22" errors="0" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,44 +61,44 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="filterByStatusAvailable" classname="test.candidates.FiltersTests" time="0.449"/>
-  <testcase name="filterByStatusTagHired" classname="test.candidates.FiltersTests" time="26.257"/>
-  <testcase name="filterByRelocationUnavailableTag" classname="test.candidates.FiltersTests" time="21.235"/>
-  <testcase name="filterByStatusTagNew" classname="test.candidates.FiltersTests" time="24.235"/>
-  <testcase name="filterByEducation" classname="test.candidates.FiltersTests" time="0.293"/>
-  <testcase name="filterByExperienceTag" classname="test.candidates.FiltersTests" time="19.398"/>
-  <testcase name="filterByRelocationUnavailable" classname="test.candidates.FiltersTests" time="0.31"/>
-  <testcase name="filterByVacancy" classname="test.candidates.FiltersTests" time="0.351"/>
-  <testcase name="filterByStatusTagAvailable" classname="test.candidates.FiltersTests" time="25.831"/>
-  <testcase name="filterByStatusTagApproval" classname="test.candidates.FiltersTests" time="23.608"/>
-  <testcase name="filterByRelocationAvailableTag" classname="test.candidates.FiltersTests" time="22.489"/>
-  <testcase name="filterByStatusApproval" classname="test.candidates.FiltersTests" time="0.442"/>
-  <testcase name="filterByRelocationAvailable" classname="test.candidates.FiltersTests" time="0.498"/>
-  <testcase name="filterByStatusHired" classname="test.candidates.FiltersTests" time="0.305"/>
-  <testcase name="filterByVacancyTag" classname="test.candidates.FiltersTests" time="30.159"/>
-  <testcase name="filterByCompetence" classname="test.candidates.FiltersTests" time="0.326"/>
-  <testcase name="filterByStatusNew" classname="test.candidates.FiltersTests" time="0.366"/>
-  <testcase name="filterByCompetenceTag" classname="test.candidates.FiltersTests" time="25.551"/>
-  <testcase name="filterByCandidateWithCurrentExperience" classname="test.candidates.FiltersTests" time="0.429"/>
-  <testcase name="filterByEducationTag" classname="test.candidates.FiltersTests" time="22.246"/>
-  <testcase name="filterByUniversityTag" classname="test.candidates.FiltersTests" time="26.763">
-    <error message="unknown error: Element &lt;button type=&quot;button&quot; class=&quot;multiselect dropdown-toggle btn btn-default&quot; data-toggle=&quot;dropdown&quot; style=&quot;border-radius: 4px; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis;&quot; title=&quot;БГУ&quot; id=&quot;yui_patched_v3_11_0_3_1523538913979_806&quot; aria-expanded=&quot;true&quot;&gt;...&lt;/button&gt; is not clickable at point (434, 646). Other element would receive the click: &lt;div id=&quot;tableLoading_TCCandidates_WAR_TCRecruitingAndOnboardingportlet_&quot; class=&quot;loading-animation overlay&quot; style=&quot;z-index: 5; position: absolute;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-DD3A5QC&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 97762957f0c8b475fe6983fda595510f" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: Element <button type="button" class="multiselect dropdown-toggle btn btn-default" data-toggle="dropdown" style="border-radius: 4px; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis;" title="БГУ" id="yui_patched_v3_11_0_3_1523538913979_806" aria-expanded="true">...</button> is not clickable at point (434, 646). Other element would receive the click: <div id="tableLoading_TCCandidates_WAR_TCRecruitingAndOnboardingportlet_" class="loading-animation overlay" style="z-index: 5; position: absolute;"></div>
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 97762957f0c8b475fe6983fda595510f
-	at test.candidates.FiltersTests.filterByUniversityTag(FiltersTests.java:161)
-]]></error>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 48486
+  <testcase name="filterByStatusAvailable" classname="test.candidates.FiltersTests" time="0.327"/>
+  <testcase name="filterByStatusTagHired" classname="test.candidates.FiltersTests" time="18.676"/>
+  <testcase name="filterByRelocationUnavailableTag" classname="test.candidates.FiltersTests" time="18.927"/>
+  <testcase name="filterByStatusTagNew" classname="test.candidates.FiltersTests" time="17.823"/>
+  <testcase name="filterByEducation" classname="test.candidates.FiltersTests" time="0.22"/>
+  <testcase name="filterByExperienceTag" classname="test.candidates.FiltersTests" time="13.14"/>
+  <testcase name="filterByRelocationUnavailable" classname="test.candidates.FiltersTests" time="0.227"/>
+  <testcase name="filterByVacancy" classname="test.candidates.FiltersTests" time="0.207"/>
+  <testcase name="filterByStatusTagAvailable" classname="test.candidates.FiltersTests" time="21.194"/>
+  <testcase name="filterByStatusTagApproval" classname="test.candidates.FiltersTests" time="18.664"/>
+  <testcase name="filterByRelocationAvailableTag" classname="test.candidates.FiltersTests" time="15.86"/>
+  <testcase name="filterByStatusApproval" classname="test.candidates.FiltersTests" time="0.221"/>
+  <testcase name="filterByRelocationAvailable" classname="test.candidates.FiltersTests" time="0.193"/>
+  <testcase name="filterByStatusHired" classname="test.candidates.FiltersTests" time="0.22"/>
+  <testcase name="filterByVacancyTag" classname="test.candidates.FiltersTests" time="19.353">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at test.candidates.FiltersTests.filterByVacancyTag(FiltersTests.java:136)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 11686
 Only local connections are allowed.
-Apr 12, 2018 4:14:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 17, 2018 11:14:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="filterByUniversity" classname="test.candidates.FiltersTests" time="0.361"/>
+  <testcase name="filterByCompetence" classname="test.candidates.FiltersTests" time="0.195"/>
+  <testcase name="filterByStatusNew" classname="test.candidates.FiltersTests" time="0.178"/>
+  <testcase name="filterByCompetenceTag" classname="test.candidates.FiltersTests" time="19.447">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at test.candidates.FiltersTests.filterByCompetenceTag(FiltersTests.java:175)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 24657
+Only local connections are allowed.
+Apr 17, 2018 11:15:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="filterByCandidateWithCurrentExperience" classname="test.candidates.FiltersTests" time="0.275"/>
+  <testcase name="filterByEducationTag" classname="test.candidates.FiltersTests" time="18.626"/>
+  <testcase name="filterByUniversityTag" classname="test.candidates.FiltersTests" time="20.792"/>
+  <testcase name="filterByUniversity" classname="test.candidates.FiltersTests" time="0.303"/>
 </testsuite>

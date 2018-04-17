@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import web.elements.candidates.CandidatesElements;
-import web.page.LoginPage;
+import web.page.login.LoginPage;
 import web.page.candidates.CandidatesPage;
 
 public class SearchTests {

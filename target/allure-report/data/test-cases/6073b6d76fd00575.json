@@ -1,0 +1,104 @@
+{
+  "uid" : "6073b6d76fd00575",
+  "name" : "Логин с пустым именем",
+  "fullName" : "test.login.LoginTests.emptyUsernameLogin",
+  "historyId" : "e84dd821d8a5741babc1f8bd40583a9",
+  "time" : {
+    "start" : 1523953267618,
+    "stop" : 1523953274422,
+    "duration" : 6804
+  },
+  "status" : "passed",
+  "description" : "Производим логин с пустым полем имени",
+  "descriptionHtml" : "<p>Производим логин с пустым полем имени</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу логина",
+      "time" : {
+        "start" : 1523953267618,
+        "stop" : 1523953271663,
+        "duration" : 4045
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1523953271663,
+        "stop" : 1523953271962,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "welcome"
+      } ]
+    }, {
+      "name" : "Кликаем кнопку логина",
+      "time" : {
+        "start" : 1523953271963,
+        "stop" : 1523953272212,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.login"
+  }, {
+    "name" : "testClass",
+    "value" : "test.login.LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyUsernameLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test.login.LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Авторизация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Логин не выполнен"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

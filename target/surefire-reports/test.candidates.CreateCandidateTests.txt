@@ -1,8 +1,38 @@
 -------------------------------------------------------------------------------
 Test set: test.candidates.CreateCandidateTests
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 424.064 s <<< FAILURE! - in test.candidates.CreateCandidateTests
-uploadCVusingSeleniumIncorrect(test.candidates.CreateCandidateTests)  Time elapsed: 22.41 s  <<< FAILURE!
+Tests run: 12, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 492.011 s <<< FAILURE! - in test.candidates.CreateCandidateTests
+createCandidateOnlyRequiredFields(test.candidates.CreateCandidateTests)  Time elapsed: 20.403 s  <<< FAILURE!
+java.lang.AssertionError
+	at test.candidates.CreateCandidateTests.createCandidateOnlyRequiredFields(CreateCandidateTests.java:61)
+
+uploadCVusingSeleniumIncorrect(test.candidates.CreateCandidateTests)  Time elapsed: 18.131 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Виталик]> but was:<[]>
-	at test.candidates.CreateCandidateTests.uploadCVusingSeleniumIncorrect(CreateCandidateTests.java:201)
+	at test.candidates.CreateCandidateTests.uploadCVusingSeleniumIncorrect(CreateCandidateTests.java:197)
+
+createCandidate(test.candidates.CreateCandidateTests)  Time elapsed: 23.839 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element <span>...</span> is not clickable at point (716, 625). Other element would receive the click: <div class="add-recomendation add-details edit-mode editable col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-0">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6aff7034a6240e55ac76625509b55195
+	at test.candidates.CreateCandidateTests.createCandidate(CreateCandidateTests.java:39)
+
+deleteCandidate(test.candidates.CreateCandidateTests)  Time elapsed: 62.443 s  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 713e8bffcadb379f3ce380ef65371bfc
+	at test.candidates.CreateCandidateTests.deleteCandidate(CreateCandidateTests.java:126)
 

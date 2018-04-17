@@ -1,0 +1,87 @@
+{
+  "uid" : "b6779fa11c2c5d0b",
+  "name" : "Логин с пустым паролем и именем",
+  "fullName" : "test.login.LoginTests.emptyUsernameAndPasswordLogin",
+  "historyId" : "47781353e8565d55d28b8001e54dab72",
+  "time" : {
+    "start" : 1523953288910,
+    "stop" : 1523953298827,
+    "duration" : 9917
+  },
+  "status" : "passed",
+  "description" : "Производим логин с пустыми полями",
+  "descriptionHtml" : "<p>Производим логин с пустыми полями</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу логина",
+      "time" : {
+        "start" : 1523953288910,
+        "stop" : 1523953296352,
+        "duration" : 7442
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Кликаем кнопку логина",
+      "time" : {
+        "start" : 1523953296352,
+        "stop" : 1523953296593,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.login"
+  }, {
+    "name" : "testClass",
+    "value" : "test.login.LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyUsernameAndPasswordLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test.login.LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Авторизация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Логин не выполнен"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

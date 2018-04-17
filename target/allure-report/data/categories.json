@@ -1,50 +1,50 @@
 {
   "statistic" : {
-    "failed" : 1,
-    "broken" : 1,
+    "failed" : 4,
+    "broken" : 4,
     "skipped" : 0,
     "passed" : 0,
     "unknown" : 0,
-    "total" : 2
+    "total" : 8
   },
   "time" : {
-    "minDuration" : 22409,
-    "maxDuration" : 26758,
-    "sumDuration" : 49167,
-    "start" : 1523538219098,
-    "stop" : 1523538927617,
-    "duration" : 708519
+    "minDuration" : 15471,
+    "maxDuration" : 174672,
+    "sumDuration" : 353745,
+    "start" : 1523952232665,
+    "stop" : 1523953262965,
+    "duration" : 1030300
   },
   "children" : [ {
-    "uid" : "658dc2c906225258",
+    "uid" : "7c36e7447029721a",
     "name" : "Test defects",
     "time" : {
-      "minDuration" : 26758,
-      "maxDuration" : 26758,
-      "sumDuration" : 26758,
-      "start" : 1523538900859,
-      "stop" : 1523538927617,
-      "duration" : 26758
+      "minDuration" : 15471,
+      "maxDuration" : 174672,
+      "sumDuration" : 276417,
+      "start" : 1523952301266,
+      "stop" : 1523953262965,
+      "duration" : 961699
     },
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "2ffe39189fe2916e",
-      "name" : "unknown error: Element <button type=\"button\" class=\"multiselect dropdown-toggle btn btn-default\" data-toggle=\"dropdown\" style=\"border-radius: 4px; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis;\" title=\"БГУ\" id=\"yui_patched_v3_11_0_3_1523538913979_806\" aria-expanded=\"true\">...</button> is not clickable at point (434, 646). Other element would receive the click: <div id=\"tableLoading_TCCandidates_WAR_TCRecruitingAndOnboardingportlet_\" class=\"loading-animation overlay\" style=\"z-index: 5; position: absolute;\"></div>\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'\nSystem info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\vital\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 97762957f0c8b475fe6983fda595510f",
+      "uid" : "7d6037705f065e83",
+      "name" : "element not visible\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'\nSystem info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\vital\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 8777ca61aaf54266924f56468370e1d1",
       "time" : {
-        "minDuration" : 26758,
-        "maxDuration" : 26758,
-        "sumDuration" : 26758,
-        "start" : 1523538900859,
-        "stop" : 1523538927617,
-        "duration" : 26758
+        "minDuration" : 174672,
+        "maxDuration" : 174672,
+        "sumDuration" : 174672,
+        "start" : 1523953088293,
+        "stop" : 1523953262965,
+        "duration" : 174672
       },
       "statistic" : {
         "failed" : 0,
@@ -56,12 +56,108 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "6a65992b4706416d",
-        "name" : "Фильтр по университету",
+        "uid" : "719da27842571461",
+        "name" : "Проверка всех функций",
         "time" : {
-          "start" : 1523538900859,
-          "stop" : 1523538927617,
-          "duration" : 26758
+          "start" : 1523953088293,
+          "stop" : 1523953262965,
+          "duration" : 174672
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "a17ce76b9b02a6ef",
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'\nSystem info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\vital\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 1436f9edcfd75d223e7bb97bf7fa93f5",
+      "time" : {
+        "minDuration" : 15471,
+        "maxDuration" : 15471,
+        "sumDuration" : 15471,
+        "start" : 1523953045281,
+        "stop" : 1523953060752,
+        "duration" : 15471
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "164fe06a8f094023",
+        "name" : "Поиск существующего кандидата",
+        "time" : {
+          "start" : 1523953045281,
+          "stop" : 1523953060752,
+          "duration" : 15471
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "e116329d953ec7db",
+      "name" : "element not visible\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'\nSystem info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\vital\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 713e8bffcadb379f3ce380ef65371bfc",
+      "time" : {
+        "minDuration" : 62440,
+        "maxDuration" : 62440,
+        "sumDuration" : 62440,
+        "start" : 1523952549214,
+        "stop" : 1523952611654,
+        "duration" : 62440
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "6e60a8fe9fe9413a",
+        "name" : "Удаление кандидата",
+        "time" : {
+          "start" : 1523952549214,
+          "stop" : 1523952611654,
+          "duration" : 62440
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "13ec9fab7173b6a3",
+      "name" : "unknown error: Element <span>...</span> is not clickable at point (716, 625). Other element would receive the click: <div class=\"add-recomendation add-details edit-mode editable col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-0\">...</div>\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'\nSystem info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\vital\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 6aff7034a6240e55ac76625509b55195",
+      "time" : {
+        "minDuration" : 23834,
+        "maxDuration" : 23834,
+        "sumDuration" : 23834,
+        "start" : 1523952301266,
+        "stop" : 1523952325100,
+        "duration" : 23834
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "ada615d66867d6f8",
+        "name" : "Создание кандидата (все поля заполнены)",
+        "time" : {
+          "start" : 1523952301266,
+          "stop" : 1523952325100,
+          "duration" : 23834
         },
         "status" : "broken",
         "flaky" : false,
@@ -69,35 +165,35 @@
       } ]
     } ]
   }, {
-    "uid" : "bf6ab06b0044cc4",
+    "uid" : "ed6370b093377514",
     "name" : "Product defects",
     "time" : {
-      "minDuration" : 22409,
-      "maxDuration" : 22409,
-      "sumDuration" : 22409,
-      "start" : 1523538219098,
-      "stop" : 1523538241507,
-      "duration" : 22409
+      "minDuration" : 18129,
+      "maxDuration" : 20403,
+      "sumDuration" : 77328,
+      "start" : 1523952232665,
+      "stop" : 1523952950215,
+      "duration" : 717550
     },
     "statistic" : {
-      "failed" : 1,
+      "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "8578818da65dc775",
+      "uid" : "d6bd0ec9c2f6c155",
       "name" : "expected:<[Виталик]> but was:<[]>",
       "time" : {
-        "minDuration" : 22409,
-        "maxDuration" : 22409,
-        "sumDuration" : 22409,
-        "start" : 1523538219098,
-        "stop" : 1523538241507,
-        "duration" : 22409
+        "minDuration" : 18129,
+        "maxDuration" : 18129,
+        "sumDuration" : 18129,
+        "start" : 1523952279435,
+        "stop" : 1523952297564,
+        "duration" : 18129
       },
       "statistic" : {
         "failed" : 1,
@@ -109,12 +205,66 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "3d95ed7b8989178d",
+        "uid" : "3a2eecea35265aff",
         "name" : "Загрузка резюме кандидата",
         "time" : {
-          "start" : 1523538219098,
-          "stop" : 1523538241507,
-          "duration" : 22409
+          "start" : 1523952279435,
+          "stop" : 1523952297564,
+          "duration" : 18129
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "3e7481e01fb42064",
+      "name" : "java.lang.AssertionError",
+      "time" : {
+        "minDuration" : 19352,
+        "maxDuration" : 20403,
+        "sumDuration" : 59199,
+        "start" : 1523952232665,
+        "stop" : 1523952950215,
+        "duration" : 717550
+      },
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "85816cf8df49ada8",
+        "name" : "Фильтр по компетенциям",
+        "time" : {
+          "start" : 1523952930771,
+          "stop" : 1523952950215,
+          "duration" : 19444
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "2880e9396548132b",
+        "name" : "Создание кандидата (только обязательные поля)",
+        "time" : {
+          "start" : 1523952232665,
+          "stop" : 1523952253068,
+          "duration" : 20403
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "2dc830f30b0bcfaa",
+        "name" : "Фильтр по вакансии",
+        "time" : {
+          "start" : 1523952899792,
+          "stop" : 1523952919144,
+          "duration" : 19352
         },
         "status" : "failed",
         "flaky" : false,

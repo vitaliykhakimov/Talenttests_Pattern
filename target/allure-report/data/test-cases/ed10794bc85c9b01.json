@@ -1,0 +1,40 @@
+{
+  "uid" : "ed10794bc85c9b01",
+  "name" : "filterByCompetence",
+  "fullName" : "test.candidates.FiltersTests.filterByCompetence",
+  "historyId" : "7b4c90eb9f78e9ef587758d2a5da49bc",
+  "time" : {
+    "start" : 1523952923517,
+    "stop" : 1523952923710,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByCompetence"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

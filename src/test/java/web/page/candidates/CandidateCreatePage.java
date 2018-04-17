@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
+import util.Helper;
 import web.elements.candidates.CandidateCreateElements;
 import org.openqa.selenium.support.ui.Select;
 
@@ -211,8 +212,8 @@ public class CandidateCreatePage {
     }
 
     @Step("Кликаем кнопку Сохранить")
-    public void clickSaveButton() throws InterruptedException {
-        Thread.sleep(2000);
+    public void clickSaveButton() {
+        Helper.waitForTime(2);
         CandidateCreateElements.SAVE_BUTTON.click();
     }
 

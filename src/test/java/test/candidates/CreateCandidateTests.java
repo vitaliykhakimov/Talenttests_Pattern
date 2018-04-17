@@ -6,15 +6,11 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.sikuli.script.FindFailed;
 import web.elements.candidates.CandidateCreateElements;
-import web.page.LoginPage;
+import web.page.login.LoginPage;
 import web.page.candidates.CandidateCreatePage;
-
-import org.sikuli.script.Pattern;
 
 public class CreateCandidateTests {
 

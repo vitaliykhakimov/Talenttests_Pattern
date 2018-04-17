@@ -1,685 +1,30 @@
 {
   "statistic" : {
-    "failed" : 1,
-    "broken" : 1,
+    "failed" : 4,
+    "broken" : 4,
     "skipped" : 0,
-    "passed" : 46,
+    "passed" : 41,
     "unknown" : 0,
-    "total" : 48
+    "total" : 49
   },
   "time" : {
-    "minDuration" : 290,
-    "maxDuration" : 102536,
-    "sumDuration" : 1084392,
-    "start" : 1523537840642,
-    "stop" : 1523539111210,
-    "duration" : 1270568
+    "minDuration" : 177,
+    "maxDuration" : 174672,
+    "sumDuration" : 1100728,
+    "start" : 1523952046954,
+    "stop" : 1523953325445,
+    "duration" : 1278491
   },
   "children" : [ {
-    "uid" : "bafa37dc2ec35f8a",
-    "name" : "Кандидаты",
-    "time" : {
-      "minDuration" : 19395,
-      "maxDuration" : 50488,
-      "sumDuration" : 802969,
-      "start" : 1523538062960,
-      "stop" : 1523539023459,
-      "duration" : 960499
-    },
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 27,
-      "unknown" : 0,
-      "total" : 29
-    },
-    "type" : "TestGroupNode",
-    "children" : [ {
-      "uid" : "3a7f61b6e98dc8cc",
-      "name" : "Сценарий -  Теги фильтров отображаются",
-      "time" : {
-        "minDuration" : 19395,
-        "maxDuration" : 30156,
-        "sumDuration" : 267728,
-        "start" : 1523538581942,
-        "stop" : 1523538927617,
-        "duration" : 345675
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 10,
-        "unknown" : 0,
-        "total" : 11
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "9d9a6512696fd3c0",
-        "name" : "Фильтр по возможности переезда",
-        "time" : {
-          "start" : 1523538758916,
-          "stop" : 1523538781401,
-          "duration" : 22485
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "66a558234ab7f331",
-        "name" : "Фильтр по невозможности переезда",
-        "time" : {
-          "start" : 1523538612077,
-          "stop" : 1523538633306,
-          "duration" : 21229
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "6a65992b4706416d",
-        "name" : "Фильтр по университету",
-        "time" : {
-          "start" : 1523538900859,
-          "stop" : 1523538927617,
-          "duration" : 26758
-        },
-        "status" : "broken",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "85bfb7dab404a0f7",
-        "name" : "Фильтр по вакансии",
-        "time" : {
-          "start" : 1523538798283,
-          "stop" : 1523538828439,
-          "duration" : 30156
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "63cb6acd6ae9b08a",
-        "name" : "Фильтр по статусу - Доступен для рассмотрения",
-        "time" : {
-          "start" : 1523538701626,
-          "stop" : 1523538727452,
-          "duration" : 25826
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "6e84e67422550864",
-        "name" : "Фильтр по опыту работы",
-        "time" : {
-          "start" : 1523538669741,
-          "stop" : 1523538689136,
-          "duration" : 19395
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "f00585f72af34950",
-        "name" : "Фильтр по статусу Новый",
-        "time" : {
-          "start" : 1523538637211,
-          "stop" : 1523538661441,
-          "duration" : 24230
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "faede070d5f8d4bc",
-        "name" : "Фильтр по статусу - Принят на работу",
-        "time" : {
-          "start" : 1523538581942,
-          "stop" : 1523538608197,
-          "duration" : 26255
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "aef8972ddb2936c5",
-        "name" : "Фильтр по компетенциям",
-        "time" : {
-          "start" : 1523538840967,
-          "stop" : 1523538866514,
-          "duration" : 25547
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "ce4947117bbdc1b7",
-        "name" : "Фильтр по статусу - Рассматривается на вакансию",
-        "time" : {
-          "start" : 1523538731487,
-          "stop" : 1523538755091,
-          "duration" : 23604
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "25139f4f9a27274d",
-        "name" : "Фильтр по образованию",
-        "time" : {
-          "start" : 1523538874718,
-          "stop" : 1523538896961,
-          "duration" : 22243
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "b322182e9a83e4f6",
-      "name" : "Сценарий - Удаление и редактирование кандидата",
-      "time" : {
-        "minDuration" : 34168,
-        "maxDuration" : 35294,
-        "sumDuration" : 69462,
-        "start" : 1523538475044,
-        "stop" : 1523538573451,
-        "duration" : 98407
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "fac5e5a7a4755cda",
-        "name" : "Редактирование кандидата",
-        "time" : {
-          "start" : 1523538539283,
-          "stop" : 1523538573451,
-          "duration" : 34168
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "de870eb043850299",
-        "name" : "Удаление кандидата",
-        "time" : {
-          "start" : 1523538475044,
-          "stop" : 1523538510338,
-          "duration" : 35294
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "6593ea3be9c3bc1a",
-      "name" : "Сценарий - Создание кандидата не удалось",
-      "time" : {
-        "minDuration" : 26230,
-        "maxDuration" : 37871,
-        "sumDuration" : 64101,
-        "start" : 1523538341745,
-        "stop" : 1523538444358,
-        "duration" : 102613
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "856991904a73f02c",
-        "name" : "Создание существующего кандидата",
-        "time" : {
-          "start" : 1523538341745,
-          "stop" : 1523538379616,
-          "duration" : 37871
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "aeb6217eaaa686b2",
-        "name" : "Создание кандидата с неверным телефоном и email",
-        "time" : {
-          "start" : 1523538418128,
-          "stop" : 1523538444358,
-          "duration" : 26230
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "42cca5111a9e8f32",
-      "name" : "Сценарий - Поиск выполнен",
-      "time" : {
-        "minDuration" : 23209,
-        "maxDuration" : 24000,
-        "sumDuration" : 47209,
-        "start" : 1523538972393,
-        "stop" : 1523539023459,
-        "duration" : 51066
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "f9f6c0df828bf9fe",
-        "name" : "Поиск несуществующего кандидата",
-        "time" : {
-          "start" : 1523538999459,
-          "stop" : 1523539023459,
-          "duration" : 24000
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "e344a306399423a1",
-        "name" : "Поиск существующего кандидата",
-        "time" : {
-          "start" : 1523538972393,
-          "stop" : 1523538995602,
-          "duration" : 23209
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "c0609445f4f07be",
-      "name" : "Сценарий - Кандидат успешно создался",
-      "time" : {
-        "minDuration" : 30389,
-        "maxDuration" : 50488,
-        "sumDuration" : 80877,
-        "start" : 1523538153246,
-        "stop" : 1523538295895,
-        "duration" : 142649
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "c363ef5ac23787f5",
-        "name" : "Создание кандидата (только обязательные поля)",
-        "time" : {
-          "start" : 1523538153246,
-          "stop" : 1523538183635,
-          "duration" : 30389
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "b530f8d8f5533cfd",
-        "name" : "Создание кандидата (все поля заполнены)",
-        "time" : {
-          "start" : 1523538245407,
-          "stop" : 1523538295895,
-          "duration" : 50488
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "2ba8c28c70f7b2b5",
-      "name" : "Сценарий - Отмена создания кандидата",
-      "time" : {
-        "minDuration" : 21029,
-        "maxDuration" : 21029,
-        "sumDuration" : 21029,
-        "start" : 1523538514326,
-        "stop" : 1523538535355,
-        "duration" : 21029
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "c50361fd4daa43ac",
-        "name" : "Отмена создания кандидата",
-        "time" : {
-          "start" : 1523538514326,
-          "stop" : 1523538535355,
-          "duration" : 21029
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "b8bb6dc56c5a3c63",
-      "name" : "Сценарий - Меню навигации присутствует",
-      "time" : {
-        "minDuration" : 24560,
-        "maxDuration" : 24560,
-        "sumDuration" : 24560,
-        "start" : 1523538062960,
-        "stop" : 1523538087520,
-        "duration" : 24560
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "39899be7ba8cde41",
-        "name" : "Навигационное меню",
-        "time" : {
-          "start" : 1523538062960,
-          "stop" : 1523538087520,
-          "duration" : 24560
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "f7098dc7e6d2418d",
-      "name" : "Сценарий - Кнопка создания кандидата нажимается",
-      "time" : {
-        "minDuration" : 24402,
-        "maxDuration" : 24402,
-        "sumDuration" : 24402,
-        "start" : 1523538124922,
-        "stop" : 1523538149324,
-        "duration" : 24402
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "79fcc39190027a93",
-        "name" : "Кнопка создания кандидата",
-        "time" : {
-          "start" : 1523538124922,
-          "stop" : 1523538149324,
-          "duration" : 24402
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "539f4a3844855e40",
-      "name" : "Сценарий - Загрузка резюме провалилась",
-      "time" : {
-        "minDuration" : 22409,
-        "maxDuration" : 22409,
-        "sumDuration" : 22409,
-        "start" : 1523538219098,
-        "stop" : 1523538241507,
-        "duration" : 22409
-      },
-      "statistic" : {
-        "failed" : 1,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "3d95ed7b8989178d",
-        "name" : "Загрузка резюме кандидата",
-        "time" : {
-          "start" : 1523538219098,
-          "stop" : 1523538241507,
-          "duration" : 22409
-        },
-        "status" : "failed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "ad9f598f05675610",
-      "name" : "Сценарий - Документ прикреплен",
-      "time" : {
-        "minDuration" : 27424,
-        "maxDuration" : 27424,
-        "sumDuration" : 27424,
-        "start" : 1523538187824,
-        "stop" : 1523538215248,
-        "duration" : 27424
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "6a1cf1b3116d4215",
-        "name" : "Прикрепление документа",
-        "time" : {
-          "start" : 1523538187824,
-          "stop" : 1523538215248,
-          "duration" : 27424
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "8e794fc88545ba73",
-      "name" : "Сценарий - Переход на страницу найденного кандидата выполнен",
-      "time" : {
-        "minDuration" : 32592,
-        "maxDuration" : 32592,
-        "sumDuration" : 32592,
-        "start" : 1523538935836,
-        "stop" : 1523538968428,
-        "duration" : 32592
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "b9f3ab3676555069",
-        "name" : "Переход на страницу кандидата",
-        "time" : {
-          "start" : 1523538935836,
-          "stop" : 1523538968428,
-          "duration" : 32592
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "f568d85f80cfe820",
-      "name" : "Сценарий - Загрузка резюме прошла успешно",
-      "time" : {
-        "minDuration" : 22857,
-        "maxDuration" : 22857,
-        "sumDuration" : 22857,
-        "start" : 1523538448344,
-        "stop" : 1523538471201,
-        "duration" : 22857
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "bda7d0632cdf4f63",
-        "name" : "Загрузка резюме кандидата",
-        "time" : {
-          "start" : 1523538448344,
-          "stop" : 1523538471201,
-          "duration" : 22857
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "ae806d3c8bc399e7",
-      "name" : "Сценарий - Загрузка фото прошла успешно",
-      "time" : {
-        "minDuration" : 30694,
-        "maxDuration" : 30694,
-        "sumDuration" : 30694,
-        "start" : 1523538383530,
-        "stop" : 1523538414224,
-        "duration" : 30694
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "6f68af97307d25d5",
-        "name" : "Загрузка фотографии кандидата",
-        "time" : {
-          "start" : 1523538383530,
-          "stop" : 1523538414224,
-          "duration" : 30694
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "53a27b9d62f6f17d",
-      "name" : "Сценарий - Переход на страницу кандидатов совершён",
-      "time" : {
-        "minDuration" : 29580,
-        "maxDuration" : 29580,
-        "sumDuration" : 29580,
-        "start" : 1523538091455,
-        "stop" : 1523538121035,
-        "duration" : 29580
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "27fd277c59bed181",
-        "name" : "Переход на страницу кандидатов",
-        "time" : {
-          "start" : 1523538091455,
-          "stop" : 1523538121035,
-          "duration" : 29580
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "ce93a82b764d39f9",
-      "name" : "Сценарий - Загрузка фото провалилась",
-      "time" : {
-        "minDuration" : 38045,
-        "maxDuration" : 38045,
-        "sumDuration" : 38045,
-        "start" : 1523538299774,
-        "stop" : 1523538337819,
-        "duration" : 38045
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "d4b9f4bc98f8db3b",
-        "name" : "Загрузка фотографии кандидата",
-        "time" : {
-          "start" : 1523538299774,
-          "stop" : 1523538337819,
-          "duration" : 38045
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    } ]
-  }, {
-    "uid" : "bd9890650012cd43",
+    "uid" : "7a915b4019bed84c",
     "name" : "Default feature",
     "time" : {
-      "minDuration" : 290,
-      "maxDuration" : 495,
-      "sumDuration" : 4084,
-      "start" : 1523538577532,
-      "stop" : 1523538931883,
-      "duration" : 354351
+      "minDuration" : 177,
+      "maxDuration" : 322,
+      "sumDuration" : 2542,
+      "start" : 1523952724693,
+      "stop" : 1523953005487,
+      "duration" : 280794
     },
     "statistic" : {
       "failed" : 0,
@@ -691,15 +36,15 @@
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "f4bfcabf81d00093",
+      "uid" : "705287b58195a3bf",
       "name" : "Default story",
       "time" : {
-        "minDuration" : 290,
-        "maxDuration" : 495,
-        "sumDuration" : 4084,
-        "start" : 1523538577532,
-        "stop" : 1523538931883,
-        "duration" : 354351
+        "minDuration" : 177,
+        "maxDuration" : 322,
+        "sumDuration" : 2542,
+        "start" : 1523952724693,
+        "stop" : 1523953005487,
+        "duration" : 280794
       },
       "statistic" : {
         "failed" : 0,
@@ -711,122 +56,122 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "7088d4e9d446f5f",
-        "name" : "filterByEducation",
+        "uid" : "fd3696ecbd999de5",
+        "name" : "filterByUniversity",
         "time" : {
-          "start" : 1523538665346,
-          "stop" : 1523538665636,
-          "duration" : 290
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "d9898c61ca1f18ca",
-        "name" : "filterByVacancy",
-        "time" : {
-          "start" : 1523538697300,
-          "stop" : 1523538697648,
-          "duration" : 348
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "474450fc92af013a",
-        "name" : "filterByRelocationUnavailable",
-        "time" : {
-          "start" : 1523538693020,
-          "stop" : 1523538693324,
-          "duration" : 304
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "11caaaf48ad3efe0",
-        "name" : "filterByCandidateWithCurrentExperience",
-        "time" : {
-          "start" : 1523538870407,
-          "stop" : 1523538870830,
-          "duration" : 423
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "141c3ba8d033b3f6",
-        "name" : "filterByStatusAvailable",
-        "time" : {
-          "start" : 1523538577532,
-          "stop" : 1523538577975,
-          "duration" : 443
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "a21ef66027d3cdaa",
-        "name" : "filterByStatusApproval",
-        "time" : {
-          "start" : 1523538785259,
-          "stop" : 1523538785697,
-          "duration" : 438
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "6d97733c1bcb9726",
-        "name" : "filterByCompetence",
-        "time" : {
-          "start" : 1523538832332,
-          "stop" : 1523538832655,
-          "duration" : 323
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "57b503b94ef4ab8f",
-        "name" : "filterByRelocationAvailable",
-        "time" : {
-          "start" : 1523538789586,
-          "stop" : 1523538790081,
-          "duration" : 495
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "2472d47169c35501",
-        "name" : "filterByStatusHired",
-        "time" : {
-          "start" : 1523538793958,
-          "stop" : 1523538794259,
+          "start" : 1523953005186,
+          "stop" : 1523953005487,
           "duration" : 301
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "f6f01f69f0d70b62",
-        "name" : "filterByStatusNew",
+        "uid" : "458dcc90f1bd9b15",
+        "name" : "filterByEducation",
         "time" : {
-          "start" : 1523538836670,
-          "stop" : 1523538837034,
-          "duration" : 364
+          "start" : 1523952794133,
+          "stop" : 1523952794350,
+          "duration" : 217
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "e82b13c3e4ae01f0",
-        "name" : "filterByUniversity",
+        "uid" : "ff75ae9154a50db3",
+        "name" : "filterByVacancy",
         "time" : {
-          "start" : 1523538931528,
-          "stop" : 1523538931883,
-          "duration" : 355
+          "start" : 1523952817949,
+          "stop" : 1523952818155,
+          "duration" : 206
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "20addfc13f4236b4",
+        "name" : "filterByStatusNew",
+        "time" : {
+          "start" : 1523952927130,
+          "stop" : 1523952927307,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "1efe9853d9bc302f",
+        "name" : "filterByStatusAvailable",
+        "time" : {
+          "start" : 1523952724693,
+          "stop" : 1523952725015,
+          "duration" : 322
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "d6a81deb337509a3",
+        "name" : "filterByStatusApproval",
+        "time" : {
+          "start" : 1523952888961,
+          "stop" : 1523952889180,
+          "duration" : 219
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "da52dd1be6421d5",
+        "name" : "filterByRelocationAvailable",
+        "time" : {
+          "start" : 1523952892586,
+          "stop" : 1523952892778,
+          "duration" : 192
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ed10794bc85c9b01",
+        "name" : "filterByCompetence",
+        "time" : {
+          "start" : 1523952923517,
+          "stop" : 1523952923710,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "f9ed87c1fa5c8698",
+        "name" : "filterByRelocationUnavailable",
+        "time" : {
+          "start" : 1523952814321,
+          "stop" : 1523952814546,
+          "duration" : 225
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3520306a79827ad9",
+        "name" : "filterByStatusHired",
+        "time" : {
+          "start" : 1523952896182,
+          "stop" : 1523952896400,
+          "duration" : 218
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "54860482c9fedf90",
+        "name" : "filterByCandidateWithCurrentExperience",
+        "time" : {
+          "start" : 1523952955277,
+          "stop" : 1523952955549,
+          "duration" : 272
         },
         "status" : "passed",
         "flaky" : false,
@@ -834,67 +179,252 @@
       } ]
     } ]
   }, {
-    "uid" : "9dcc96c21155758e",
-    "name" : "Заявки",
+    "uid" : "713a23e31ab5f450",
+    "name" : "Кандидаты",
     "time" : {
-      "minDuration" : 35384,
-      "maxDuration" : 102536,
-      "sumDuration" : 209071,
-      "start" : 1523537840642,
-      "stop" : 1523538058593,
-      "duration" : 217951
+      "minDuration" : 12903,
+      "maxDuration" : 71827,
+      "sumDuration" : 769830,
+      "start" : 1523952167288,
+      "stop" : 1523953084250,
+      "duration" : 916962
     },
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
+      "failed" : 4,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 3
+      "total" : 29
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "59fcfd4bc7e433da",
-      "name" : "Сценарий - Кнопка создания заявки нажимается",
+      "uid" : "836cc7e0fa26b4ed",
+      "name" : "Сценарий -  Теги фильтров отображаются",
       "time" : {
-        "minDuration" : 71151,
-        "maxDuration" : 71151,
-        "sumDuration" : 71151,
-        "start" : 1523537880814,
-        "stop" : 1523537951965,
-        "duration" : 71151
+        "minDuration" : 13138,
+        "maxDuration" : 21192,
+        "sumDuration" : 202478,
+        "start" : 1523952728424,
+        "stop" : 1523953001778,
+        "duration" : 273354
       },
       "statistic" : {
-        "failed" : 0,
+        "failed" : 2,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 9,
         "unknown" : 0,
-        "total" : 1
+        "total" : 11
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "e1c6d33f8558b44d",
-        "name" : "Кнопка создания заявки",
+        "uid" : "4931fba7bcc80367",
+        "name" : "Фильтр по возможности переезда",
         "time" : {
-          "start" : 1523537880814,
-          "stop" : 1523537951965,
-          "duration" : 71151
+          "start" : 1523952869143,
+          "stop" : 1523952885001,
+          "duration" : 15858
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "e0ac7e0c01555f7e",
+        "name" : "Фильтр по образованию",
+        "time" : {
+          "start" : 1523952958974,
+          "stop" : 1523952977599,
+          "duration" : 18625
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "85816cf8df49ada8",
+        "name" : "Фильтр по компетенциям",
+        "time" : {
+          "start" : 1523952930771,
+          "stop" : 1523952950215,
+          "duration" : 19444
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "d9a454f10cdb6081",
+        "name" : "Фильтр по статусу - Рассматривается на вакансию",
+        "time" : {
+          "start" : 1523952846539,
+          "stop" : 1523952865201,
+          "duration" : 18662
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "42ab67953443a2d7",
+        "name" : "Фильтр по опыту работы",
+        "time" : {
+          "start" : 1523952797769,
+          "stop" : 1523952810907,
+          "duration" : 13138
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "4f742c36c741c04d",
+        "name" : "Фильтр по статусу Новый",
+        "time" : {
+          "start" : 1523952772828,
+          "stop" : 1523952790647,
+          "duration" : 17819
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "4cfe669bb04a6500",
+        "name" : "Фильтр по невозможности переезда",
+        "time" : {
+          "start" : 1523952750506,
+          "stop" : 1523952769430,
+          "duration" : 18924
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "f0dd2127f30e96df",
+        "name" : "Фильтр по университету",
+        "time" : {
+          "start" : 1523952980988,
+          "stop" : 1523953001778,
+          "duration" : 20790
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "2dc830f30b0bcfaa",
+        "name" : "Фильтр по вакансии",
+        "time" : {
+          "start" : 1523952899792,
+          "stop" : 1523952919144,
+          "duration" : 19352
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "71055817894fdc84",
+        "name" : "Фильтр по статусу - Принят на работу",
+        "time" : {
+          "start" : 1523952728424,
+          "stop" : 1523952747098,
+          "duration" : 18674
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "c7b7a5c01813eef7",
+        "name" : "Фильтр по статусу - Доступен для рассмотрения",
+        "time" : {
+          "start" : 1523952821544,
+          "stop" : 1523952842736,
+          "duration" : 21192
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "9c63b835772b6d77",
-      "name" : "Сценарий - Заявка успешно создана",
+      "uid" : "9fe594830aeab305",
+      "name" : "Сценарий - Загрузка резюме провалилась",
       "time" : {
-        "minDuration" : 102536,
-        "maxDuration" : 102536,
-        "sumDuration" : 102536,
-        "start" : 1523537956057,
-        "stop" : 1523538058593,
-        "duration" : 102536
+        "minDuration" : 18129,
+        "maxDuration" : 18129,
+        "sumDuration" : 18129,
+        "start" : 1523952279435,
+        "stop" : 1523952297564,
+        "duration" : 18129
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "3a2eecea35265aff",
+        "name" : "Загрузка резюме кандидата",
+        "time" : {
+          "start" : 1523952279435,
+          "stop" : 1523952297564,
+          "duration" : 18129
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "3c4ffe58cf5df28e",
+      "name" : "Сценарий - Удаление и редактирование кандидата",
+      "time" : {
+        "minDuration" : 30241,
+        "maxDuration" : 62440,
+        "sumDuration" : 92681,
+        "start" : 1523952549214,
+        "stop" : 1523952721275,
+        "duration" : 172061
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "7c04233f249994d5",
+        "name" : "Редактирование кандидата",
+        "time" : {
+          "start" : 1523952691034,
+          "stop" : 1523952721275,
+          "duration" : 30241
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "6e60a8fe9fe9413a",
+        "name" : "Удаление кандидата",
+        "time" : {
+          "start" : 1523952549214,
+          "stop" : 1523952611654,
+          "duration" : 62440
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "cb574f703861e00",
+      "name" : "Сценарий - Меню навигации присутствует",
+      "time" : {
+        "minDuration" : 12903,
+        "maxDuration" : 12903,
+        "sumDuration" : 12903,
+        "start" : 1523952167288,
+        "stop" : 1523952180191,
+        "duration" : 12903
       },
       "statistic" : {
         "failed" : 0,
@@ -906,27 +436,113 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "f66e4e6f3d84a808",
-        "name" : "Создание заявки",
+        "uid" : "8e68895e098e0636",
+        "name" : "Навигационное меню",
         "time" : {
-          "start" : 1523537956057,
-          "stop" : 1523538058593,
-          "duration" : 102536
+          "start" : 1523952167288,
+          "stop" : 1523952180191,
+          "duration" : 12903
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "36e08c79bad343a3",
-      "name" : "Сценарий - Переход на страницу заявок выполнен",
+      "uid" : "358b32310230ac33",
+      "name" : "Сценарий - Поиск выполнен",
       "time" : {
-        "minDuration" : 35384,
-        "maxDuration" : 35384,
-        "sumDuration" : 35384,
-        "start" : 1523537840642,
-        "stop" : 1523537876026,
-        "duration" : 35384
+        "minDuration" : 15471,
+        "maxDuration" : 19612,
+        "sumDuration" : 35083,
+        "start" : 1523953045281,
+        "stop" : 1523953084250,
+        "duration" : 38969
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "164fe06a8f094023",
+        "name" : "Поиск существующего кандидата",
+        "time" : {
+          "start" : 1523953045281,
+          "stop" : 1523953060752,
+          "duration" : 15471
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "95a2cf2486000e97",
+        "name" : "Поиск несуществующего кандидата",
+        "time" : {
+          "start" : 1523953064638,
+          "stop" : 1523953084250,
+          "duration" : 19612
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "6a1c25a5135e6ccc",
+      "name" : "Сценарий - Кандидат успешно создался",
+      "time" : {
+        "minDuration" : 20403,
+        "maxDuration" : 23834,
+        "sumDuration" : 44237,
+        "start" : 1523952232665,
+        "stop" : 1523952325100,
+        "duration" : 92435
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "2880e9396548132b",
+        "name" : "Создание кандидата (только обязательные поля)",
+        "time" : {
+          "start" : 1523952232665,
+          "stop" : 1523952253068,
+          "duration" : 20403
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ada615d66867d6f8",
+        "name" : "Создание кандидата (все поля заполнены)",
+        "time" : {
+          "start" : 1523952301266,
+          "stop" : 1523952325100,
+          "duration" : 23834
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "11d0233f4b59676a",
+      "name" : "Сценарий - Переход на страницу кандидатов совершён",
+      "time" : {
+        "minDuration" : 19785,
+        "maxDuration" : 19785,
+        "sumDuration" : 19785,
+        "start" : 1523952183625,
+        "stop" : 1523952203410,
+        "duration" : 19785
       },
       "statistic" : {
         "failed" : 0,
@@ -938,12 +554,279 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "d9a1609e3d46bdc7",
-        "name" : "Переход на страницу заявок",
+        "uid" : "888c80eaed4510f1",
+        "name" : "Переход на страницу кандидатов",
         "time" : {
-          "start" : 1523537840642,
-          "stop" : 1523537876026,
-          "duration" : 35384
+          "start" : 1523952183625,
+          "stop" : 1523952203410,
+          "duration" : 19785
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "39c65daf833e6cfe",
+      "name" : "Сценарий - Переход на страницу найденного кандидата выполнен",
+      "time" : {
+        "minDuration" : 32532,
+        "maxDuration" : 32532,
+        "sumDuration" : 32532,
+        "start" : 1523953009006,
+        "stop" : 1523953041538,
+        "duration" : 32532
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "9870a2d7f086a40d",
+        "name" : "Переход на страницу кандидата",
+        "time" : {
+          "start" : 1523953009006,
+          "stop" : 1523953041538,
+          "duration" : 32532
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "3d6b268aed018baf",
+      "name" : "Сценарий - Загрузка фото провалилась",
+      "time" : {
+        "minDuration" : 29246,
+        "maxDuration" : 29246,
+        "sumDuration" : 29246,
+        "start" : 1523952328551,
+        "stop" : 1523952357797,
+        "duration" : 29246
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "e578545857465ced",
+        "name" : "Загрузка фотографии кандидата",
+        "time" : {
+          "start" : 1523952328551,
+          "stop" : 1523952357797,
+          "duration" : 29246
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "2730e6cf4d1db4f2",
+      "name" : "Сценарий - Загрузка фото прошла успешно",
+      "time" : {
+        "minDuration" : 23252,
+        "maxDuration" : 23252,
+        "sumDuration" : 23252,
+        "start" : 1523952395681,
+        "stop" : 1523952418933,
+        "duration" : 23252
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "d66111c5e9f37e4b",
+        "name" : "Загрузка фотографии кандидата",
+        "time" : {
+          "start" : 1523952395681,
+          "stop" : 1523952418933,
+          "duration" : 23252
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "16ae4c6c0d1b827d",
+      "name" : "Сценарий - Отмена создания кандидата",
+      "time" : {
+        "minDuration" : 71827,
+        "maxDuration" : 71827,
+        "sumDuration" : 71827,
+        "start" : 1523952615805,
+        "stop" : 1523952687632,
+        "duration" : 71827
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "962fada9625c6a08",
+        "name" : "Отмена создания кандидата",
+        "time" : {
+          "start" : 1523952615805,
+          "stop" : 1523952687632,
+          "duration" : 71827
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "3a6a8cdd0037b3e2",
+      "name" : "Сценарий - Документ прикреплен",
+      "time" : {
+        "minDuration" : 19530,
+        "maxDuration" : 19530,
+        "sumDuration" : 19530,
+        "start" : 1523952256505,
+        "stop" : 1523952276035,
+        "duration" : 19530
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "421e40378bc6596a",
+        "name" : "Прикрепление документа",
+        "time" : {
+          "start" : 1523952256505,
+          "stop" : 1523952276035,
+          "duration" : 19530
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "a14f0160481d5c8b",
+      "name" : "Сценарий - Загрузка резюме прошла успешно",
+      "time" : {
+        "minDuration" : 59044,
+        "maxDuration" : 59044,
+        "sumDuration" : 59044,
+        "start" : 1523952485971,
+        "stop" : 1523952545015,
+        "duration" : 59044
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "81dd3063a7a198b0",
+        "name" : "Загрузка резюме кандидата",
+        "time" : {
+          "start" : 1523952485971,
+          "stop" : 1523952545015,
+          "duration" : 59044
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "ac3249fd4fcd4e4a",
+      "name" : "Сценарий - Создание кандидата не удалось",
+      "time" : {
+        "minDuration" : 27925,
+        "maxDuration" : 58785,
+        "sumDuration" : 86710,
+        "start" : 1523952362767,
+        "stop" : 1523952482570,
+        "duration" : 119803
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "4631e1e0f3873b43",
+        "name" : "Создание кандидата с неверным телефоном и email",
+        "time" : {
+          "start" : 1523952423785,
+          "stop" : 1523952482570,
+          "duration" : 58785
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ffb9ea27a9aeee",
+        "name" : "Создание существующего кандидата",
+        "time" : {
+          "start" : 1523952362767,
+          "stop" : 1523952390692,
+          "duration" : 27925
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "fc8b0c7ff60f5ab",
+      "name" : "Сценарий - Кнопка создания кандидата нажимается",
+      "time" : {
+        "minDuration" : 22393,
+        "maxDuration" : 22393,
+        "sumDuration" : 22393,
+        "start" : 1523952206832,
+        "stop" : 1523952229225,
+        "duration" : 22393
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "36bc54392e7dd2de",
+        "name" : "Кнопка создания кандидата",
+        "time" : {
+          "start" : 1523952206832,
+          "stop" : 1523952229225,
+          "duration" : 22393
         },
         "status" : "passed",
         "flaky" : false,
@@ -951,15 +834,15 @@
       } ]
     } ]
   }, {
-    "uid" : "3ffe82ddb5edefb5",
+    "uid" : "9cffaf327ee5ac60",
     "name" : "Авторизация",
     "time" : {
-      "minDuration" : 8486,
-      "maxDuration" : 28766,
-      "sumDuration" : 68268,
-      "start" : 1523539027432,
-      "stop" : 1523539111210,
-      "duration" : 83778
+      "minDuration" : 5910,
+      "maxDuration" : 13897,
+      "sumDuration" : 44154,
+      "start" : 1523953267618,
+      "stop" : 1523953325445,
+      "duration" : 57827
     },
     "statistic" : {
       "failed" : 0,
@@ -971,15 +854,15 @@
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "3d862b6bd41d5c4d",
+      "uid" : "a59d03b948d62143",
       "name" : "Сценарий - Логин не выполнен",
       "time" : {
-        "minDuration" : 8486,
-        "maxDuration" : 12151,
-        "sumDuration" : 39502,
-        "start" : 1523539027432,
-        "stop" : 1523539078574,
-        "duration" : 51142
+        "minDuration" : 5910,
+        "maxDuration" : 9917,
+        "sumDuration" : 30257,
+        "start" : 1523953267618,
+        "stop" : 1523953308137,
+        "duration" : 40519
       },
       "statistic" : {
         "failed" : 0,
@@ -991,60 +874,60 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "772bb1156c9959ff",
+        "uid" : "b6779fa11c2c5d0b",
         "name" : "Логин с пустым паролем и именем",
         "time" : {
-          "start" : 1523539055951,
-          "stop" : 1523539066227,
-          "duration" : 10276
+          "start" : 1523953288910,
+          "stop" : 1523953298827,
+          "duration" : 9917
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "acd207beac395115",
-        "name" : "Логин с пустым именем",
-        "time" : {
-          "start" : 1523539027432,
-          "stop" : 1523539039583,
-          "duration" : 12151
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "4751e72da253e419",
+        "uid" : "452f4421f790457",
         "name" : "Логин с пустым паролем",
         "time" : {
-          "start" : 1523539070088,
-          "stop" : 1523539078574,
-          "duration" : 8486
+          "start" : 1523953302227,
+          "stop" : 1523953308137,
+          "duration" : 5910
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "7e0619a26622e0f3",
+        "uid" : "6073b6d76fd00575",
+        "name" : "Логин с пустым именем",
+        "time" : {
+          "start" : 1523953267618,
+          "stop" : 1523953274422,
+          "duration" : 6804
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "c668f14d06515630",
         "name" : "Логин с неверными именем и паролем",
         "time" : {
-          "start" : 1523539043450,
-          "stop" : 1523539052039,
-          "duration" : 8589
+          "start" : 1523953277846,
+          "stop" : 1523953285472,
+          "duration" : 7626
         },
         "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "f4a6c18c05846bfe",
+      "uid" : "21e35fd17b8ba18e",
       "name" : "Сценарий - Логин выполнен",
       "time" : {
-        "minDuration" : 28766,
-        "maxDuration" : 28766,
-        "sumDuration" : 28766,
-        "start" : 1523539082444,
-        "stop" : 1523539111210,
-        "duration" : 28766
+        "minDuration" : 13897,
+        "maxDuration" : 13897,
+        "sumDuration" : 13897,
+        "start" : 1523953311548,
+        "stop" : 1523953325445,
+        "duration" : 13897
       },
       "statistic" : {
         "failed" : 0,
@@ -1056,12 +939,182 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "a645236ce99da39a",
+        "uid" : "de55332418ca5b5",
         "name" : "Логин",
         "time" : {
-          "start" : 1523539082444,
-          "stop" : 1523539111210,
-          "duration" : 28766
+          "start" : 1523953311548,
+          "stop" : 1523953325445,
+          "duration" : 13897
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "9ec0a531e867c071",
+    "name" : "Подбор и адаптация",
+    "time" : {
+      "minDuration" : 174672,
+      "maxDuration" : 174672,
+      "sumDuration" : 174672,
+      "start" : 1523953088293,
+      "stop" : 1523953262965,
+      "duration" : 174672
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "d8b5313d7ba5b1fc",
+      "name" : "Сценарий - Проверка работоспособности всех функций",
+      "time" : {
+        "minDuration" : 174672,
+        "maxDuration" : 174672,
+        "sumDuration" : 174672,
+        "start" : 1523953088293,
+        "stop" : 1523953262965,
+        "duration" : 174672
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "719da27842571461",
+        "name" : "Проверка всех функций",
+        "time" : {
+          "start" : 1523953088293,
+          "stop" : 1523953262965,
+          "duration" : 174672
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "bbc78780ff2ccd1a",
+    "name" : "Заявки",
+    "time" : {
+      "minDuration" : 23866,
+      "maxDuration" : 47421,
+      "sumDuration" : 109530,
+      "start" : 1523952046954,
+      "stop" : 1523952163615,
+      "duration" : 116661
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "f9707f2c82888444",
+      "name" : "Сценарий - Переход на страницу заявок выполнен",
+      "time" : {
+        "minDuration" : 38243,
+        "maxDuration" : 38243,
+        "sumDuration" : 38243,
+        "start" : 1523952046954,
+        "stop" : 1523952085197,
+        "duration" : 38243
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "b702f504765241fb",
+        "name" : "Переход на страницу заявок",
+        "time" : {
+          "start" : 1523952046954,
+          "stop" : 1523952085197,
+          "duration" : 38243
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "a958c2a2e2039a2a",
+      "name" : "Сценарий - Заявка успешно создана",
+      "time" : {
+        "minDuration" : 47421,
+        "maxDuration" : 47421,
+        "sumDuration" : 47421,
+        "start" : 1523952116194,
+        "stop" : 1523952163615,
+        "duration" : 47421
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "4d01fd3052413a95",
+        "name" : "Создание заявки",
+        "time" : {
+          "start" : 1523952116194,
+          "stop" : 1523952163615,
+          "duration" : 47421
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "184e13a67d889700",
+      "name" : "Сценарий - Кнопка создания заявки нажимается",
+      "time" : {
+        "minDuration" : 23866,
+        "maxDuration" : 23866,
+        "sumDuration" : 23866,
+        "start" : 1523952088902,
+        "stop" : 1523952112768,
+        "duration" : 23866
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "32c93453cee460c4",
+        "name" : "Кнопка создания заявки",
+        "time" : {
+          "start" : 1523952088902,
+          "stop" : 1523952112768,
+          "duration" : 23866
         },
         "status" : "passed",
         "flaky" : false,

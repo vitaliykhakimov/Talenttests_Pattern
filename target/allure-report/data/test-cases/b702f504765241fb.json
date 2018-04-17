@@ -1,0 +1,166 @@
+{
+  "uid" : "b702f504765241fb",
+  "name" : "Переход на страницу заявок",
+  "fullName" : "test.applications.ApplicationTests.goToApplicationsPage",
+  "historyId" : "87f7a916436fe2f4533e215cd83726c3",
+  "time" : {
+    "start" : 1523952046954,
+    "stop" : 1523952085197,
+    "duration" : 38243
+  },
+  "status" : "passed",
+  "description" : "Переходим на страницу отображения заявок",
+  "descriptionHtml" : "<p>Переходим на страницу отображения заявок</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523952047046,
+        "stop" : 1523952079257,
+        "duration" : 32211
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523952047048,
+          "stop" : 1523952062259,
+          "duration" : 15211
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523952062260,
+          "stop" : 1523952074064,
+          "duration" : 11804
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523952074064,
+          "stop" : 1523952074337,
+          "duration" : 273
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523952074338,
+          "stop" : 1523952079257,
+          "duration" : 4919
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "kabanov@tc.by"
+      } ]
+    }, {
+      "name" : "Переход на страницу заявок",
+      "time" : {
+        "start" : 1523952079258,
+        "stop" : 1523952083081,
+        "duration" : 3823
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "steps" : [ {
+        "name" : "Переход на страницу подбора и адаптации",
+        "time" : {
+          "start" : 1523952079259,
+          "stop" : 1523952081242,
+          "duration" : 1983
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.applications"
+  }, {
+    "name" : "testClass",
+    "value" : "test.applications.ApplicationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToApplicationsPage"
+  }, {
+    "name" : "suite",
+    "value" : "test.applications.ApplicationTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Заявки"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Переход на страницу заявок выполнен"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

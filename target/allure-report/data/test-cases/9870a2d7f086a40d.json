@@ -1,0 +1,180 @@
+{
+  "uid" : "9870a2d7f086a40d",
+  "name" : "Переход на страницу кандидата",
+  "fullName" : "test.candidates.SearchTests.goToPresentCandidatePage",
+  "historyId" : "826f9b0112feb8be2f39e510dc75ecbd",
+  "time" : {
+    "start" : 1523953009006,
+    "stop" : 1523953041538,
+    "duration" : 32532
+  },
+  "status" : "passed",
+  "description" : "Производим переход на страницу найденного кандидата",
+  "descriptionHtml" : "<p>Производим переход на страницу найденного кандидата</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523953009007,
+        "stop" : 1523953017854,
+        "duration" : 8847
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "steps" : [ {
+        "name" : "Переход на страницу логина",
+        "time" : {
+          "start" : 1523953009007,
+          "stop" : 1523953011987,
+          "duration" : 2980
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1523953011988,
+          "stop" : 1523953012363,
+          "duration" : 375
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1523953012363,
+          "stop" : 1523953012643,
+          "duration" : 280
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Кликаем кнопку логина",
+        "time" : {
+          "start" : 1523953012644,
+          "stop" : 1523953017854,
+          "duration" : 5210
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу кандидатов",
+      "time" : {
+        "start" : 1523953017854,
+        "stop" : 1523953024554,
+        "duration" : 6700
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Поиск кандидата",
+      "time" : {
+        "start" : 1523953024555,
+        "stop" : 1523953027178,
+        "duration" : 2623
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Морозова Екатерина Алексеевна"
+      } ]
+    }, {
+      "name" : "Переход на страницу найденного кандидата",
+      "time" : {
+        "start" : 1523953027179,
+        "stop" : 1523953039371,
+        "duration" : 12192
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.SearchTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToPresentCandidatePage"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.SearchTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Кандидаты"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий - Переход на страницу найденного кандидата выполнен"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

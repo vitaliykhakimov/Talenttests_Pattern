@@ -1,481 +1,491 @@
 [ {
-  "uid" : "9d9a6512696fd3c0",
-  "name" : "Фильтр по возможности переезда",
+  "uid" : "fd3696ecbd999de5",
+  "name" : "filterByUniversity",
   "time" : {
-    "start" : 1523538758916,
-    "stop" : 1523538781401,
-    "duration" : 22485
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "fac5e5a7a4755cda",
-  "name" : "Редактирование кандидата",
-  "time" : {
-    "start" : 1523538539283,
-    "stop" : 1523538573451,
-    "duration" : 34168
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "856991904a73f02c",
-  "name" : "Создание существующего кандидата",
-  "time" : {
-    "start" : 1523538341745,
-    "stop" : 1523538379616,
-    "duration" : 37871
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f9f6c0df828bf9fe",
-  "name" : "Поиск несуществующего кандидата",
-  "time" : {
-    "start" : 1523538999459,
-    "stop" : 1523539023459,
-    "duration" : 24000
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66a558234ab7f331",
-  "name" : "Фильтр по невозможности переезда",
-  "time" : {
-    "start" : 1523538612077,
-    "stop" : 1523538633306,
-    "duration" : 21229
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "6a65992b4706416d",
-  "name" : "Фильтр по университету",
-  "time" : {
-    "start" : 1523538900859,
-    "stop" : 1523538927617,
-    "duration" : 26758
-  },
-  "status" : "broken",
-  "severity" : "minor"
-}, {
-  "uid" : "c363ef5ac23787f5",
-  "name" : "Создание кандидата (только обязательные поля)",
-  "time" : {
-    "start" : 1523538153246,
-    "stop" : 1523538183635,
-    "duration" : 30389
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "e344a306399423a1",
-  "name" : "Поиск существующего кандидата",
-  "time" : {
-    "start" : 1523538972393,
-    "stop" : 1523538995602,
-    "duration" : 23209
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7088d4e9d446f5f",
-  "name" : "filterByEducation",
-  "time" : {
-    "start" : 1523538665346,
-    "stop" : 1523538665636,
-    "duration" : 290
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c50361fd4daa43ac",
-  "name" : "Отмена создания кандидата",
-  "time" : {
-    "start" : 1523538514326,
-    "stop" : 1523538535355,
-    "duration" : 21029
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39899be7ba8cde41",
-  "name" : "Навигационное меню",
-  "time" : {
-    "start" : 1523538062960,
-    "stop" : 1523538087520,
-    "duration" : 24560
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9898c61ca1f18ca",
-  "name" : "filterByVacancy",
-  "time" : {
-    "start" : 1523538697300,
-    "stop" : 1523538697648,
-    "duration" : 348
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "474450fc92af013a",
-  "name" : "filterByRelocationUnavailable",
-  "time" : {
-    "start" : 1523538693020,
-    "stop" : 1523538693324,
-    "duration" : 304
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85bfb7dab404a0f7",
-  "name" : "Фильтр по вакансии",
-  "time" : {
-    "start" : 1523538798283,
-    "stop" : 1523538828439,
-    "duration" : 30156
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "11caaaf48ad3efe0",
-  "name" : "filterByCandidateWithCurrentExperience",
-  "time" : {
-    "start" : 1523538870407,
-    "stop" : 1523538870830,
-    "duration" : 423
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79fcc39190027a93",
-  "name" : "Кнопка создания кандидата",
-  "time" : {
-    "start" : 1523538124922,
-    "stop" : 1523538149324,
-    "duration" : 24402
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "63cb6acd6ae9b08a",
-  "name" : "Фильтр по статусу - Доступен для рассмотрения",
-  "time" : {
-    "start" : 1523538701626,
-    "stop" : 1523538727452,
-    "duration" : 25826
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "6e84e67422550864",
-  "name" : "Фильтр по опыту работы",
-  "time" : {
-    "start" : 1523538669741,
-    "stop" : 1523538689136,
-    "duration" : 19395
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "f00585f72af34950",
-  "name" : "Фильтр по статусу Новый",
-  "time" : {
-    "start" : 1523538637211,
-    "stop" : 1523538661441,
-    "duration" : 24230
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "3d95ed7b8989178d",
-  "name" : "Загрузка резюме кандидата",
-  "time" : {
-    "start" : 1523538219098,
-    "stop" : 1523538241507,
-    "duration" : 22409
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "e1c6d33f8558b44d",
-  "name" : "Кнопка создания заявки",
-  "time" : {
-    "start" : 1523537880814,
-    "stop" : 1523537951965,
-    "duration" : 71151
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "6a1cf1b3116d4215",
-  "name" : "Прикрепление документа",
-  "time" : {
-    "start" : 1523538187824,
-    "stop" : 1523538215248,
-    "duration" : 27424
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "faede070d5f8d4bc",
-  "name" : "Фильтр по статусу - Принят на работу",
-  "time" : {
-    "start" : 1523538581942,
-    "stop" : 1523538608197,
-    "duration" : 26255
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "b9f3ab3676555069",
-  "name" : "Переход на страницу кандидата",
-  "time" : {
-    "start" : 1523538935836,
-    "stop" : 1523538968428,
-    "duration" : 32592
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "141c3ba8d033b3f6",
-  "name" : "filterByStatusAvailable",
-  "time" : {
-    "start" : 1523538577532,
-    "stop" : 1523538577975,
-    "duration" : 443
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "772bb1156c9959ff",
-  "name" : "Логин с пустым паролем и именем",
-  "time" : {
-    "start" : 1523539055951,
-    "stop" : 1523539066227,
-    "duration" : 10276
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "a21ef66027d3cdaa",
-  "name" : "filterByStatusApproval",
-  "time" : {
-    "start" : 1523538785259,
-    "stop" : 1523538785697,
-    "duration" : 438
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f66e4e6f3d84a808",
-  "name" : "Создание заявки",
-  "time" : {
-    "start" : 1523537956057,
-    "stop" : 1523538058593,
-    "duration" : 102536
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "d9a1609e3d46bdc7",
-  "name" : "Переход на страницу заявок",
-  "time" : {
-    "start" : 1523537840642,
-    "stop" : 1523537876026,
-    "duration" : 35384
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "b530f8d8f5533cfd",
-  "name" : "Создание кандидата (все поля заполнены)",
-  "time" : {
-    "start" : 1523538245407,
-    "stop" : 1523538295895,
-    "duration" : 50488
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "bda7d0632cdf4f63",
-  "name" : "Загрузка резюме кандидата",
-  "time" : {
-    "start" : 1523538448344,
-    "stop" : 1523538471201,
-    "duration" : 22857
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "acd207beac395115",
-  "name" : "Логин с пустым именем",
-  "time" : {
-    "start" : 1523539027432,
-    "stop" : 1523539039583,
-    "duration" : 12151
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "6d97733c1bcb9726",
-  "name" : "filterByCompetence",
-  "time" : {
-    "start" : 1523538832332,
-    "stop" : 1523538832655,
-    "duration" : 323
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "57b503b94ef4ab8f",
-  "name" : "filterByRelocationAvailable",
-  "time" : {
-    "start" : 1523538789586,
-    "stop" : 1523538790081,
-    "duration" : 495
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aeb6217eaaa686b2",
-  "name" : "Создание кандидата с неверным телефоном и email",
-  "time" : {
-    "start" : 1523538418128,
-    "stop" : 1523538444358,
-    "duration" : 26230
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "aef8972ddb2936c5",
-  "name" : "Фильтр по компетенциям",
-  "time" : {
-    "start" : 1523538840967,
-    "stop" : 1523538866514,
-    "duration" : 25547
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "2472d47169c35501",
-  "name" : "filterByStatusHired",
-  "time" : {
-    "start" : 1523538793958,
-    "stop" : 1523538794259,
+    "start" : 1523953005186,
+    "stop" : 1523953005487,
     "duration" : 301
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4751e72da253e419",
+  "uid" : "4931fba7bcc80367",
+  "name" : "Фильтр по возможности переезда",
+  "time" : {
+    "start" : 1523952869143,
+    "stop" : 1523952885001,
+    "duration" : 15858
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b6779fa11c2c5d0b",
+  "name" : "Логин с пустым паролем и именем",
+  "time" : {
+    "start" : 1523953288910,
+    "stop" : 1523953298827,
+    "duration" : 9917
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "719da27842571461",
+  "name" : "Проверка всех функций",
+  "time" : {
+    "start" : 1523953088293,
+    "stop" : 1523953262965,
+    "duration" : 174672
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "3a2eecea35265aff",
+  "name" : "Загрузка резюме кандидата",
+  "time" : {
+    "start" : 1523952279435,
+    "stop" : 1523952297564,
+    "duration" : 18129
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "b702f504765241fb",
+  "name" : "Переход на страницу заявок",
+  "time" : {
+    "start" : 1523952046954,
+    "stop" : 1523952085197,
+    "duration" : 38243
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7c04233f249994d5",
+  "name" : "Редактирование кандидата",
+  "time" : {
+    "start" : 1523952691034,
+    "stop" : 1523952721275,
+    "duration" : 30241
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "452f4421f790457",
   "name" : "Логин с пустым паролем",
   "time" : {
-    "start" : 1523539070088,
-    "stop" : 1523539078574,
-    "duration" : 8486
+    "start" : 1523953302227,
+    "stop" : 1523953308137,
+    "duration" : 5910
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "f6f01f69f0d70b62",
-  "name" : "filterByStatusNew",
+  "uid" : "8e68895e098e0636",
+  "name" : "Навигационное меню",
   "time" : {
-    "start" : 1523538836670,
-    "stop" : 1523538837034,
-    "duration" : 364
+    "start" : 1523952167288,
+    "stop" : 1523952180191,
+    "duration" : 12903
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ce4947117bbdc1b7",
-  "name" : "Фильтр по статусу - Рассматривается на вакансию",
+  "uid" : "164fe06a8f094023",
+  "name" : "Поиск существующего кандидата",
   "time" : {
-    "start" : 1523538731487,
-    "stop" : 1523538755091,
-    "duration" : 23604
+    "start" : 1523953045281,
+    "stop" : 1523953060752,
+    "duration" : 15471
   },
-  "status" : "passed",
-  "severity" : "minor"
+  "status" : "broken",
+  "severity" : "normal"
 }, {
-  "uid" : "6f68af97307d25d5",
-  "name" : "Загрузка фотографии кандидата",
-  "time" : {
-    "start" : 1523538383530,
-    "stop" : 1523538414224,
-    "duration" : 30694
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "25139f4f9a27274d",
+  "uid" : "e0ac7e0c01555f7e",
   "name" : "Фильтр по образованию",
   "time" : {
-    "start" : 1523538874718,
-    "stop" : 1523538896961,
-    "duration" : 22243
+    "start" : 1523952958974,
+    "stop" : 1523952977599,
+    "duration" : 18625
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "7e0619a26622e0f3",
-  "name" : "Логин с неверными именем и паролем",
+  "uid" : "458dcc90f1bd9b15",
+  "name" : "filterByEducation",
   "time" : {
-    "start" : 1523539043450,
-    "stop" : 1523539052039,
-    "duration" : 8589
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "27fd277c59bed181",
-  "name" : "Переход на страницу кандидатов",
-  "time" : {
-    "start" : 1523538091455,
-    "stop" : 1523538121035,
-    "duration" : 29580
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "de870eb043850299",
-  "name" : "Удаление кандидата",
-  "time" : {
-    "start" : 1523538475044,
-    "stop" : 1523538510338,
-    "duration" : 35294
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e82b13c3e4ae01f0",
-  "name" : "filterByUniversity",
-  "time" : {
-    "start" : 1523538931528,
-    "stop" : 1523538931883,
-    "duration" : 355
+    "start" : 1523952794133,
+    "stop" : 1523952794350,
+    "duration" : 217
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d4b9f4bc98f8db3b",
+  "uid" : "85816cf8df49ada8",
+  "name" : "Фильтр по компетенциям",
+  "time" : {
+    "start" : 1523952930771,
+    "stop" : 1523952950215,
+    "duration" : 19444
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "6073b6d76fd00575",
+  "name" : "Логин с пустым именем",
+  "time" : {
+    "start" : 1523953267618,
+    "stop" : 1523953274422,
+    "duration" : 6804
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2880e9396548132b",
+  "name" : "Создание кандидата (только обязательные поля)",
+  "time" : {
+    "start" : 1523952232665,
+    "stop" : 1523952253068,
+    "duration" : 20403
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ff75ae9154a50db3",
+  "name" : "filterByVacancy",
+  "time" : {
+    "start" : 1523952817949,
+    "stop" : 1523952818155,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20addfc13f4236b4",
+  "name" : "filterByStatusNew",
+  "time" : {
+    "start" : 1523952927130,
+    "stop" : 1523952927307,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c668f14d06515630",
+  "name" : "Логин с неверными именем и паролем",
+  "time" : {
+    "start" : 1523953277846,
+    "stop" : 1523953285472,
+    "duration" : 7626
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d9a454f10cdb6081",
+  "name" : "Фильтр по статусу - Рассматривается на вакансию",
+  "time" : {
+    "start" : 1523952846539,
+    "stop" : 1523952865201,
+    "duration" : 18662
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1efe9853d9bc302f",
+  "name" : "filterByStatusAvailable",
+  "time" : {
+    "start" : 1523952724693,
+    "stop" : 1523952725015,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "888c80eaed4510f1",
+  "name" : "Переход на страницу кандидатов",
+  "time" : {
+    "start" : 1523952183625,
+    "stop" : 1523952203410,
+    "duration" : 19785
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4d01fd3052413a95",
+  "name" : "Создание заявки",
+  "time" : {
+    "start" : 1523952116194,
+    "stop" : 1523952163615,
+    "duration" : 47421
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d6a81deb337509a3",
+  "name" : "filterByStatusApproval",
+  "time" : {
+    "start" : 1523952888961,
+    "stop" : 1523952889180,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9870a2d7f086a40d",
+  "name" : "Переход на страницу кандидата",
+  "time" : {
+    "start" : 1523953009006,
+    "stop" : 1523953041538,
+    "duration" : 32532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e578545857465ced",
   "name" : "Загрузка фотографии кандидата",
   "time" : {
-    "start" : 1523538299774,
-    "stop" : 1523538337819,
-    "duration" : 38045
+    "start" : 1523952328551,
+    "stop" : 1523952357797,
+    "duration" : 29246
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "a645236ce99da39a",
-  "name" : "Логин",
+  "uid" : "d66111c5e9f37e4b",
+  "name" : "Загрузка фотографии кандидата",
   "time" : {
-    "start" : 1523539082444,
-    "stop" : 1523539111210,
-    "duration" : 28766
+    "start" : 1523952395681,
+    "stop" : 1523952418933,
+    "duration" : 23252
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "962fada9625c6a08",
+  "name" : "Отмена создания кандидата",
+  "time" : {
+    "start" : 1523952615805,
+    "stop" : 1523952687632,
+    "duration" : 71827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da52dd1be6421d5",
+  "name" : "filterByRelocationAvailable",
+  "time" : {
+    "start" : 1523952892586,
+    "stop" : 1523952892778,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "421e40378bc6596a",
+  "name" : "Прикрепление документа",
+  "time" : {
+    "start" : 1523952256505,
+    "stop" : 1523952276035,
+    "duration" : 19530
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "81dd3063a7a198b0",
+  "name" : "Загрузка резюме кандидата",
+  "time" : {
+    "start" : 1523952485971,
+    "stop" : 1523952545015,
+    "duration" : 59044
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "42ab67953443a2d7",
+  "name" : "Фильтр по опыту работы",
+  "time" : {
+    "start" : 1523952797769,
+    "stop" : 1523952810907,
+    "duration" : 13138
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "4631e1e0f3873b43",
+  "name" : "Создание кандидата с неверным телефоном и email",
+  "time" : {
+    "start" : 1523952423785,
+    "stop" : 1523952482570,
+    "duration" : 58785
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ed10794bc85c9b01",
+  "name" : "filterByCompetence",
+  "time" : {
+    "start" : 1523952923517,
+    "stop" : 1523952923710,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ed87c1fa5c8698",
+  "name" : "filterByRelocationUnavailable",
+  "time" : {
+    "start" : 1523952814321,
+    "stop" : 1523952814546,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f742c36c741c04d",
+  "name" : "Фильтр по статусу Новый",
+  "time" : {
+    "start" : 1523952772828,
+    "stop" : 1523952790647,
+    "duration" : 17819
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ffb9ea27a9aeee",
+  "name" : "Создание существующего кандидата",
+  "time" : {
+    "start" : 1523952362767,
+    "stop" : 1523952390692,
+    "duration" : 27925
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e60a8fe9fe9413a",
+  "name" : "Удаление кандидата",
+  "time" : {
+    "start" : 1523952549214,
+    "stop" : 1523952611654,
+    "duration" : 62440
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "32c93453cee460c4",
+  "name" : "Кнопка создания заявки",
+  "time" : {
+    "start" : 1523952088902,
+    "stop" : 1523952112768,
+    "duration" : 23866
   },
   "status" : "passed",
   "severity" : "blocker"
+}, {
+  "uid" : "36bc54392e7dd2de",
+  "name" : "Кнопка создания кандидата",
+  "time" : {
+    "start" : 1523952206832,
+    "stop" : 1523952229225,
+    "duration" : 22393
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3520306a79827ad9",
+  "name" : "filterByStatusHired",
+  "time" : {
+    "start" : 1523952896182,
+    "stop" : 1523952896400,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ada615d66867d6f8",
+  "name" : "Создание кандидата (все поля заполнены)",
+  "time" : {
+    "start" : 1523952301266,
+    "stop" : 1523952325100,
+    "duration" : 23834
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "4cfe669bb04a6500",
+  "name" : "Фильтр по невозможности переезда",
+  "time" : {
+    "start" : 1523952750506,
+    "stop" : 1523952769430,
+    "duration" : 18924
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f0dd2127f30e96df",
+  "name" : "Фильтр по университету",
+  "time" : {
+    "start" : 1523952980988,
+    "stop" : 1523953001778,
+    "duration" : 20790
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "95a2cf2486000e97",
+  "name" : "Поиск несуществующего кандидата",
+  "time" : {
+    "start" : 1523953064638,
+    "stop" : 1523953084250,
+    "duration" : 19612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de55332418ca5b5",
+  "name" : "Логин",
+  "time" : {
+    "start" : 1523953311548,
+    "stop" : 1523953325445,
+    "duration" : 13897
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2dc830f30b0bcfaa",
+  "name" : "Фильтр по вакансии",
+  "time" : {
+    "start" : 1523952899792,
+    "stop" : 1523952919144,
+    "duration" : 19352
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "71055817894fdc84",
+  "name" : "Фильтр по статусу - Принят на работу",
+  "time" : {
+    "start" : 1523952728424,
+    "stop" : 1523952747098,
+    "duration" : 18674
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c7b7a5c01813eef7",
+  "name" : "Фильтр по статусу - Доступен для рассмотрения",
+  "time" : {
+    "start" : 1523952821544,
+    "stop" : 1523952842736,
+    "duration" : 21192
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "54860482c9fedf90",
+  "name" : "filterByCandidateWithCurrentExperience",
+  "time" : {
+    "start" : 1523952955277,
+    "stop" : 1523952955549,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

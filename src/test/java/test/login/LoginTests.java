@@ -7,11 +7,8 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import web.elements.LoginElements;
-import web.page.LoginPage;
-
-import java.util.List;
+import web.elements.login.LoginElements;
+import web.page.login.LoginPage;
 
 public class LoginTests {
 

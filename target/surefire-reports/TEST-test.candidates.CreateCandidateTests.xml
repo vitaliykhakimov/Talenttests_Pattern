@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.candidates.CreateCandidateTests" time="424.064" tests="12" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.candidates.CreateCandidateTests" time="492.011" tests="12" errors="2" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,25 +61,70 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="createCandidateOnlyRequiredFields" classname="test.candidates.CreateCandidateTests" time="30.396"/>
-  <testcase name="uploadFileUsingRobot" classname="test.candidates.CreateCandidateTests" time="27.431"/>
-  <testcase name="uploadCVusingSeleniumIncorrect" classname="test.candidates.CreateCandidateTests" time="22.41">
-    <failure message="expected:&lt;[Виталик]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Виталик]> but was:<[]>
-	at test.candidates.CreateCandidateTests.uploadCVusingSeleniumIncorrect(CreateCandidateTests.java:201)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 26107
+  <testcase name="createCandidateOnlyRequiredFields" classname="test.candidates.CreateCandidateTests" time="20.403">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at test.candidates.CreateCandidateTests.createCandidateOnlyRequiredFields(CreateCandidateTests.java:61)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 9635
 Only local connections are allowed.
-Apr 12, 2018 4:03:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 17, 2018 11:03:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="createCandidate" classname="test.candidates.CreateCandidateTests" time="50.494"/>
-  <testcase name="uploadImageUsingSikuliIncorrect" classname="test.candidates.CreateCandidateTests" time="38.051"/>
-  <testcase name="createPresentCandidate" classname="test.candidates.CreateCandidateTests" time="37.879"/>
-  <testcase name="uploadImageUsingSikuliCorrect" classname="test.candidates.CreateCandidateTests" time="30.701"/>
-  <testcase name="createCandidateWithWrongPhoneAndEmail" classname="test.candidates.CreateCandidateTests" time="26.235"/>
-  <testcase name="uploadCVusingSeleniumCorrect" classname="test.candidates.CreateCandidateTests" time="22.864"/>
-  <testcase name="deleteCandidate" classname="test.candidates.CreateCandidateTests" time="35.3"/>
-  <testcase name="cancelCreatingCandidate" classname="test.candidates.CreateCandidateTests" time="21.034"/>
-  <testcase name="editCandidate" classname="test.candidates.CreateCandidateTests" time="34.174"/>
+  <testcase name="uploadFileUsingRobot" classname="test.candidates.CreateCandidateTests" time="19.532"/>
+  <testcase name="uploadCVusingSeleniumIncorrect" classname="test.candidates.CreateCandidateTests" time="18.131">
+    <failure message="expected:&lt;[Виталик]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Виталик]> but was:<[]>
+	at test.candidates.CreateCandidateTests.uploadCVusingSeleniumIncorrect(CreateCandidateTests.java:197)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 6618
+Only local connections are allowed.
+Apr 17, 2018 11:04:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="createCandidate" classname="test.candidates.CreateCandidateTests" time="23.839">
+    <error message="unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (716, 625). Other element would receive the click: &lt;div class=&quot;add-recomendation add-details edit-mode editable col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-0&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-DD3A5QC&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 6aff7034a6240e55ac76625509b55195" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <span>...</span> is not clickable at point (716, 625). Other element would receive the click: <div class="add-recomendation add-details edit-mode editable col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-0">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6aff7034a6240e55ac76625509b55195
+	at test.candidates.CreateCandidateTests.createCandidate(CreateCandidateTests.java:39)
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 15248
+Only local connections are allowed.
+Apr 17, 2018 11:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="uploadImageUsingSikuliIncorrect" classname="test.candidates.CreateCandidateTests" time="29.249"/>
+  <testcase name="createPresentCandidate" classname="test.candidates.CreateCandidateTests" time="27.929"/>
+  <testcase name="uploadImageUsingSikuliCorrect" classname="test.candidates.CreateCandidateTests" time="23.254"/>
+  <testcase name="createCandidateWithWrongPhoneAndEmail" classname="test.candidates.CreateCandidateTests" time="58.789"/>
+  <testcase name="uploadCVusingSeleniumCorrect" classname="test.candidates.CreateCandidateTests" time="59.047"/>
+  <testcase name="deleteCandidate" classname="test.candidates.CreateCandidateTests" time="62.443">
+    <error message="element not visible&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-DD3A5QC&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 713e8bffcadb379f3ce380ef65371bfc" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-DD3A5QC', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\vital\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 713e8bffcadb379f3ce380ef65371bfc
+	at test.candidates.CreateCandidateTests.deleteCandidate(CreateCandidateTests.java:126)
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 17979
+Only local connections are allowed.
+Apr 17, 2018 11:09:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="cancelCreatingCandidate" classname="test.candidates.CreateCandidateTests" time="71.829"/>
+  <testcase name="editCandidate" classname="test.candidates.CreateCandidateTests" time="30.243"/>
 </testsuite>

@@ -1,0 +1,40 @@
+{
+  "uid" : "fd3696ecbd999de5",
+  "name" : "filterByUniversity",
+  "fullName" : "test.candidates.FiltersTests.filterByUniversity",
+  "historyId" : "5b0eb50580efa8dae0595a7279baa6c8",
+  "time" : {
+    "start" : 1523953005186,
+    "stop" : 1523953005487,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByUniversity"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

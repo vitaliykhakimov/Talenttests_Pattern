@@ -1,0 +1,40 @@
+{
+  "uid" : "1efe9853d9bc302f",
+  "name" : "filterByStatusAvailable",
+  "fullName" : "test.candidates.FiltersTests.filterByStatusAvailable",
+  "historyId" : "97e405aaefe8f2986f19bdbabe79b14c",
+  "time" : {
+    "start" : 1523952724693,
+    "stop" : 1523952725015,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.candidates"
+  }, {
+    "name" : "testClass",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterByStatusAvailable"
+  }, {
+    "name" : "suite",
+    "value" : "test.candidates.FiltersTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DD3A5QC"
+  }, {
+    "name" : "thread",
+    "value" : "2616@DESKTOP-DD3A5QC.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

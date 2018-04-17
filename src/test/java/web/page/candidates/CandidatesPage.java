@@ -3,7 +3,9 @@ package web.page.candidates;
 import driver.WebDriverSingleton;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import util.Helper;
 import web.elements.candidates.CandidatesElements;
 
 public class CandidatesPage {
@@ -20,8 +22,8 @@ public class CandidatesPage {
     }
 
     @Step("Переход на страницу найденного кандидата")
-    public void clickOnFoundedCandidate() throws InterruptedException {
-        Thread.sleep(5000);
+    public void clickOnFoundedCandidate() {
+        Helper.waitForTime(2);
         CandidatesElements.FOUNDED_CANDIDATE.goToFoundedCandidatePage();
     }
 
@@ -100,5 +102,28 @@ public class CandidatesPage {
     @Step("Кликаем кнопку создания кандидата")
     public void clickCreateCandidateButton() {
         CandidatesElements.CREATE_CANDIDATE_BUTTON.clickCreateCandidateButton();
+    }
+
+    @Step("Приглашаем на интервью")
+    public void inviteForTheInterview() {
+        CandidatesElements.INVITE_FOR_INTERVIEW_BTN.click();
+        CandidatesElements.CREATE_INTERVIEW_DATE.click();
+        CandidatesElements.INTERVIEWER.sendKeys("Ленина Алёна");
+        CandidatesElements.DATE.sendKeys("18.04.2018");
+        CandidatesElements.TIMEPICKER_START.sendKeys("9:00");
+        CandidatesElements.TIMEPICKER_END.sendKeys("10:00");
+
+        Actions actions = new Actions(driver);
+        actions.click(CandidatesElements.SAVE_BUTTON.getWebElement()).perform();
+    }
+
+    @Step("Прошел интервью")
+    public void passedTheInterview() {
+        CandidatesElements.PASSED_INTERVIEW_BUTTON.click();
+    }
+
+    @Step("Приглашаем на работу")
+    public void offeredJob() {
+        CandidatesElements.OFFERED_A_JOB_BUTTON.click();
     }
 }
